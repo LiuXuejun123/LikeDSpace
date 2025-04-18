@@ -1,0 +1,1781 @@
+VERSION "created by canmatrix"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ETAS
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ FrCamera_Diag_Rx : 0|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+ SG_ FrCamera_Diag_Tx : 0|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+ SG_ SET_IHC_STA : 0|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ TLA_Number : 0|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ SETTING_FCW_Status : 0|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ SET_RCTB_status : 0|2@0+ (1,0) [0|3] "None" Vector__XXX
+
+BO_ 1258 ADCU_TO_VehicleBody: 8 ETAS
+ SG_ LeftTurnLampControlReq : 6|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ RightTurnLampControlReq : 4|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ HazardWarningLampReq : 10|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BeamControlReq : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ FrWipReq : 18|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ BSWLamp_L_Request : 28|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BSWLamp_R_Request : 26|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Heat_request : 31|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1293 VCM_HMI_GeneralData1: 8 Vector__XXX
+ SG_ BAT_RQ : 47|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 861 BCM_SystemControl_FD_S1: 8 Vector__XXX
+ SG_ GADE_S1 : 15|3@0+ (1,0) [0|7] "None"  ETAS
+ SG_ CABRESW_S1 : 37|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 1326 S_BOX_ControlData_enjoy: 48 Vector__XXX
+ SG_ BCM_RainfallSize_Status : 221|3@0+ (1,0) [0|7] "None"  ETAS
+
+BO_ 536 PEPS_Message_Sts_S1: 3 Vector__XXX
+ SG_ PEPS_POWER_MODE_S1 : 7|3@0+ (1,0) [0|7] "None"  ETAS
+
+BO_ 1549 BCM_GeneralStatus_S1: 8 Vector__XXX
+ SG_ TURN_IND_S1 : 15|3@0+ (1,0) [0|7] "None"  ETAS
+ SG_ DOOR_SW_S1 : 7|5@0+ (1,0) [0|31] "None"  ETAS
+ SG_ IGN_SW : 10|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ ACC_SW : 9|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ DOOR_LOCK : 20|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ ExtRMirFldSts_CCM : 42|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 1573 USM_GeneralStatus_FD_S1: 6 Vector__XXX
+ SG_ HL_LOW_S1 : 13|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ HL_HIGH_S1 : 12|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ VehicleState_S1 : 27|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ Hood_SW_S1 : 6|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ FrWipSts_S1 : 3|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 1532 ICOMB_Sw_Msg: 8 Vector__XXX
+ SG_ HighLampChangeSWSts : 21|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ TurnLampSWSts : 31|3@0+ (1,0) [0|7] "None"  ETAS
+
+BO_ 1480 S_BOX_ControlData_Set_FD: 8 Vector__XXX
+ SG_ SW_PILOTorCANCEL : 19|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ SW_DISTANCEorASCD : 17|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ SW_DistanceReduce : 27|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ SW_SET : 46|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ SW_RES : 31|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ DrvrSeatOccupSts : 48|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 901 TPMS_GeneralStatus_TPMS_8: 8 Vector__XXX
+ SG_ W_REQ : 4|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ LTP_FR : 11|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ LTP_FL : 10|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ LTP_RR : 9|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ LTP_RL : 8|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ TPD_FR : 23|8@0+ (1.72,0) [0|438.6] "KPA"  ETAS
+ SG_ TPD_FL : 31|8@0+ (1.72,0) [0|438.6] "KPA"  ETAS
+ SG_ TPD_RR : 39|8@0+ (1.72,0) [0|438.6] "KPA"  ETAS
+ SG_ TPD_RL : 47|8@0+ (1.72,0) [0|438.6] "KPA"  ETAS
+
+BO_ 1609 EEM_PbBattMonitor_S1: 64 Vector__XXX
+ SG_ BatteryVoltage12V_S1 : 31|16@0+ (0.0009765625,3) [3|18] "V"  ETAS
+
+BO_ 1580 LVBMS_Packdata2_S1: 64 Vector__XXX
+ SG_ RIGHT_J44_8_S1 : 111|15@0+ (0.001,0) [0|20] "V"  ETAS
+
+BO_ 1563 ZCUR_TO_HVAC: 64 Vector__XXX
+ SG_ IC_AmbTemp_Value : 23|16@0+ (0.1,-40) [-40|80] "℃"  ETAS
+ SG_ IC_IncaTemp_Value : 39|16@0+ (0.1,-40) [-40|80] "℃"  ETAS
+
+BO_ 1353 HVAC_STS: 64 Vector__XXX
+ SG_ OC_HvacModeSts_Sts : 43|3@0+ (1,0) [0|7] ""  ETAS
+ SG_ OC_HvacSysSts_Sts : 30|1@0+ (1,0) [0|1] ""  ETAS
+
+BO_ 1339 LeftBodyLoad_1_FD_S1: 64 Vector__XXX
+ SG_ LeftBswLedSts_S1 : 18|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 1340 RightBodyLoad_1_FD: 64 Vector__XXX
+ SG_ RightBswLedSts_S1 : 251|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 793 ACU_A1: 8 Vector__XXX
+ SG_ CAN5_319_CheckSum : 7|8@0+ (1,0) [0|255] "None"  ETAS
+ SG_ CAN5_319_AliveCounter : 11|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ AirBagSysAlrmLampSts : 17|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ DrverSafetyBeltAlarmState : 25|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ CrashDetected : 32|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ FrontCrash : 33|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ LeftSideCrash : 34|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ RightSideCrash : 35|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ RearCrash : 36|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ RolloverDetection : 37|1@0+ (1,0) [0|1] "None"  ETAS
+
+BO_ 578 ACU_A2_S1: 8 Vector__XXX
+ SG_ CAN5_242_CheckSum_S1 : 7|8@0+ (1,0) [0|255] "None"  ETAS
+ SG_ CAN5_242_AliveCounter_S1 : 11|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ LateralSensorState_S1 : 21|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ YawRateSensorState_S1 : 18|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ YawRateCalibrationState_S1 : 16|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ LateralAcceleration_S1 : 31|16@0+ (0.001,-2) [-2|2] "g"  ETAS
+ SG_ YawRate_S1 : 47|16@0+ (0.01,-180) [-180|180] "°/s"  ETAS
+
+BO_ 582 ACU_A3_S1: 8 Vector__XXX
+ SG_ CAN5_246_CheckSum_S1 : 7|8@0+ (1,0) [0|255] "None"  ETAS
+ SG_ CAN5_246_AliveCounter_S1 : 15|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ LongitudinalSensorState_S1 : 11|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ YRS_LongitudinalAcc_S1 : 9|16@0+ (0.001,-2) [-2|2] "g"  ETAS
+ SG_ VerticalAcceleration_S1 : 25|14@0+ (0.001,-5) [-5|5] "g"  ETAS
+ SG_ VerticalSensorState_S1 : 43|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ RollrateSensorState_S1 : 41|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ RollrateSignal_S1 : 55|16@0+ (0.01,-300) [-300|300] "°/s"  ETAS
+
+BO_ 1383 SystemTimeInfo_S1: 8 Vector__XXX
+ SG_ Year_S1 : 7|8@0+ (1,2000) [2000|2255] "None"  ETAS
+ SG_ Month_S1 : 15|4@0+ (1,0) [0|15] "None"  ETAS
+ SG_ Day_S1 : 11|5@0+ (1,0) [0|31] "None"  ETAS
+ SG_ Hour_S1 : 22|5@0+ (1,0) [0|31] "None"  ETAS
+ SG_ Minute_S1 : 17|6@0+ (1,0) [0|63] "None"  ETAS
+ SG_ Second_S1 : 27|6@0+ (1,0) [0|63] "None"  ETAS
+ SG_ Server_time_flag_S1 : 34|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ GPS_Signal_S1 : 35|1@0+ (1,0) [0|1] "None"  ETAS
+
+BO_ 1477 CLUSTER_GeneralStatus_S1: 8 Vector__XXX
+ SG_ DIS_TOTAL_S1 : 15|24@0+ (0.1,0) [0|1600000] "R = km"  ETAS
+
+BO_ 384 VCM_TorqueControl_RN1: 8 Vector__XXX
+ SG_ MSGCOUNT0X180 : 51|4@0+ (1,0) [0|15] ""  ETAS
+ SG_ ETCFAIL : 63|3@0+ (1,0) [0|7] "None"  ETAS
+ SG_ RawPedal_APOFS : 47|10@0+ (0.125,0) [0|125] "%"  ETAS
+
+BO_ 1361 ECM_GeneralStatus: 8 Vector__XXX
+ SG_ ENG_STA : 41|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 1449 VCM_HMI_GeneralData5_Quk: 8 Vector__XXX
+ SG_ DTE_VCM : 15|13@0+ (0.1,0) [0|819] "km"  ETAS
+
+BO_ 689 ITS_InfoStatus_N1: 8 ETAS
+ SG_ AD_take_over_request : 15|6@0+ (1,0) [0|63] "None" Vector__XXX
+ SG_ HodMeterLampRequest : 9|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ ISLS_Limit_Speed_Value : 23|6@0+ (1,0) [0|63] "None" Vector__XXX
+ SG_ ISLS_Limit_Speed_Validation : 17|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ ISLS_Limit_Speed_Unit : 31|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ ISLS_Acoustic_Warning : 29|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ Hand_Off_Status : 27|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ ALIVE_CNT_N1 : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CHECKSUM_N1 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 695 ITS_InfoStatus_N2: 8 ETAS
+ SG_ PCW_PreWarning : 6|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ AEB_Active : 5|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ CDW_Active : 0|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ ESS_Active : 15|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ fcta_left_warning : 13|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ fcta_front_warning : 12|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ fcta_right_warning : 11|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ rcta_left_warning : 10|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ rcta_rear_warning : 9|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ rcta_right_warning : 8|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ fctb_left_warning : 23|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ fctb_front_warning : 22|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ fctb_right_warning : 21|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ rctb_left_warning : 20|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ rctb_rear_warning : 19|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ rctb_right_warning : 18|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ ELK_active : 31|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ rcw_warning : 28|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ left_bsw_warning : 27|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ right_bsw_warning : 25|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ left_dow_warning : 39|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ right_dow_warning : 37|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ LDW_Warning : 35|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ LDP_Active : 33|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ ALIVE_CNT_N2 : 51|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ CHECKSUM_N2 : 63|8@0+ (1,0) [0|255] "None" Vector__XXX
+
+BO_ 1260 ITS_InfoStatus_N2_2: 64 ETAS
+ SG_ IHC_Status : 226|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ ACC_HEADW_SET : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ VDC_NOT_ACTIVATED : 4|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ ACC_DrSeSp : 15|8@0+ (1,0) [0|255] "km/h" Vector__XXX
+ SG_ ACC_DisToTgt : 23|8@0+ (1,0) [0|255] "m" Vector__XXX
+ SG_ ACC_TgtDet : 31|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ ACC_GoNoti : 30|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ CP_Status : 29|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ MSG_ILC_Opera : 25|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ CP_PLC_Status : 39|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ CP_PLC_Direction : 35|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ Message_AD_unActive_Reason : 47|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ ACC_Status : 43|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ AD_Notice_Information : 55|8@0+ (1,0) [0|255] "None" Vector__XXX
+ SG_ ISLC_Comfirm_Request : 57|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ AD_ICON : 79|5@0+ (1,0) [0|31] "None" Vector__XXX
+ SG_ Message_AD_Error : 103|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ Message_Inclement_weather : 102|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ Message_FR_Camera_block : 100|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ Message_FR_Radar_block : 99|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ Message_Side_Rear_Radar_block : 96|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ SETTING_LDW_LDP_Status : 111|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ LDW__INFO : 109|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_LDW_SENS_Status : 106|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ AEBS_INFO : 117|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_FCW_SENS_Status : 114|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SETTING_AEBS_Status : 127|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ SETTING_LDP_Status : 125|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ LDP_INFO : 123|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SETTING_ELK_Status : 135|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ ELK_INFO : 133|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SETTING_ESS_Status : 130|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ ESS_INFO : 143|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_PILOT__STA : 140|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_ILC_STA : 151|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ SET_PLC_STA : 147|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ ISLS_INFO : 157|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_TSR_status : 154|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ TSR_INFO : 167|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_TLAS_status : 162|3@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ TLA__INFO : 175|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_RCTA_RCTB_status : 172|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ RCTA_INFO : 170|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ RCTB_INFO : 181|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_FCTA_FCTB_status : 178|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ FCTA_INFO : 191|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ FCTB_INFO : 186|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_BSW_status : 199|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ BSW_INFO : 197|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_DOW_status : 194|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ DOW_INFO : 207|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_RCW_status : 204|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ RCW_INFO : 202|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SET_CDW_SENS_Status : 211|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SETTING_CDW_Status : 218|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ MSG_FR_Camera_H_Temp : 231|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ MSG_VDC_NO_Actived : 227|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ SET_ISLS_STA : 239|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ SALC_INFO : 236|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Left_Uturn_Indication : 271|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Turn_Left_Indication : 268|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Go_Stright_Indication : 279|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Trun_Right_Indication : 276|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ DVR_InfoStatus : 281|2@0+ (1,0) [0|3] "None" Vector__XXX
+ SG_ MESSAGE_DVR_WARN : 295|1@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ CDW_INFO : 294|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ AD_Safety_Event : 335|8@0+ (1,0) [0|1] "None" Vector__XXX
+ SG_ TLA_Information : 487|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ AliveCounter_N22 : 499|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ CHECKSUM_N22 : 511|8@0+ (1,0) [0|255] "None" Vector__XXX
+
+BO_ 640 CLUSTER_BasicInfo_1_FD_S1: 8 Vector__XXX
+ SG_ STAT_CHG_REQ2_S1 : 7|6@0+ (1,0) [0|63] "None"  ETAS
+ SG_ BAC_SW_S1 : 1|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ AD_signalback_S1 : 15|1@0+ (1,0) [0|1] "None"  ETAS
+
+BO_ 853 CLUSTER_BasicInfo_2_8_S1: 8 Vector__XXX
+ SG_ VS_DISP_S1 : 23|16@0+ (0.01,0) [0|655.34] "km/h"  ETAS
+ SG_ Disp_Unit_S1 : 37|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ STAT_CHG_REQ1_S1 : 61|6@0+ (1,0) [0|63] "None"  ETAS
+
+BO_ 1228 ITS_InfoStatus_N2_1: 8 ETAS
+ SG_ PEBS_INFO : 5|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ ACC_INFO : 45|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ ALIVE_CNT_N21 : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ CHECKSUM_N21 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1647 BCM_circuitstatus: 8 Vector__XXX
+ SG_ FrHeatWire_Status : 47|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ FrHeatWireCircuit_Status : 46|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ VoltageSupply_BCM : 55|5@0+ (1,0) [0|30] "None"  ETAS
+
+BO_ 2564753191 FOTA_FrCamera_Message: 1 ETAS
+ SG_ Frcamera_FOTA__status : 7|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ Frcamera_FOTA_Progress : 3|4@0+ (1,0) [0|15] "None" Vector__XXX
+
+BO_ 2563508007 FrCamera_Rem_Diag_Tx: 8 ETAS
+ SG_ FrCamera_Rem_Diag_Tx : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2563508021 FR_RADAR_Rem_Diag_Tx_S1: 8 ETAS
+ SG_ FR_RADAR_Rem_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564687651 FR_RADAR_FOTA_Rx_S1: 64 Vector__XXX
+ SG_ FR_RADAR_FOTA_Rx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None"  ETAS
+
+BO_ 2564687669 FR_RADAR_FOTA_Tx_S1: 64 ETAS
+ SG_ FR_RADAR_FOTA_Tx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None" Vector__XXX
+
+BO_ 1827 FR_RADAR_Diag_Rx_S1: 8 Vector__XXX
+ SG_ FR_RADAR_Diag_Rx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None"  ETAS
+
+BO_ 1845 FR_RADAR_Diag_Tx_S1: 8 ETAS
+ SG_ FR_RADAR_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564687677 SRR_L_FOTA_Rx_S1: 64 Vector__XXX
+ SG_ SRR_L_FOTA_Rx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None"  ETAS
+
+BO_ 2564687678 SRR_L_FOTA_Tx_S1: 64 ETAS
+ SG_ SRR_L_FOTA_Tx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None" Vector__XXX
+
+BO_ 2563508030 SRR_L_Rem_Diag_Tx: 8 ETAS
+ SG_ SRR_L_Rem_Diag_Tx : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 1853 SRR_L_Diag_Rx_S1: 8 Vector__XXX
+ SG_ SRR_L_Diag_Rx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None"  ETAS
+
+BO_ 1854 SRR_L_Diag_Tx_S1: 8 ETAS
+ SG_ SRR_L_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564687828 SRR_R_FOTA_Rx_S1: 64 Vector__XXX
+ SG_ SRR_R_FOTA_Rx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None"  ETAS
+
+BO_ 2564687829 SRR_R_FOTA_Tx_S1: 64 ETAS
+ SG_ SRR_R_FOTA_Tx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None" Vector__XXX
+
+BO_ 2563508181 SRR_R_Rem_Diag_Tx_S1: 8 ETAS
+ SG_ SRR_R_Rem_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2004 SRR_R_Diag_Rx_S1: 8 Vector__XXX
+ SG_ SRR_R_Diag_Rx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None"  ETAS
+
+BO_ 2005 SRR_R_Diag_Tx: 8 ETAS
+ SG_ SRR_R_Diag_Tx : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564695026 SRF_L_FOTA_Rx_S1: 64 Vector__XXX
+ SG_ SRF_L_FOTA_Rx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None"  ETAS
+
+BO_ 2564747811 SRF_L_FOTA_Tx_S1: 64 ETAS
+ SG_ SRF_L_FOTA_Tx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None" Vector__XXX
+
+BO_ 2563568163 SRF_L_Rem_Diag_Tx_S1: 8 ETAS
+ SG_ SRF_L_Rem_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564432882 SRF_L_Diag_Rx_S1: 8 Vector__XXX
+ SG_ SRF_L_Diag_Rx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None"  ETAS
+
+BO_ 2564485667 SRF_L_Diag_Tx_S1: 8 ETAS
+ SG_ SRF_L_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564695282 SRF_R_FOTA_Rx_S1: 64 Vector__XXX
+ SG_ SRF_R_FOTA_Rx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None"  ETAS
+
+BO_ 2564747812 SRF_R_FOTA_Tx_S1: 64 ETAS
+ SG_ SRF_R_FOTA_Tx_S1 : 7|64@0+ (1,0) [0|3.40282366920938E+038] "None" Vector__XXX
+
+BO_ 2563568164 SRF_R_Rem_Diag_Tx_S1: 8 ETAS
+ SG_ SRF_R_Rem_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 2564433138 SRF_R_Diag_Rx_S1: 8 Vector__XXX
+ SG_ SRF_R_Diag_Rx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None"  ETAS
+
+BO_ 2564485668 SRF_R_Diag_Tx_S1: 8 ETAS
+ SG_ SRF_R_Diag_Tx_S1 : 7|64@0+ (1,0) [0|1.84467440737096E+019] "None" Vector__XXX
+
+BO_ 500 VCM_ADCU_01: 8 Vector__XXX
+ SG_ PT_MotoSpd : 7|16@0- (1,0) [-32768|32767] "rpm"  ETAS
+ SG_ PT_MaxAvlWhlTq : 23|14@0+ (2,0) [0|32765] "Nm"  ETAS
+ SG_ PT_MaxAvlWhlTqV : 25|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ PT_MinAvlWhlTqV : 24|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ PT_MinAvlWhlTq : 39|14@0+ (2,0) [0|32765] "Nm"  ETAS
+ SG_ PT_MotoSpdV : 41|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ PT_Avl : 40|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ PT_CurrentMode : 55|2@0+ (1,0) [0|3] ""  ETAS
+ SG_ PT_Req_Response : 53|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ MessageCounter_VCM1 : 51|4@0+ (1,0) [0|15] ""  ETAS
+ SG_ Checksum_VCM : 63|8@0+ (1,0) [0|255] ""  ETAS
+
+BO_ 502 VCM_ADCU_02: 8 Vector__XXX
+ SG_ PT_AccelPadelPos : 7|10@0+ (0.1,0) [0|102.3] "%"  ETAS
+ SG_ PT_AccelPadelPosV : 13|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ IND_RNG : 12|5@0+ (1,0) [0|31] ""  ETAS
+ SG_ PT_WhlTqAct : 23|16@0- (1,0) [-32768|32767] "Nm"  ETAS
+ SG_ PT_WhlTqActV : 39|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ GSM_Avl : 38|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ PT_OverrideMode : 36|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ PT_OverrideModeV : 35|1@0+ (1,0) [0|1] ""  ETAS
+ SG_ MessageCounter_VCM2 : 51|4@0+ (1,0) [0|15] ""  ETAS
+ SG_ Checksum_VCM2 : 63|8@0+ (1,0) [0|255] ""  ETAS
+
+BO_ 387 VCM_TorqueControl_TM1_S1: 8 Vector__XXX
+ SG_ BAS_S1 : 39|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ V_APO_S1 : 31|8@0+ (0.4,0) [0|100] "%"  ETAS
+
+BO_ 469 VCM2RBS: 8 Vector__XXX
+ SG_ MbRgnWhl : 23|16@0+ (1,-32768) [-32768|32766] "Nm"  ETAS
+ SG_ MSGCNTR_VCM : 51|4@0+ (1,0) [0|15] ""  ETAS
+ SG_ CHKSUM_VCMR : 63|8@0+ (1,0) [0|255] ""  ETAS
+
+BO_ 475 BMS_BAT_Status1: 8 Vector__XXX
+ SG_ BMS_BattSOC : 35|10@0+ (0.1,0) [0|100] "%"  ETAS
+
+BO_ 458 ADCU_VCM_01: 8 ETAS
+ SG_ ADCU_Tq : 7|16@0- (1,0) [-32768|32767] "Nm" Vector__XXX
+ SG_ ADCU_TqReq : 22|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ADCU_CtrlMode : 21|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MessageCounter_ADCU : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ Checksum_VCM1 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1226 AdptiveEnergyRecovery: 8 ETAS
+ SG_ DisToFrCar : 7|16@0+ (0.01,0) [0|655.35] "m" Vector__XXX
+ SG_ TTC_AER : 23|8@0+ (0.1,0) [0|25.5] "s" Vector__XXX
+ SG_ TimeAhead : 31|8@0+ (0.1,0) [0|25.5] "s" Vector__XXX
+ SG_ TARALIVE : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ALIVE_CNT_AER : 43|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 1057 ATCVT_to_MMI_RN1_S1: 4 Vector__XXX
+ SG_ IND_RNG_S1 : 7|5@0+ (1,0) [0|24] "None"  ETAS
+
+BO_ 1265 ITS_InfoStatus_N3_4: 64 ETAS
+ SG_ object6__type : 7|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object6_status : 4|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object6_lateral_distance : 15|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object6_long_distance : 23|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object6_headingAngle : 31|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object7__type : 47|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object7_status : 44|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object7_lateral_distance : 55|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object7_long_distance : 63|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object7_headingAngle : 71|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object8_type : 87|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object8_status : 84|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object8_lateral_distance : 95|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object8_long_distance : 103|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object8_headingAngle : 111|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object9__type : 127|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object9_status : 124|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object9_lateral_distance : 135|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object9_long_distance : 143|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object9_headingAngle : 151|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object10_type : 167|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object10_status : 164|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object10_lateral_distance : 175|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object10_long_distance : 183|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object10_headingAngle : 191|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ ALIVE_CNT_N34 : 499|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ CHECKSUM_N34 : 511|8@0+ (1,0) [0|255] "None" Vector__XXX
+
+BO_ 1653 HCM_RTM_GeneralStatus: 8 Vector__XXX
+ SG_ STARTSTASE : 7|8@0+ (1,0) [0|255] "None"  ETAS
+
+BO_ 1509 TargetPositionAttrStruct: 8 Vector__XXX
+ SG_ ESP_OFF_SW_DA : 13|2@0+ (1,0) [0|3] "None"  ETAS
+
+BO_ 1384 TCU_GNSS: 8 Vector__XXX
+ SG_ GNSS_valid : 7|2@0+ (1,0) [0|3] "None"  ETAS
+ SG_ GNSS_north_south : 5|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ GNSS_east_west : 4|1@0+ (1,0) [0|1] "None"  ETAS
+ SG_ GNSS_map_sys : 2|3@0+ (1,0) [0|4] "None"  ETAS
+ SG_ GNSS_long : 15|28@0+ (1E-006,0) [0|268.435455] "deg"  ETAS
+ SG_ GNSS_lat : 35|28@0+ (1E-006,0) [0|268.435455] "deg"  ETAS
+
+BO_ 1275 ITS_InfoStatus_N3_5_S1: 64 ETAS
+ SG_ targetPositionPointsPC_S1 : 7|8@0- (0.05,0) [-6.35|6.35] "m" Vector__XXX
+ SG_ targetPositionYaw_S1 : 15|8@0- (0.01,0) [-1.28|1.27] "rad" Vector__XXX
+ SG_ Line1_color_S1 : 23|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Line1_halo_color_S1 : 20|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Lateral_Position_Line1_S1 : 31|8@0- (0.05,0) [-6.4|6.35] "m" Vector__XXX
+ SG_ Line1_CUR_S1 : 39|8@0- (0.0001,0) [-0.0128|0.0127] "None" Vector__XXX
+ SG_ Line1_headingAngle_S1 : 47|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ Line1_CUR_alteration_S1 : 51|12@0- (3.8147E-006,0) [-0.0078125056|0.0078086909] "None" Vector__XXX
+ SG_ Line1_length_S1 : 71|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line1_start_S1 : 79|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line2_color_S1 : 87|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Line2_halo_color_S1 : 84|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Line2_Lat_pos_S1 : 95|8@0- (0.05,0) [-6.4|6.35] "None" Vector__XXX
+ SG_ Line2_CUR_S1 : 103|8@0- (0.0001,0) [-0.0128|0.0127] "None" Vector__XXX
+ SG_ Line2_headingAngle_S1 : 111|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ Line_CUR_alteration_S1 : 115|12@0- (3.8147E-006,0) [-0.0078125056|0.0078086909] "None" Vector__XXX
+ SG_ Line2_length_S1 : 135|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line2_start_S1 : 143|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line3_color_S1 : 151|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Line3_halo_color_S1 : 148|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Lateral_Position_Line3_S1 : 159|8@0- (0.05,0) [-6.4|6.35] "m" Vector__XXX
+ SG_ Line3_CUR_S1 : 167|8@0- (0.0001,0) [-0.0128|0.0127] "None" Vector__XXX
+ SG_ Line3_headingAngle_S1 : 175|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ Line_3CUR_alteration_S1 : 179|12@0- (3.8147E-006,0) [-0.0078125056|0.0078086909] "None" Vector__XXX
+ SG_ Line3_length_S1 : 199|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line3_start_S1 : 207|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line4_color_S1 : 215|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Line4_halo_color_S1 : 212|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Lateral_Position_Line4_S1 : 223|8@0- (0.05,0) [-6.4|6.35] "m" Vector__XXX
+ SG_ Line4_CUR_S1 : 231|8@0- (0.0001,0) [-0.0128|0.0127] "None" Vector__XXX
+ SG_ Line4_headingAngle_S1 : 239|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ Line_4CUR_alteration_S1 : 243|12@0- (3.8147E-006,0) [-0.0078125056|0.0078086909] "None" Vector__XXX
+ SG_ Line4_length_S1 : 263|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line4_start_S1 : 271|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line1_Center_color_S1 : 279|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Line1_Center_Lat_Pos_S1 : 287|8@0- (0.05,0) [-6.4|6.35] "m" Vector__XXX
+ SG_ Line1_Center_CUR_S1 : 295|8@0- (0.0001,0) [-0.0128|0.0127] "None" Vector__XXX
+ SG_ Line1_Center_headingAngle_S1 : 303|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ Line1_Center_CUR_alteration_S1 : 307|12@0- (3.8147E-006,0) [-0.0078125056|0.0078086909] "None" Vector__XXX
+ SG_ Line1_Center_length_S1 : 327|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ Line1_Center_start_S1 : 335|8@0+ (0.5,0) [0|127.5] "m" Vector__XXX
+ SG_ SALC_Line_far : 343|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ SALC_Line_near : 339|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ TSR_Display_S1 : 463|8@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ Left_Uturn_Countdown_S1 : 471|8@0+ (1,0) [0|255] "None" Vector__XXX
+ SG_ Turn_Left_Countdown_S1 : 479|8@0+ (1,0) [0|255] "None" Vector__XXX
+ SG_ Go_Stright_Countdown_S1 : 487|8@0+ (1,0) [0|255] "None" Vector__XXX
+ SG_ Trun_Right_Countdown_S1 : 495|8@0+ (1,0) [0|255] "None" Vector__XXX
+ SG_ AliveCounter_N35_S1 : 499|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ CHECKSUM_N35_S1 : 511|8@0+ (1,0) [0|255] "None" Vector__XXX
+
+BO_ 1276 ITS_InfoStatus_N3_6: 64 ETAS
+ SG_ object1__type : 7|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object1_status : 4|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object1_lateral_distance : 15|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object1_long_distance : 23|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object1_headingAngle0 : 31|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object2_type : 47|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object2_status : 44|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object2_lateral_distance : 55|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object2_long_distance : 63|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object1_headingAngle1 : 71|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object3_type : 87|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object3_status : 84|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object3_lateral_distance : 95|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object3_long_distance : 103|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object3_headingAngle : 111|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object4__type : 127|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object4_status : 124|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object4_lateral_distance : 135|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object4_long_distance : 143|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object4_headingAngle : 151|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ object5_type : 167|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object5_status : 164|3@0+ (1,0) [0|7] "None" Vector__XXX
+ SG_ object5_lateral_distance : 175|8@0- (0.2,0) [-25.6|25.4] "m" Vector__XXX
+ SG_ object5_long_distance : 183|8@0- (0.5,54) [-10|117.5] "m" Vector__XXX
+ SG_ object5_headingAngle : 191|12@0- (0.0008,0) [-1.6384|1.6376] "None" Vector__XXX
+ SG_ ALIVE_CNT_N36 : 499|4@0+ (1,0) [0|15] "None" Vector__XXX
+ SG_ CHECKSUM_N36 : 511|8@0+ (1,0) [0|255] "None" Vector__XXX
+
+BO_ 1697 AEB_Infomation_1: 8 ETAS
+ SG_ AEB_OBJ_ID : 7|6@0+ (1,0) [0|63] "" Vector__XXX
+ SG_ AEB_OBJ_CONF : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ AEB_OBJ_CLASS : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ AEB_OBJ_STA : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ AEB_LONG_DIST : 23|12@0+ (0.05,0) [0|204.75] "m" Vector__XXX
+ SG_ AEB_LAT_DIST : 27|12@0+ (0.05,-102.375) [-102.375|102.375] "m" Vector__XXX
+ SG_ AEB_LONG_REL_SPD : 47|12@0+ (0.05,-102.375) [-102.375|102.375] "m/s" Vector__XXX
+ SG_ AEB_LAT_REL_SPD : 51|12@0+ (0.05,-102.375) [-102.375|102.375] "m/s" Vector__XXX
+
+BO_ 1700 AEB_Infomation_2: 5 ETAS
+ SG_ AEB_LONG_REL_ACC : 7|12@0+ (0.05,-102.375) [-102.375|102.375] "m/s2" Vector__XXX
+ SG_ AEB_LAT_REL_ACC : 11|12@0+ (0.05,-102.375) [-102.375|102.375] "m/s2" Vector__XXX
+ SG_ TTC_AEB : 31|10@0+ (0.01,0) [0|10.23] "s" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 3221225472 FrCamera_Diag_Rx "诊断ADCU自身接收处理的诊断报文, 序号5, 诊断物理寻址";
+CM_ SG_ 3221225472 FrCamera_Diag_Tx "诊断ADCU自身接收处理的诊断报文, 序号5, 诊断响应";
+CM_ SG_ 3221225472 SET_IHC_STA "IHC开关状态反馈";
+CM_ SG_ 3221225472 TLA_Number "TLA";
+CM_ SG_ 3221225472 SETTING_FCW_Status "FCW";
+CM_ SG_ 3221225472 SET_RCTB_status "RCTB";
+CM_ SG_ 1258 LeftTurnLampControlReq "左转向灯控制请求";
+CM_ SG_ 1258 RightTurnLampControlReq "右转向灯控制请求";
+CM_ SG_ 1258 HazardWarningLampReq "双闪灯控制（转向灯）
+雷达做的RCW功能激活时通过RCWStatus=active点亮双闪,RCW GB有频率要求
+AEB等功能请求双闪可用此信号,但仲裁及双闪频率待确认";
+CM_ SG_ 1258 BeamControlReq "远近光灯控制请求";
+CM_ SG_ 1258 FrWipReq "前雨刮控制请求,预留使用。";
+CM_ SG_ 1258 BSWLamp_L_Request "左外后视镜盲区监测LED灯控制请求";
+CM_ SG_ 1258 BSWLamp_R_Request "右外后视镜盲区监测LED灯控制请求";
+CM_ SG_ 1258 Heat_request "电热丝加热请求";
+CM_ SG_ 1293 BAT_RQ "DCDC故障,高压不供电,应对L2数据记录法规用";
+CM_ SG_ 861 GADE_S1 "ACC GADE(Generic Applicative Diagnosis Enable)信号：用于通信类故障DTC记录及报出的使能条件。只有该信号为011b,ECU才能记录&报出通信故障DTC。例如部分ECU仅在IGN电下工作,在ACC电状态无法发出CAN信号。当整车处于ACC ON,GADE信号≠011b,即可避免雷达(ACC电工作)频繁报出与IGN电才工作的ECU的通信丢失故障,
+备注：上述内容仅为简要说明,NDS标准有明确说明GADE信号该如何使用。实际开发请参考NDS规范。";
+CM_ SG_ 861 CABRESW_S1 "制动灯状态, 52E取代";
+CM_ SG_ 1326 BCM_RainfallSize_Status "雨水传感器等级 （CODING 等信息后续补充），由53E变更至52E";
+CM_ SG_ 536 PEPS_POWER_MODE_S1 "电源状态控制信号：
+0x0 状态为ACC OFF
+0x1 状态为ACC ON，IGN OFF(部分挂IGN电的ECU不可用)
+0x2 状态为IGN ON （整车所有ECU可用)
+0x4 状态为Ready (整车所有的ECU可用)";
+CM_ SG_ 1549 TURN_IND_S1 "转向灯工作状态,ACC";
+CM_ SG_ 1549 DOOR_SW_S1 "ACC,车门状态,Coding中C表示关,O表示开
+xxxx0b = front left door closed
+xxxx1b = front left door open
+xxx0xb = front right door closed
+xxx1xb = front right door open
+xx0xxb = rear left door closed
+xx1xxb = rear left door open
+x0xxxb = rear right door closed
+x1xxxb = rear right door open
+0xxxxb = boot (back door) closed
+1xxxxb = boot (back door) open";
+CM_ SG_ 1549 IGN_SW "IGN电状态,ACC";
+CM_ SG_ 1549 ACC_SW "ACC电状态,ACC";
+CM_ SG_ 1549 DOOR_LOCK "车辆落锁状态：
+x0b = boot (back door) not locked
+x1b = boot (back door) locked
+0xb = doors not locked
+1xb = doors locked";
+CM_ SG_ 1549 ExtRMirFldSts_CCM "后视镜折叠状态";
+CM_ SG_ 1573 HL_LOW_S1 "近光灯状态";
+CM_ SG_ 1573 HL_HIGH_S1 "远光灯状态";
+CM_ SG_ 1573 VehicleState_S1 "ACC,整车电源状态。IBCM逻辑计算后的结果。可能与实际状态（IGN_SW  ACC_SW)有一定延迟";
+CM_ SG_ 1573 Hood_SW_S1 "ACC,前舱盖开关状态：on表示电路接通，机舱盖关闭；off表示电路断路，机舱盖打开";
+CM_ SG_ 1573 FrWipSts_S1 "ACC (雨刷状态信号由53A变更为625）";
+CM_ SG_ 1532 HighLampChangeSWSts "远光灯打开开关";
+CM_ SG_ 1532 TurnLampSWSts "转向拨杆状态
+LK1A转向拨杆分2档
+一档(0x1或0x2)：转向灯闪烁3s
+二档(0x3或0x4)：转向灯持续闪烁
+转向灯开启: 驾驶员拨动转向杆到对应档位，信号会跳变至对应coding并以10ms周期持续发3帧。如果3帧后驾驶员未松手，信号会以100ms继续发该挡位对应的coding。如果驾驶员松手，转向拨杆回位，同时信号恢复至0x0。
+转向灯关闭: 若当前状态为左侧转向二档(持续闪烁)，此时要关闭转向灯，需要反拨一下转向灯拨杆(向右至右转一档or二档)。当反拨操作结束，转向灯关闭后，再往上拨转向杆，转向灯才会表现为右转。";
+CM_ SG_ 1480 SW_PILOTorCANCEL "主开关，用于一键开启或关闭行车功能,ACC";
+CM_ SG_ 1480 SW_DISTANCEorASCD "滚轮右推，时距增加调节开关,ACC";
+CM_ SG_ 1480 SW_DistanceReduce "滚轮左推，时距减少调节开关,ACC";
+CM_ SG_ 1480 SW_SET "滚轮下滚，SET/-,ACC";
+CM_ SG_ 1480 SW_RES "滚轮上滚，RES/+,ACC";
+CM_ SG_ 1480 DrvrSeatOccupSts "新增，行泊FO需求，主驾座椅压力,ACC";
+CM_ SG_ 901 W_REQ "ACC";
+CM_ SG_ 901 LTP_FR "胎压报警状态";
+CM_ SG_ 901 LTP_FL "胎压报警状态";
+CM_ SG_ 901 LTP_RR "胎压报警状态";
+CM_ SG_ 901 LTP_RL "胎压报警状态";
+CM_ SG_ 901 TPD_FR "胎压值 （待确认）,ACC";
+CM_ SG_ 901 TPD_FL "胎压值 （待确认）,ACC";
+CM_ SG_ 901 TPD_RR "胎压值 （待确认）,ACC";
+CM_ SG_ 901 TPD_RL "胎压值 （待确认）,ACC";
+CM_ SG_ 1609 BatteryVoltage12V_S1 "蓄电池电压";
+CM_ SG_ 1580 RIGHT_J44_8_S1 "Pack电压(MOS外侧电压，蓄电池电压)";
+CM_ SG_ 1563 IC_AmbTemp_Value "环境温度，位置在前保杠";
+CM_ SG_ 1563 IC_IncaTemp_Value "舱内温度";
+CM_ SG_ 1353 OC_HvacModeSts_Sts "电热丝加热判断信号（原LK1A 53F）";
+CM_ SG_ 1353 OC_HvacSysSts_Sts "空调状态信号（电热丝加热判断信号，原53F）";
+CM_ SG_ 1339 LeftBswLedSts_S1 "左外后视镜LED灯故障状态";
+CM_ SG_ 1340 RightBswLedSts_S1 "右外后视镜LED灯故障状态";
+CM_ SG_ 793 CAN5_319_CheckSum "None";
+CM_ SG_ 793 CAN5_319_AliveCounter "None";
+CM_ SG_ 793 AirBagSysAlrmLampSts "None";
+CM_ SG_ 793 DrverSafetyBeltAlarmState "主驾安全带锁扣未系提醒";
+CM_ SG_ 793 CrashDetected "新增-碰撞结果信号
+下面5个信号有一个置1，该信号就置1";
+CM_ SG_ 793 FrontCrash "新增-碰撞结果信号";
+CM_ SG_ 793 LeftSideCrash "新增-碰撞结果信号";
+CM_ SG_ 793 RightSideCrash "新增-碰撞结果信号";
+CM_ SG_ 793 RearCrash "新增-碰撞结果信号
+后面碰撞是不会点爆任何气囊";
+CM_ SG_ 793 RolloverDetection "新增-碰撞结果信号";
+CM_ SG_ 578 CAN5_242_CheckSum_S1 "None";
+CM_ SG_ 578 CAN5_242_AliveCounter_S1 "None";
+CM_ SG_ 578 LateralSensorState_S1 "横向加速度状态信号";
+CM_ SG_ 578 YawRateSensorState_S1 "YAWRATE状态信号";
+CM_ SG_ 578 YawRateCalibrationState_S1 "YawRate传感器标定状态信号";
+CM_ SG_ 578 LateralAcceleration_S1 "横向加速度值信号";
+CM_ SG_ 578 YawRate_S1 "YawRate 值信号";
+CM_ SG_ 582 CAN5_246_CheckSum_S1 "None";
+CM_ SG_ 582 CAN5_246_AliveCounter_S1 "None";
+CM_ SG_ 582 LongitudinalSensorState_S1 "纵向加速度传感器状态信号";
+CM_ SG_ 582 YRS_LongitudinalAcc_S1 "纵向加速度值信号";
+CM_ SG_ 582 VerticalAcceleration_S1 "垂直加速度值信号";
+CM_ SG_ 582 VerticalSensorState_S1 "垂直加速度传感器状态信号";
+CM_ SG_ 582 RollrateSensorState_S1 "Rollrate传感器状态信号";
+CM_ SG_ 582 RollrateSignal_S1 "Rollrate值信号";
+CM_ SG_ 1383 Year_S1 "年";
+CM_ SG_ 1383 Month_S1 "月";
+CM_ SG_ 1383 Day_S1 "日";
+CM_ SG_ 1383 Hour_S1 "时";
+CM_ SG_ 1383 Minute_S1 "分";
+CM_ SG_ 1383 Second_S1 "秒";
+CM_ SG_ 1383 Server_time_flag_S1 "1、 和服务器同步时Server_time_flag=1b = server time update success；GPS_Signal=1b   GPS Clock；
+2、和GNSS同步成功：Server_time_flag=0b  server time update fail；GPS_Signal=1b   GPS Clock；
+3、和服务器、GNSS都未同步成功：Server_time_flag=0b  server time update fail；GPS_Signal=0b  DA Clock";
+CM_ SG_ 1383 GPS_Signal_S1 "GPS信号源";
+CM_ SG_ 1477 DIS_TOTAL_S1 "车辆里程";
+CM_ SG_ 384 MSGCOUNT0X180 "None";
+CM_ SG_ 384 ETCFAIL "VCM矩阵请求状态信号";
+CM_ SG_ 384 RawPedal_APOFS "油门踏板/加速踏板,ACC，ESA功能及雷达需求新增信号";
+CM_ SG_ 1361 ENG_STA "动力状态";
+CM_ SG_ 1449 DTE_VCM "剩余里程";
+CM_ SG_ 689 AD_take_over_request "AD(ACC/ICA）接管请求信号";
+CM_ SG_ 689 HodMeterLampRequest "脱手METER亮灯请求";
+CM_ SG_ 689 ISLS_Limit_Speed_Value "限速值";
+CM_ SG_ 689 ISLS_Limit_Speed_Validation "限速有效状态信号";
+CM_ SG_ 689 ISLS_Limit_Speed_Unit "限速单位";
+CM_ SG_ 689 ISLS_Acoustic_Warning "限速声音报警信号";
+CM_ SG_ 689 Hand_Off_Status "脱手状态信号";
+CM_ SG_ 689 ALIVE_CNT_N1 "None";
+CM_ SG_ 689 CHECKSUM_N1 "None";
+CM_ SG_ 695 PCW_PreWarning "FCW预报警信号";
+CM_ SG_ 695 AEB_Active "AEB激活信号";
+CM_ SG_ 695 CDW_Active "CDW激活信号";
+CM_ SG_ 695 ESS_Active "ESS激活信号";
+CM_ SG_ 695 fcta_left_warning "FCTA";
+CM_ SG_ 695 fcta_front_warning "FCTA";
+CM_ SG_ 695 fcta_right_warning "FCTA";
+CM_ SG_ 695 rcta_left_warning "RCTA";
+CM_ SG_ 695 rcta_rear_warning "RCTA";
+CM_ SG_ 695 rcta_right_warning "RCTA";
+CM_ SG_ 695 fctb_left_warning "FCTB";
+CM_ SG_ 695 fctb_front_warning "FCTB";
+CM_ SG_ 695 fctb_right_warning "FCTB";
+CM_ SG_ 695 rctb_left_warning "RCTB";
+CM_ SG_ 695 rctb_rear_warning "RCTB";
+CM_ SG_ 695 rctb_right_warning "RCTB";
+CM_ SG_ 695 ELK_active "ELK激活信号";
+CM_ SG_ 695 rcw_warning "RCW报警信号";
+CM_ SG_ 695 left_bsw_warning "BSW报警信号";
+CM_ SG_ 695 right_bsw_warning "BSW报警信号";
+CM_ SG_ 695 left_dow_warning "DOA报警信号";
+CM_ SG_ 695 right_dow_warning "DOA报警信号";
+CM_ SG_ 695 LDW_Warning "LDW报警信号";
+CM_ SG_ 695 LDP_Active "LDP激活信号";
+CM_ SG_ 695 ALIVE_CNT_N2 "None";
+CM_ SG_ 695 CHECKSUM_N2 "None";
+CM_ SG_ 1260 IHC_Status "0x0 = OFF
+0x1 = LB Mode
+0x2 = HB Mode
+0x3 = Temporary error
+0x4 = Permanent error
+0x5 = Reserve";
+CM_ SG_ 1260 ACC_HEADW_SET "CP跟车距离档位信号";
+CM_ SG_ 1260 VDC_NOT_ACTIVATED "VDC激活报警信号";
+CM_ SG_ 1260 ACC_DrSeSp "ACC 设定速度";
+CM_ SG_ 1260 ACC_DisToTgt "ACC 与目标距离";
+CM_ SG_ 1260 ACC_TgtDet "摄像头和前雷达检测目标物";
+CM_ SG_ 1260 ACC_GoNoti "CP/ HNP";
+CM_ SG_ 1260 CP_Status "CP状态标志位";
+CM_ SG_ 1260 MSG_ILC_Opera "CP/ HNP";
+CM_ SG_ 1260 CP_PLC_Status "CP";
+CM_ SG_ 1260 CP_PLC_Direction "CP/ HNP";
+CM_ SG_ 1260 Message_AD_unActive_Reason "CP/ HNP";
+CM_ SG_ 1260 ACC_Status "ACC/CP/ HNP";
+CM_ SG_ 1260 AD_Notice_Information "None";
+CM_ SG_ 1260 ISLC_Comfirm_Request "CP/ HNP";
+CM_ SG_ 1260 AD_ICON "ACC/CP/HNP";
+CM_ SG_ 1260 Message_AD_Error "CP/ HNP";
+CM_ SG_ 1260 Message_Inclement_weather "CP/ HNP";
+CM_ SG_ 1260 Message_FR_Camera_block "CP/ HNP";
+CM_ SG_ 1260 Message_FR_Radar_block "CP/ HNP";
+CM_ SG_ 1260 Message_Side_Rear_Radar_block "CP/ HNP";
+CM_ SG_ 1260 SETTING_LDW_LDP_Status "LDW";
+CM_ SG_ 1260 LDW__INFO "LDW";
+CM_ SG_ 1260 SET_LDW_SENS_Status "LDW";
+CM_ SG_ 1260 AEBS_INFO "AEBS";
+CM_ SG_ 1260 SET_FCW_SENS_Status "FCW";
+CM_ SG_ 1260 SETTING_AEBS_Status "AEBS";
+CM_ SG_ 1260 SETTING_LDP_Status "LDP";
+CM_ SG_ 1260 LDP_INFO "LDP";
+CM_ SG_ 1260 SETTING_ELK_Status "ELK";
+CM_ SG_ 1260 ELK_INFO "ELK";
+CM_ SG_ 1260 SETTING_ESS_Status "ESS";
+CM_ SG_ 1260 ESS_INFO "ESS";
+CM_ SG_ 1260 SET_PILOT__STA "CP/ HNP";
+CM_ SG_ 1260 SET_ILC_STA "CP/ HNP";
+CM_ SG_ 1260 SET_PLC_STA "CP/ HNP";
+CM_ SG_ 1260 ISLS_INFO "SLIF";
+CM_ SG_ 1260 SET_TSR_status "TSR";
+CM_ SG_ 1260 TSR_INFO "TSR";
+CM_ SG_ 1260 SET_TLAS_status "TLA系统开关信号(仅LK2A使用此信号)";
+CM_ SG_ 1260 TLA__INFO "TLA";
+CM_ SG_ 1260 SET_RCTA_RCTB_status "RCTA";
+CM_ SG_ 1260 RCTA_INFO "RCTA";
+CM_ SG_ 1260 RCTB_INFO "RCTB";
+CM_ SG_ 1260 SET_FCTA_FCTB_status "FCTA";
+CM_ SG_ 1260 FCTA_INFO "FCTA";
+CM_ SG_ 1260 FCTB_INFO "FCTB";
+CM_ SG_ 1260 SET_BSW_status "BSW";
+CM_ SG_ 1260 BSW_INFO "BSW";
+CM_ SG_ 1260 SET_DOW_status "DOA";
+CM_ SG_ 1260 DOW_INFO "DOA";
+CM_ SG_ 1260 SET_RCW_status "RCW";
+CM_ SG_ 1260 RCW_INFO "RCW";
+CM_ SG_ 1260 SET_CDW_SENS_Status "CDW";
+CM_ SG_ 1260 SETTING_CDW_Status "None";
+CM_ SG_ 1260 MSG_FR_Camera_H_Temp "AD";
+CM_ SG_ 1260 MSG_VDC_NO_Actived "AD";
+CM_ SG_ 1260 SET_ISLS_STA "ISLS";
+CM_ SG_ 1260 SALC_INFO "SALC";
+CM_ SG_ 1260 Left_Uturn_Indication "TLA";
+CM_ SG_ 1260 Turn_Left_Indication "TLA";
+CM_ SG_ 1260 Go_Stright_Indication "TLA";
+CM_ SG_ 1260 Trun_Right_Indication "TLA";
+CM_ SG_ 1260 DVR_InfoStatus "高配留用发送4CB(低配DVR)信号?";
+CM_ SG_ 1260 MESSAGE_DVR_WARN "高配留用发送4CB(低配DVR)信号?";
+CM_ SG_ 1260 CDW_INFO "CDW状态机信号";
+CM_ SG_ 1260 AD_Safety_Event "L2准入(预留)";
+CM_ SG_ 1260 TLA_Information "TLA提醒信息";
+CM_ SG_ 1260 AliveCounter_N22 "None";
+CM_ SG_ 1260 CHECKSUM_N22 "None";
+CM_ SG_ 640 STAT_CHG_REQ2_S1 "组合功能开关信号";
+CM_ SG_ 640 BAC_SW_S1 "AEB,ACC";
+CM_ SG_ 640 AD_signalback_S1 "METER收到 4EC, 2B1,2B7 所有信号反馈";
+CM_ SG_ 853 VS_DISP_S1 "CP，ACC";
+CM_ SG_ 853 Disp_Unit_S1 "None";
+CM_ SG_ 853 STAT_CHG_REQ1_S1 "ACC, ALL Functions?作用
+功能开关信号，驾驶员操作开关后(例如打开BSW功能)，该信号会跳变至0x6 BSW ON并持续3帧，之后恢复至0x0 No Request。如果同时操纵多个功能的开关，信号会按顺序发（驾驶员的操作一般不会这么快）";
+CM_ SG_ 1228 PEBS_INFO "000b =  OFF  （ AEB OFF )
+001b = Standby  ( AEB passive & standby )
+010b = Active   ( FCW , AWB, prefill，ABA ,EBA ，AEB 激活）
+011b = TEMP FAULT  （ AEB 临时故障）-->Reserved
+100b = PERM FAULT   （ AEB 永久故障）
+101b = Blindness   （前摄像头& 前雷达遮挡）
+Others = Reserved
+MMT: 不区分临时故障和永久故障， 都发100b = PERM FAULT （ AEB 永久故障）";
+CM_ SG_ 1228 ACC_INFO "000b =  OFF （ ACC ，CP, HNP 均未激活 ）
+001b = Standby （ ACC，CP, HNP 均在standby）
+010b = Active  （ ACC，CP, HNP 任一激活）
+011b = TEMP FAULT,VDC Off （ ACC，CP ,HNP 全部临时故障，包含VDC开关被驾驶员关闭的情况）-->Reserved
+100b = PERM FAULT（ ACC，CP ,HNP 全部永久故障）-->Reserved
+101b = Blindness （任一雷达或者摄像头致盲）
+110b = Passive（ ACC，CP, HNP 均在passive）
+111b = Override （驾驶员踩油门overrride ）
+MMT: 011b和100b 会包含在110b中";
+CM_ SG_ 1228 ALIVE_CNT_N21 "None";
+CM_ SG_ 1228 CHECKSUM_N21 "None";
+CM_ SG_ 1647 FrHeatWire_Status "前风挡加热丝状态";
+CM_ SG_ 1647 FrHeatWireCircuit_Status "None";
+CM_ SG_ 1647 VoltageSupply_BCM "None";
+CM_ SG_ 2564753191 Frcamera_FOTA__status "诊断ADCU接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2564753191 Frcamera_FOTA_Progress "诊断ADCU接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2563508007 FrCamera_Rem_Diag_Tx "诊断ADCU接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2563508021 FR_RADAR_Rem_Diag_Tx_S1 "诊断FR CAMERA接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2564687651 FR_RADAR_FOTA_Rx_S1 "诊断ADCU路由诊断报文, 序号7";
+CM_ SG_ 2564687669 FR_RADAR_FOTA_Tx_S1 "诊断ADCU路由诊断报文, 序号7";
+CM_ SG_ 1827 FR_RADAR_Diag_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 1845 FR_RADAR_Diag_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564687677 SRR_L_FOTA_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564687678 SRR_L_FOTA_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2563508030 SRR_L_Rem_Diag_Tx "诊断FR CAMERA接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 1853 SRR_L_Diag_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 1854 SRR_L_Diag_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564687828 SRR_R_FOTA_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564687829 SRR_R_FOTA_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2563508181 SRR_R_Rem_Diag_Tx_S1 "诊断FR CAMERA接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2004 SRR_R_Diag_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2005 SRR_R_Diag_Tx "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564695026 SRF_L_FOTA_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564747811 SRF_L_FOTA_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2563568163 SRF_L_Rem_Diag_Tx_S1 "诊断FR CAMERA接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2564432882 SRF_L_Diag_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564485667 SRF_L_Diag_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564695282 SRF_R_FOTA_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564747812 SRF_R_FOTA_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2563568164 SRF_R_Rem_Diag_Tx_S1 "诊断FR CAMERA接收处理以及转发的远程诊断报文, 序号8";
+CM_ SG_ 2564433138 SRF_R_Diag_Rx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 2564485668 SRF_R_Diag_Tx_S1 "诊断FR CAMERA路由诊断报文, 序号7";
+CM_ SG_ 500 PT_MotoSpd "Motor speed";
+CM_ SG_ 500 PT_MaxAvlWhlTq "Maximum available powertrain torque";
+CM_ SG_ 500 PT_MaxAvlWhlTqV "Valid status of maximum available powertrain torque";
+CM_ SG_ 500 PT_MinAvlWhlTqV "Valid status of minimum available powertrain torque";
+CM_ SG_ 500 PT_MinAvlWhlTq "Minimum available powertrain torque";
+CM_ SG_ 500 PT_MotoSpdV "Valid status of motor speed";
+CM_ SG_ 500 PT_Avl "Available status of powertrain";
+CM_ SG_ 500 PT_CurrentMode "VCM current control mode
+VCM当前控制模式：
+0:不在FR CAMERA控制中
+1:处于行车控制中
+2:处于泊车控制中";
+CM_ SG_ 500 PT_Req_Response "Status of torque response to FR CAMERA request";
+CM_ SG_ 500 MessageCounter_VCM1 "-";
+CM_ SG_ 500 Checksum_VCM "-";
+CM_ SG_ 502 PT_AccelPadelPos "Accelerator pedal opening";
+CM_ SG_ 502 PT_AccelPadelPosV "Valid status of accelerator pedal opening";
+CM_ SG_ 502 IND_RNG "Final Gear";
+CM_ SG_ 502 PT_WhlTqAct "Actual wheel torque
+FR CAMERA发正扭矩VCM进行响应，VCM反馈相应的正扭矩";
+CM_ SG_ 502 PT_WhlTqActV "Valid status of actual wheel torque";
+CM_ SG_ 502 GSM_Avl "The gear system is available";
+CM_ SG_ 502 PT_OverrideMode "Status of overridemode
+当前判定条件：油门开度计算驾驶需求扭矩>FR CAMERA请求扭矩，判定为Override";
+CM_ SG_ 502 PT_OverrideModeV "Valid status of override mode signal";
+CM_ SG_ 502 MessageCounter_VCM2 "-";
+CM_ SG_ 502 Checksum_VCM2 "-";
+CM_ SG_ 387 BAS_S1 "ACC";
+CM_ SG_ 387 V_APO_S1 "-";
+CM_ SG_ 469 MbRgnWhl "VCM执行的实际再生制动力矩-轮端";
+CM_ SG_ 469 MSGCNTR_VCM "-";
+CM_ SG_ 469 CHKSUM_VCMR "-";
+CM_ SG_ 475 BMS_BattSOC "剩余电量";
+CM_ SG_ 458 ADCU_Tq "发正扭矩";
+CM_ SG_ 458 ADCU_TqReq "-";
+CM_ SG_ 458 ADCU_CtrlMode "-";
+CM_ SG_ 458 MessageCounter_ADCU "-";
+CM_ SG_ 458 Checksum_VCM1 "-";
+CM_ SG_ 1226 DisToFrCar "ACC, 与ACC PO0的纵向距离(特别提醒：虽然信号名为横向距离，但VCM侧明确要求需要纵向距离,雷达按纵向距离填充输出该信号)";
+CM_ SG_ 1226 TTC_AER "ACC目标车和自车的纵向TTC(计算逻辑:纵向相对距离/纵向相对速度)";
+CM_ SG_ 1226 TimeAhead "ACC目标车和自车的时距(计算逻辑:纵向相对距离/自车车速)";
+CM_ SG_ 1226 TARALIVE "目标是否是ACC的锁定目标& ACC 目标选择是否有故障(TGU只有选中才是valid状态
+;其他状态均为invalid)";
+CM_ SG_ 1226 ALIVE_CNT_AER "(Alivecounter 0~15)";
+CM_ SG_ 1057 IND_RNG_S1 "挡位请求，ACC，因雷达需求而新增";
+CM_ SG_ 1265 object6__type "None";
+CM_ SG_ 1265 object6_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1265 object6_lateral_distance "None";
+CM_ SG_ 1265 object6_long_distance "None";
+CM_ SG_ 1265 object6_headingAngle "None";
+CM_ SG_ 1265 object7__type "None";
+CM_ SG_ 1265 object7_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1265 object7_lateral_distance "None";
+CM_ SG_ 1265 object7_long_distance "None";
+CM_ SG_ 1265 object7_headingAngle "None";
+CM_ SG_ 1265 object8_type "None";
+CM_ SG_ 1265 object8_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1265 object8_lateral_distance "None";
+CM_ SG_ 1265 object8_long_distance "None";
+CM_ SG_ 1265 object8_headingAngle "None";
+CM_ SG_ 1265 object9__type "None";
+CM_ SG_ 1265 object9_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1265 object9_lateral_distance "None";
+CM_ SG_ 1265 object9_long_distance "None";
+CM_ SG_ 1265 object9_headingAngle "None";
+CM_ SG_ 1265 object10_type "None";
+CM_ SG_ 1265 object10_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1265 object10_lateral_distance "None";
+CM_ SG_ 1265 object10_long_distance "None";
+CM_ SG_ 1265 object10_headingAngle "None";
+CM_ SG_ 1265 ALIVE_CNT_N34 "None";
+CM_ SG_ 1265 CHECKSUM_N34 "None";
+CM_ SG_ 1653 STARTSTASE "None";
+CM_ SG_ 1509 ESP_OFF_SW_DA "None";
+CM_ SG_ 1384 GNSS_valid "定位状态有效";
+CM_ SG_ 1384 GNSS_north_south "定位南北纬";
+CM_ SG_ 1384 GNSS_east_west "定位东西经";
+CM_ SG_ 1384 GNSS_map_sys "GPS数据坐标系";
+CM_ SG_ 1384 GNSS_long "GPS经度，范围：0 ~ 180000000(0xABA9500)表示0度~180度
+无效值 0xFFFFFFF";
+CM_ SG_ 1384 GNSS_lat "GPS纬度，范围：0 ~ 90000000(0x55D4A80)表示0度~90度
+无效值 0xFFFFFFF";
+CM_ SG_ 1275 targetPositionPointsPC_S1 "该信号为AD落位区矩形框polygon的何中相对后轴中的横向距离：左正右负";
+CM_ SG_ 1275 targetPositionYaw_S1 "该信号为AD落位区矩形框polygon相对身向的偏航：逆时针为正，顺时针为负。";
+CM_ SG_ 1275 Line1_color_S1 "LINE1显示状态";
+CM_ SG_ 1275 Line1_halo_color_S1 "LINE1光晕显示状态";
+CM_ SG_ 1275 Lateral_Position_Line1_S1 "LINE1横向位置，左负右正";
+CM_ SG_ 1275 Line1_CUR_S1 "LINE1的曲率(车道线向左弯曲为负，向右弯曲为正)";
+CM_ SG_ 1275 Line1_headingAngle_S1 "自车相对LINE1航向角";
+CM_ SG_ 1275 Line1_CUR_alteration_S1 "LINE1的曲率导数";
+CM_ SG_ 1275 Line1_length_S1 "line1车道线长度";
+CM_ SG_ 1275 Line1_start_S1 "line1车道线起始点";
+CM_ SG_ 1275 Line2_color_S1 "LINE2显示状态";
+CM_ SG_ 1275 Line2_halo_color_S1 "LINE2光晕显示状态";
+CM_ SG_ 1275 Line2_Lat_pos_S1 "LINE2横向位置，左负右正";
+CM_ SG_ 1275 Line2_CUR_S1 "LINE2的曲率(车道线向左弯曲为负，向右弯曲为正)";
+CM_ SG_ 1275 Line2_headingAngle_S1 "自车相对LINE2航向角";
+CM_ SG_ 1275 Line_CUR_alteration_S1 "LINE2的曲率导数";
+CM_ SG_ 1275 Line2_length_S1 "line2车道线长度";
+CM_ SG_ 1275 Line2_start_S1 "line2车道线起始点";
+CM_ SG_ 1275 Line3_color_S1 "LINE3显示状态";
+CM_ SG_ 1275 Line3_halo_color_S1 "LINE3光晕显示状态";
+CM_ SG_ 1275 Lateral_Position_Line3_S1 "LINE3横向位置，左负右正";
+CM_ SG_ 1275 Line3_CUR_S1 "LINE3的曲率(车道线向左弯曲为负，向右弯曲为正)";
+CM_ SG_ 1275 Line3_headingAngle_S1 "自车相对LINE3航向角";
+CM_ SG_ 1275 Line_3CUR_alteration_S1 "LINE3的曲率导数";
+CM_ SG_ 1275 Line3_length_S1 "line3车道线长度";
+CM_ SG_ 1275 Line3_start_S1 "line3车道线起始点";
+CM_ SG_ 1275 Line4_color_S1 "LINE4显示状态";
+CM_ SG_ 1275 Line4_halo_color_S1 "LINE4光晕显示状态";
+CM_ SG_ 1275 Lateral_Position_Line4_S1 "LINE4横向位置，左负右正";
+CM_ SG_ 1275 Line4_CUR_S1 "LINE4的曲率(车道线向左弯曲为负，向右弯曲为正)";
+CM_ SG_ 1275 Line4_headingAngle_S1 "LINE4航向角";
+CM_ SG_ 1275 Line_4CUR_alteration_S1 "LINE4的曲率导数";
+CM_ SG_ 1275 Line4_length_S1 "line4车道线长度";
+CM_ SG_ 1275 Line4_start_S1 "line4车道线起始点";
+CM_ SG_ 1275 Line1_Center_color_S1 "Line1车道中心线显示状态";
+CM_ SG_ 1275 Line1_Center_Lat_Pos_S1 "Line1车道中心线横向位置，左负右正";
+CM_ SG_ 1275 Line1_Center_CUR_S1 "Line1车道中心线的曲率(车道线向左弯曲为负，向右弯曲为正)";
+CM_ SG_ 1275 Line1_Center_headingAngle_S1 "自车相对Line1车道中心线航向角";
+CM_ SG_ 1275 Line1_Center_CUR_alteration_S1 "Line1车道中心线的曲率导数";
+CM_ SG_ 1275 Line1_Center_length_S1 "Line1车道中心线长度";
+CM_ SG_ 1275 Line1_Center_start_S1 "Line1车道中心线起始点";
+CM_ SG_ 1275 SALC_Line_far "SALC";
+CM_ SG_ 1275 SALC_Line_near "SALC";
+CM_ SG_ 1275 TSR_Display_S1 "TSR";
+CM_ SG_ 1275 Left_Uturn_Countdown_S1 "TLA倒计时（预留）";
+CM_ SG_ 1275 Turn_Left_Countdown_S1 "TLA倒计时（预留）";
+CM_ SG_ 1275 Go_Stright_Countdown_S1 "TLA倒计时（预留）";
+CM_ SG_ 1275 Trun_Right_Countdown_S1 "TLA倒计时（预留）";
+CM_ SG_ 1275 AliveCounter_N35_S1 "None";
+CM_ SG_ 1275 CHECKSUM_N35_S1 "None";
+CM_ SG_ 1276 object1__type "None";
+CM_ SG_ 1276 object1_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1276 object1_lateral_distance "None";
+CM_ SG_ 1276 object1_long_distance "None";
+CM_ SG_ 1276 object1_headingAngle0 "None";
+CM_ SG_ 1276 object2_type "None";
+CM_ SG_ 1276 object2_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1276 object2_lateral_distance "None";
+CM_ SG_ 1276 object2_long_distance "None";
+CM_ SG_ 1276 object1_headingAngle1 "None";
+CM_ SG_ 1276 object3_type "None";
+CM_ SG_ 1276 object3_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1276 object3_lateral_distance "None";
+CM_ SG_ 1276 object3_long_distance "None";
+CM_ SG_ 1276 object3_headingAngle "None";
+CM_ SG_ 1276 object4__type "None";
+CM_ SG_ 1276 object4_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1276 object4_lateral_distance "None";
+CM_ SG_ 1276 object4_long_distance "None";
+CM_ SG_ 1276 object4_headingAngle "None";
+CM_ SG_ 1276 object5_type "None";
+CM_ SG_ 1276 object5_status "objectFollowAD
+该目标物是否正在被自车跟随，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+该目标物是否被识别为正在Cut in，用于SR应用对该目标物渲染相应效果。（ACC、ICA功能用到）
+
+objectDodgeAD
+该目标物是否正在被自车避让，用于SR应用对该目标物渲染相应效果。（ILC功能用到）
+
+object Collision Risk For Lane ChangeAD
+在系统进入巡航功能后、有变道意图时，该目标物是否被识别为有碰撞风险。（PLC功能用到）
+
+object Collision riskAD
+该目标物是否被识别为有碰撞风险。（FCW／AEB／CDW／FCTB／RCTＢ／ＢＳＷ／ＤＯＡ／ＲＣＷ／ＥＳＳ／ＥＬＫ功能用到）";
+CM_ SG_ 1276 object5_lateral_distance "None";
+CM_ SG_ 1276 object5_long_distance "None";
+CM_ SG_ 1276 object5_headingAngle "None";
+CM_ SG_ 1276 ALIVE_CNT_N36 "None";
+CM_ SG_ 1276 CHECKSUM_N36 "None";
+CM_ SG_ 1697 AEB_OBJ_ID "None";
+CM_ SG_ 1697 AEB_OBJ_CONF "None";
+CM_ SG_ 1697 AEB_OBJ_CLASS "None";
+CM_ SG_ 1697 AEB_OBJ_STA "None";
+CM_ SG_ 1697 AEB_LONG_DIST "None";
+CM_ SG_ 1697 AEB_LAT_DIST "None";
+CM_ SG_ 1697 AEB_LONG_REL_SPD "None";
+CM_ SG_ 1697 AEB_LAT_REL_SPD "None";
+CM_ SG_ 1700 AEB_LONG_REL_ACC "AEB纵向相对加速度";
+CM_ SG_ 1700 AEB_LAT_REL_ACC "AEB横向相对加速度";
+CM_ SG_ 1700 TTC_AEB "AEB TTC";
+BA_DEF_ BO_  "DiagConnection" STRING ;
+BA_DEF_ BO_  "DiagFdOnly" ENUM  "Yes","No";
+BA_DEF_ BO_  "DiagRequest" ENUM  "Yes","No";
+BA_DEF_ BO_  "DiagResponse" ENUM  "Yes","No";
+BA_DEF_ BO_  "DiagState" ENUM  "Yes","No";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "Yes","No";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 65535;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "NoSigSendType","Cyclic","Event";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_ BO_  "GenSigInactiveValue" INT 0 65535;
+BA_DEF_ BO_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepeition","NoSigSendType";
+BA_DEF_ BO_  "GenSigTimeoutTime" INT 0 65535;
+BA_DEF_ BO_  "NmAsrMessage" ENUM  "Yes","No";
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 100000000000;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "CANFD_BRS" ENUM  "0","1";
+BA_DEF_DEF_  "DiagConnection" "0x0";
+BA_DEF_DEF_  "DiagFdOnly" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenSigTimeoutTime" 0;
+BA_DEF_DEF_  "NmAsrMessage" "No";
+BA_DEF_DEF_  "VFrameFormat" "";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "CANFD_BRS" "1";
+BA_ "BusType" "CAN FD";
+BA_ "GenMsgCycleTime" BO_ 1258 100;
+BA_ "GenMsgSendType" BO_ 1258 1;
+BA_ "GenSigSendType" BO_ 1258 0;
+BA_ "VFrameFormat" BO_ 1258 14;
+BA_ "GenMsgCycleTime" BO_ 1293 100;
+BA_ "GenMsgSendType" BO_ 1293 1;
+BA_ "GenSigSendType" BO_ 1293 0;
+BA_ "VFrameFormat" BO_ 1293 14;
+BA_ "GenMsgCycleTime" BO_ 861 100;
+BA_ "GenMsgSendType" BO_ 861 1;
+BA_ "GenSigSendType" BO_ 861 1;
+BA_ "VFrameFormat" BO_ 861 14;
+BA_ "GenMsgCycleTime" BO_ 1326 100;
+BA_ "GenMsgSendType" BO_ 1326 1;
+BA_ "GenSigSendType" BO_ 1326 1;
+BA_ "VFrameFormat" BO_ 1326 14;
+BA_ "GenMsgCycleTime" BO_ 536 20;
+BA_ "GenMsgSendType" BO_ 536 1;
+BA_ "GenSigSendType" BO_ 536 0;
+BA_ "VFrameFormat" BO_ 536 14;
+BA_ "GenMsgCycleTime" BO_ 1549 100;
+BA_ "GenMsgSendType" BO_ 1549 1;
+BA_ "GenSigSendType" BO_ 1549 1;
+BA_ "VFrameFormat" BO_ 1549 14;
+BA_ "GenMsgCycleTime" BO_ 1573 100;
+BA_ "GenMsgSendType" BO_ 1573 1;
+BA_ "GenSigSendType" BO_ 1573 1;
+BA_ "VFrameFormat" BO_ 1573 14;
+BA_ "GenMsgCycleTime" BO_ 1532 100;
+BA_ "GenMsgSendType" BO_ 1532 1;
+BA_ "GenSigSendType" BO_ 1532 1;
+BA_ "VFrameFormat" BO_ 1532 14;
+BA_ "GenMsgCycleTime" BO_ 1480 50;
+BA_ "GenMsgSendType" BO_ 1480 1;
+BA_ "GenSigSendType" BO_ 1480 0;
+BA_ "VFrameFormat" BO_ 1480 14;
+BA_ "GenMsgCycleTime" BO_ 901 100;
+BA_ "GenMsgSendType" BO_ 901 1;
+BA_ "GenSigSendType" BO_ 901 1;
+BA_ "VFrameFormat" BO_ 901 14;
+BA_ "GenMsgCycleTime" BO_ 1609 100;
+BA_ "GenMsgSendType" BO_ 1609 1;
+BA_ "GenSigSendType" BO_ 1609 0;
+BA_ "VFrameFormat" BO_ 1609 14;
+BA_ "GenMsgCycleTime" BO_ 1580 100;
+BA_ "GenMsgSendType" BO_ 1580 1;
+BA_ "GenSigSendType" BO_ 1580 0;
+BA_ "VFrameFormat" BO_ 1580 14;
+BA_ "GenMsgCycleTime" BO_ 1563 100;
+BA_ "GenMsgSendType" BO_ 1563 1;
+BA_ "GenSigSendType" BO_ 1563 1;
+BA_ "VFrameFormat" BO_ 1563 14;
+BA_ "GenMsgCycleTime" BO_ 1353 100;
+BA_ "GenMsgSendType" BO_ 1353 1;
+BA_ "GenSigSendType" BO_ 1353 1;
+BA_ "VFrameFormat" BO_ 1353 14;
+BA_ "GenMsgCycleTime" BO_ 1339 100;
+BA_ "GenMsgSendType" BO_ 1339 1;
+BA_ "GenSigSendType" BO_ 1339 1;
+BA_ "VFrameFormat" BO_ 1339 14;
+BA_ "GenMsgCycleTime" BO_ 1340 100;
+BA_ "GenMsgSendType" BO_ 1340 1;
+BA_ "GenSigSendType" BO_ 1340 1;
+BA_ "VFrameFormat" BO_ 1340 14;
+BA_ "GenMsgCycleTime" BO_ 793 50;
+BA_ "GenMsgSendType" BO_ 793 1;
+BA_ "GenSigSendType" BO_ 793 0;
+BA_ "VFrameFormat" BO_ 793 14;
+BA_ "GenMsgCycleTime" BO_ 578 10;
+BA_ "GenMsgSendType" BO_ 578 1;
+BA_ "GenSigSendType" BO_ 578 0;
+BA_ "VFrameFormat" BO_ 578 14;
+BA_ "GenMsgCycleTime" BO_ 582 10;
+BA_ "GenMsgSendType" BO_ 582 1;
+BA_ "GenSigSendType" BO_ 582 0;
+BA_ "VFrameFormat" BO_ 582 14;
+BA_ "GenMsgCycleTime" BO_ 1383 500;
+BA_ "GenMsgSendType" BO_ 1383 1;
+BA_ "GenSigSendType" BO_ 1383 0;
+BA_ "VFrameFormat" BO_ 1383 14;
+BA_ "GenMsgCycleTime" BO_ 1477 100;
+BA_ "GenMsgSendType" BO_ 1477 1;
+BA_ "GenSigSendType" BO_ 1477 0;
+BA_ "VFrameFormat" BO_ 1477 14;
+BA_ "GenMsgCycleTime" BO_ 384 10;
+BA_ "GenMsgSendType" BO_ 384 1;
+BA_ "GenSigSendType" BO_ 384 0;
+BA_ "VFrameFormat" BO_ 384 14;
+BA_ "GenMsgCycleTime" BO_ 1361 100;
+BA_ "GenMsgSendType" BO_ 1361 1;
+BA_ "GenSigSendType" BO_ 1361 0;
+BA_ "VFrameFormat" BO_ 1361 14;
+BA_ "GenMsgCycleTime" BO_ 1449 100;
+BA_ "GenMsgSendType" BO_ 1449 1;
+BA_ "GenSigSendType" BO_ 1449 0;
+BA_ "VFrameFormat" BO_ 1449 14;
+BA_ "GenMsgCycleTime" BO_ 689 20;
+BA_ "GenMsgSendType" BO_ 689 1;
+BA_ "GenSigSendType" BO_ 689 0;
+BA_ "VFrameFormat" BO_ 689 14;
+BA_ "GenMsgCycleTime" BO_ 695 20;
+BA_ "GenMsgSendType" BO_ 695 1;
+BA_ "GenSigSendType" BO_ 695 0;
+BA_ "VFrameFormat" BO_ 695 14;
+BA_ "GenMsgCycleTime" BO_ 1260 100;
+BA_ "GenMsgSendType" BO_ 1260 1;
+BA_ "GenSigSendType" BO_ 1260 0;
+BA_ "VFrameFormat" BO_ 1260 14;
+BA_ "GenMsgCycleTime" BO_ 640 20;
+BA_ "GenMsgSendType" BO_ 640 1;
+BA_ "GenSigSendType" BO_ 640 0;
+BA_ "VFrameFormat" BO_ 640 14;
+BA_ "GenMsgCycleTime" BO_ 853 40;
+BA_ "GenMsgSendType" BO_ 853 1;
+BA_ "GenSigSendType" BO_ 853 0;
+BA_ "VFrameFormat" BO_ 853 14;
+BA_ "GenMsgCycleTime" BO_ 1228 100;
+BA_ "GenMsgSendType" BO_ 1228 1;
+BA_ "GenSigSendType" BO_ 1228 0;
+BA_ "VFrameFormat" BO_ 1228 14;
+BA_ "GenMsgCycleTime" BO_ 1647 100;
+BA_ "GenMsgSendType" BO_ 1647 1;
+BA_ "GenSigSendType" BO_ 1647 0;
+BA_ "VFrameFormat" BO_ 1647 14;
+BA_ "GenMsgCycleTime" BO_ 2564753191 100;
+BA_ "GenMsgILSupport" BO_ 2564753191 1;
+BA_ "GenMsgSendType" BO_ 2564753191 1;
+BA_ "GenSigSendType" BO_ 2564753191 1;
+BA_ "VFrameFormat" BO_ 2564753191 15;
+BA_ "GenMsgCycleTimeFast" BO_ 2563508007 2;
+BA_ "GenMsgILSupport" BO_ 2563508007 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2563508007 2;
+BA_ "GenMsgSendType" BO_ 2563508007 2;
+BA_ "GenSigSendType" BO_ 2563508007 3;
+BA_ "VFrameFormat" BO_ 2563508007 15;
+BA_ "GenMsgCycleTimeFast" BO_ 2563508021 2;
+BA_ "GenMsgILSupport" BO_ 2563508021 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2563508021 2;
+BA_ "GenMsgSendType" BO_ 2563508021 2;
+BA_ "GenSigSendType" BO_ 2563508021 3;
+BA_ "VFrameFormat" BO_ 2563508021 15;
+BA_ "GenMsgILSupport" BO_ 2564687651 1;
+BA_ "GenMsgSendType" BO_ 2564687651 2;
+BA_ "GenSigSendType" BO_ 2564687651 3;
+BA_ "VFrameFormat" BO_ 2564687651 15;
+BA_ "GenMsgILSupport" BO_ 2564687669 1;
+BA_ "GenMsgSendType" BO_ 2564687669 2;
+BA_ "GenSigSendType" BO_ 2564687669 3;
+BA_ "VFrameFormat" BO_ 2564687669 15;
+BA_ "GenMsgILSupport" BO_ 1827 1;
+BA_ "GenMsgSendType" BO_ 1827 2;
+BA_ "GenSigSendType" BO_ 1827 3;
+BA_ "VFrameFormat" BO_ 1827 14;
+BA_ "GenMsgILSupport" BO_ 1845 1;
+BA_ "GenMsgSendType" BO_ 1845 2;
+BA_ "GenSigSendType" BO_ 1845 3;
+BA_ "VFrameFormat" BO_ 1845 14;
+BA_ "GenMsgILSupport" BO_ 2564687677 1;
+BA_ "GenMsgSendType" BO_ 2564687677 2;
+BA_ "GenSigSendType" BO_ 2564687677 3;
+BA_ "VFrameFormat" BO_ 2564687677 15;
+BA_ "GenMsgILSupport" BO_ 2564687678 1;
+BA_ "GenMsgSendType" BO_ 2564687678 2;
+BA_ "GenSigSendType" BO_ 2564687678 3;
+BA_ "VFrameFormat" BO_ 2564687678 15;
+BA_ "GenMsgCycleTimeFast" BO_ 2563508030 2;
+BA_ "GenMsgILSupport" BO_ 2563508030 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2563508030 2;
+BA_ "GenMsgSendType" BO_ 2563508030 2;
+BA_ "GenSigSendType" BO_ 2563508030 3;
+BA_ "VFrameFormat" BO_ 2563508030 15;
+BA_ "GenMsgILSupport" BO_ 1853 1;
+BA_ "GenMsgSendType" BO_ 1853 2;
+BA_ "GenSigSendType" BO_ 1853 3;
+BA_ "VFrameFormat" BO_ 1853 14;
+BA_ "GenMsgILSupport" BO_ 1854 1;
+BA_ "GenMsgSendType" BO_ 1854 2;
+BA_ "GenSigSendType" BO_ 1854 3;
+BA_ "VFrameFormat" BO_ 1854 14;
+BA_ "GenMsgILSupport" BO_ 2564687828 1;
+BA_ "GenMsgSendType" BO_ 2564687828 2;
+BA_ "GenSigSendType" BO_ 2564687828 3;
+BA_ "VFrameFormat" BO_ 2564687828 15;
+BA_ "GenMsgILSupport" BO_ 2564687829 1;
+BA_ "GenMsgSendType" BO_ 2564687829 2;
+BA_ "GenSigSendType" BO_ 2564687829 3;
+BA_ "VFrameFormat" BO_ 2564687829 15;
+BA_ "GenMsgCycleTimeFast" BO_ 2563508181 2;
+BA_ "GenMsgILSupport" BO_ 2563508181 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2563508181 2;
+BA_ "GenMsgSendType" BO_ 2563508181 2;
+BA_ "GenSigSendType" BO_ 2563508181 3;
+BA_ "VFrameFormat" BO_ 2563508181 15;
+BA_ "GenMsgILSupport" BO_ 2004 1;
+BA_ "GenMsgSendType" BO_ 2004 2;
+BA_ "GenSigSendType" BO_ 2004 3;
+BA_ "VFrameFormat" BO_ 2004 14;
+BA_ "GenMsgILSupport" BO_ 2005 1;
+BA_ "GenMsgSendType" BO_ 2005 2;
+BA_ "GenSigSendType" BO_ 2005 3;
+BA_ "VFrameFormat" BO_ 2005 14;
+BA_ "GenMsgILSupport" BO_ 2564695026 1;
+BA_ "GenMsgSendType" BO_ 2564695026 2;
+BA_ "GenSigSendType" BO_ 2564695026 3;
+BA_ "VFrameFormat" BO_ 2564695026 15;
+BA_ "GenMsgILSupport" BO_ 2564747811 1;
+BA_ "GenMsgSendType" BO_ 2564747811 2;
+BA_ "GenSigSendType" BO_ 2564747811 3;
+BA_ "VFrameFormat" BO_ 2564747811 15;
+BA_ "GenMsgCycleTimeFast" BO_ 2563568163 2;
+BA_ "GenMsgILSupport" BO_ 2563568163 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2563568163 2;
+BA_ "GenMsgSendType" BO_ 2563568163 2;
+BA_ "GenSigSendType" BO_ 2563568163 3;
+BA_ "VFrameFormat" BO_ 2563568163 15;
+BA_ "GenMsgILSupport" BO_ 2564432882 1;
+BA_ "GenMsgSendType" BO_ 2564432882 2;
+BA_ "GenSigSendType" BO_ 2564432882 3;
+BA_ "VFrameFormat" BO_ 2564432882 15;
+BA_ "GenMsgILSupport" BO_ 2564485667 1;
+BA_ "GenMsgSendType" BO_ 2564485667 2;
+BA_ "GenSigSendType" BO_ 2564485667 3;
+BA_ "VFrameFormat" BO_ 2564485667 15;
+BA_ "GenMsgILSupport" BO_ 2564695282 1;
+BA_ "GenMsgSendType" BO_ 2564695282 2;
+BA_ "GenSigSendType" BO_ 2564695282 3;
+BA_ "VFrameFormat" BO_ 2564695282 15;
+BA_ "GenMsgILSupport" BO_ 2564747812 1;
+BA_ "GenMsgSendType" BO_ 2564747812 2;
+BA_ "GenSigSendType" BO_ 2564747812 3;
+BA_ "VFrameFormat" BO_ 2564747812 15;
+BA_ "GenMsgCycleTimeFast" BO_ 2563568164 2;
+BA_ "GenMsgILSupport" BO_ 2563568164 0;
+BA_ "GenMsgNrOfRepetition" BO_ 2563568164 2;
+BA_ "GenMsgSendType" BO_ 2563568164 2;
+BA_ "GenSigSendType" BO_ 2563568164 3;
+BA_ "VFrameFormat" BO_ 2563568164 15;
+BA_ "GenMsgILSupport" BO_ 2564433138 1;
+BA_ "GenMsgSendType" BO_ 2564433138 2;
+BA_ "GenSigSendType" BO_ 2564433138 3;
+BA_ "VFrameFormat" BO_ 2564433138 15;
+BA_ "GenMsgILSupport" BO_ 2564485668 1;
+BA_ "GenMsgSendType" BO_ 2564485668 2;
+BA_ "GenSigSendType" BO_ 2564485668 3;
+BA_ "VFrameFormat" BO_ 2564485668 15;
+BA_ "GenMsgCycleTime" BO_ 500 10;
+BA_ "GenMsgSendType" BO_ 500 1;
+BA_ "GenSigSendType" BO_ 500 0;
+BA_ "VFrameFormat" BO_ 500 14;
+BA_ "GenMsgCycleTime" BO_ 502 10;
+BA_ "GenMsgSendType" BO_ 502 1;
+BA_ "GenSigSendType" BO_ 502 0;
+BA_ "VFrameFormat" BO_ 502 14;
+BA_ "GenMsgCycleTime" BO_ 387 10;
+BA_ "GenMsgSendType" BO_ 387 1;
+BA_ "GenSigSendType" BO_ 387 0;
+BA_ "VFrameFormat" BO_ 387 14;
+BA_ "GenMsgCycleTime" BO_ 469 10;
+BA_ "GenMsgSendType" BO_ 469 1;
+BA_ "GenSigSendType" BO_ 469 0;
+BA_ "VFrameFormat" BO_ 469 14;
+BA_ "GenMsgCycleTime" BO_ 475 10;
+BA_ "GenMsgSendType" BO_ 475 1;
+BA_ "GenSigSendType" BO_ 475 0;
+BA_ "VFrameFormat" BO_ 475 14;
+BA_ "GenMsgCycleTime" BO_ 458 20;
+BA_ "GenMsgSendType" BO_ 458 1;
+BA_ "GenSigSendType" BO_ 458 0;
+BA_ "VFrameFormat" BO_ 458 14;
+BA_ "GenMsgCycleTime" BO_ 1226 100;
+BA_ "GenMsgSendType" BO_ 1226 1;
+BA_ "GenSigSendType" BO_ 1226 0;
+BA_ "VFrameFormat" BO_ 1226 14;
+BA_ "GenMsgCycleTime" BO_ 1057 60;
+BA_ "GenMsgSendType" BO_ 1057 1;
+BA_ "GenSigSendType" BO_ 1057 1;
+BA_ "VFrameFormat" BO_ 1057 14;
+BA_ "GenMsgCycleTime" BO_ 1265 100;
+BA_ "GenMsgSendType" BO_ 1265 1;
+BA_ "GenSigSendType" BO_ 1265 0;
+BA_ "VFrameFormat" BO_ 1265 14;
+BA_ "GenMsgCycleTime" BO_ 1653 500;
+BA_ "GenMsgSendType" BO_ 1653 1;
+BA_ "GenSigSendType" BO_ 1653 0;
+BA_ "VFrameFormat" BO_ 1653 14;
+BA_ "GenMsgCycleTime" BO_ 1509 100;
+BA_ "GenMsgSendType" BO_ 1509 1;
+BA_ "GenSigSendType" BO_ 1509 1;
+BA_ "VFrameFormat" BO_ 1509 14;
+BA_ "GenMsgCycleTime" BO_ 1384 500;
+BA_ "GenMsgSendType" BO_ 1384 1;
+BA_ "GenSigSendType" BO_ 1384 0;
+BA_ "VFrameFormat" BO_ 1384 14;
+BA_ "GenMsgCycleTime" BO_ 1275 100;
+BA_ "GenMsgSendType" BO_ 1275 1;
+BA_ "GenSigSendType" BO_ 1275 0;
+BA_ "VFrameFormat" BO_ 1275 14;
+BA_ "GenMsgCycleTime" BO_ 1276 100;
+BA_ "GenMsgSendType" BO_ 1276 1;
+BA_ "GenSigSendType" BO_ 1276 0;
+BA_ "VFrameFormat" BO_ 1276 14;
+BA_ "GenMsgCycleTime" BO_ 1697 100;
+BA_ "GenMsgSendType" BO_ 1697 1;
+BA_ "GenSigSendType" BO_ 1697 0;
+BA_ "VFrameFormat" BO_ 1697 14;
+BA_ "GenMsgCycleTime" BO_ 1700 100;
+BA_ "GenMsgSendType" BO_ 1700 1;
+BA_ "GenSigSendType" BO_ 1700 0;
+BA_ "VFrameFormat" BO_ 1700 14;
+VAL_ 3221225472 SET_IHC_STA 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 3221225472 SETTING_FCW_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 3221225472 SET_RCTB_status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1258 LeftTurnLampControlReq 0 "0:No Request" 1 "1:LeftTurnLamp On" 2 "2:LeftTurnLamp Off" 3 "3:Reserved" ;
+VAL_ 1258 RightTurnLampControlReq 0 "0:No Request" 1 "1:rightTurnLamp On" 2 "2:rightTurnLamp Off" 3 "3:Reserved" ;
+VAL_ 1258 HazardWarningLampReq 0 "0:No Request" 1 "1:Hazard SW On(RCW, 4Hz)" 2 "2:Hazard SW On(Normal double flash frequency）" 3 "3:Reserved" ;
+VAL_ 1258 BeamControlReq 0 "0:No Request" 1 "1:LowBeam ON" 2 "2:HighBeam ON" 3 "3:failure" ;
+VAL_ 1258 FrWipReq 0 "0:no request" 1 "1:off" 2 "2:auto" 3 "3:low" 4 "4:high" 5 "5:mist" 6 "6:repair mode" 7 "7:reserved" ;
+VAL_ 1258 BSWLamp_L_Request 0 "00b:HMI LED off" 1 "01b:HMI LED blink" 2 "10b:Not used" 3 "11b:HMI LED continuously on" ;
+VAL_ 1258 BSWLamp_R_Request 0 "00b:HMI LED off" 1 "01b:HMI LED blink" 2 "10b:Not used" 3 "11b:HMI LED continuously on" ;
+VAL_ 1258 Heat_request 0 "0:No request" 1 "1:request" 2 "2:reserved" 3 "3:reserved" ;
+VAL_ 1293 BAT_RQ 0 "00b:off" 1 "01b:flashing" 2 "10b:on" 3 "11b:off" ;
+VAL_ 861 GADE_S1 0 "000b:Sleep or Crank fault, Disable DiagMuxDTC" 1 "001b:AutoACC fault, Disable DiagMuxDTC" 2 "010b:ALL fault, Disable DiagMuxDTC" 3 "011b:ALL fault, Enable DiagMuxDTC" 4 "100b:FOTA switch fault, Disable DiagMuxDTC" 5 "101b:Not used" 6 "110b:Not used" 7 "111b:Unavailable" ;
+VAL_ 861 CABRESW_S1 0 "00b:brake not activated" 1 "01b:brake activated" 2 "10b:Reserved" 3 "11b:invalid" ;
+VAL_ 536 PEPS_POWER_MODE_S1 0 "0:OFF" 1 "1:ACC" 2 "2:IGN" 3 "3:Reserved" 4 "4:READY" 5 "5~7:Reserved" 6 "5~7:Reserved" ;
+VAL_ 1549 TURN_IND_S1 0 "000b:left and right flashing indicators OFF" 1 "001b:left flashing indicator ON and right flashing indicator OFF" 2 "010b:left flashing indicator OFF and right flashing indicator ON" 3 "011b:left flashing indicator ON and right flashing indicator ON" 4 "100b:invalid value" 5 "101b:invalid value" 6 "110b:invalid value" 7 "111b:invalid value" ;
+VAL_ 1549 DOOR_SW_S1 0 "00000b:(Boot,RR,RL,FR,FL" 1 "00001b:(Boot,RR,RL,FR,FL" 2 "00010b:(Boot,RR,RL,FR,FL" 3 "00011b:(Boot,RR,RL,FR,FL" 4 "00100b:(Boot,RR,RL,FR,FL" 5 "00101b:(Boot,RR,RL,FR,FL" 6 "00110b:(Boot,RR,RL,FR,FL" 7 "00111b:(Boot,RR,RL,FR,FL" 8 "01000b:(Boot,RR,RL,FR,FL" 9 "01001b:(Boot,RR,RL,FR,FL" 10 "01010b:(Boot,RR,RL,FR,FL" 11 "01011b:(Boot,RR,RL,FR,FL" 12 "01100b:(Boot,RR,RL,FR,FL" 13 "01101b:(Boot,RR,RL,FR,FL" 14 "01110b:(Boot,RR,RL,FR,FL" 15 "01111b:(Boot,RR,RL,FR,FL" 16 "10000b:(Boot,RR,RL,FR,FL" 17 "10001b:(Boot,RR,RL,FR,FL" 18 "10010b:(Boot,RR,RL,FR,FL" 19 "10011b:(Boot,RR,RL,FR,FL" 20 "10100b:(Boot,RR,RL,FR,FL" 21 "10101b:(Boot,RR,RL,FR,FL" 22 "10110b:(Boot,RR,RL,FR,FL" 23 "10111b:(Boot,RR,RL,FR,FL" 24 "11000b:(Boot,RR,RL,FR,FL" 25 "11001b:(Boot,RR,RL,FR,FL" 26 "11010b:(Boot,RR,RL,FR,FL" 27 "11011b:(Boot,RR,RL,FR,FL" 28 "11100b:(Boot,RR,RL,FR,FL" 29 "11101b:(Boot,RR,RL,FR,FL" 30 "11110b:(Boot,RR,RL,FR,FL" 31 "11111b:(Boot,RR,RL,FR,FL" ;
+VAL_ 1549 IGN_SW 0 "0b:Primary ignition supply off" 1 "1b:Primary ignition supply on" ;
+VAL_ 1549 ACC_SW 0 "0b:accessory supply off" 1 "1b:accessory supply on" ;
+VAL_ 1549 DOOR_LOCK 0 "00b:(Doors,Boot" 1 "01b:(Doors,Boot" 2 "10b:(Doors,Boot" 3 "11b:(Doors,Boot" ;
+VAL_ 1549 ExtRMirFldSts_CCM 0 "0:Fold" 1 "1:Unfold" 2 "2:reserved" 3 "3:Invalid" ;
+VAL_ 1573 HL_LOW_S1 0 "0b:low beam off" 1 "1b:low beam on" ;
+VAL_ 1573 HL_HIGH_S1 0 "0b:high beam off" 1 "1b:high beam on" ;
+VAL_ 1573 VehicleState_S1 0 "0000b:Sleeping(ACC OFF)" 1 "0001b:Not used" 2 "0010b:CutoffPending(ACC OFF)" 3 "0011b:AutoACC  - BatTempoLevel" 4 "0100b:Not used" 5 "0101b:IgnitionLevel(IGN ON)" 6 "0110b:StartingInProgress" 7 "0111b:PowertrainRunning(ready)" 8 "1000b:AutoStart" 9 "1001b:EngineSystemStop" 10 "1010b:Not used" 11 "1011b:Not used" 12 "1100b:Not used" 13 "1101b:Not used" 14 "1110b:Not used" 15 "1111b:Unavailable" ;
+VAL_ 1573 Hood_SW_S1 0 "0b:hood SW off" 1 "1b:hood SW on" ;
+VAL_ 1573 FrWipSts_S1 0 "0:front wiper stopped" 1 "1:low speed active" 2 "2:high speed active" 3 "3:invalid" ;
+VAL_ 1532 HighLampChangeSWSts 0 "00b:not pressed" 1 "01b:pressed" 2 "10b:reserved" 3 "11b:Invalid" ;
+VAL_ 1532 TurnLampSWSts 0 "000b:not pressed" 1 "001b:TurnChangeLeft" 2 "010b:TurnChangeRight" 3 "011b:TurnAroundLeft" 4 "100b:TurnAroundRight" 5 "101b:Not used" 6 "110b:Not used" 7 "111b:Invalid" ;
+VAL_ 1480 SW_PILOTorCANCEL 0 "00b:Released" 1 "01b:Pressed" 2 "10b:Error (Stuck)" 3 "11b:Error (Switch I/O)" ;
+VAL_ 1480 SW_DISTANCEorASCD 0 "00b:Released" 1 "01b:Pressed" 2 "10b:Error (Stuck)" 3 "11b:Error (Switch I/O)" ;
+VAL_ 1480 SW_DistanceReduce 0 "00b:Released" 1 "01b:Pressed" 2 "10b:Error (Stuck)" 3 "11b:Error (Switch I/O)" ;
+VAL_ 1480 SW_SET 0 "00:not move" 1 "01:down move,1 gears." 2 "02:down move,2 gears." 3 "03:down move,3 gears." 4 "04:down move,4 gears." 5 "05:down move,5 gears." 6 "06:down move,6 gears." 7 "07:down move,7 gears." 8 "08:down move,8 gears." 9 "09:down move,9 gears." 10 "0A:down move,10 gears." 11 "0B:down move,11 gears." 12 "0C:down move,12 gears." 13 "0D:down move,13 gears." 14 "0E:down move,14 gears." 15 "0F:down move,15 gears." ;
+VAL_ 1480 SW_RES 0 "00:not move" 1 "01:up move,1 gears." 2 "02:up move,2 gears." 3 "03:up move,3 gears." 4 "04:up move,4 gears." 5 "05:up move,5 gears." 6 "06:up move,6 gears." 7 "07:up move,7 gears." 8 "08:up move,8 gears." 9 "09:up move,9 gears." 10 "0A:up move,10 gears." 11 "0B:up move,11 gears." 12 "0C:up move,12 gears." 13 "0D:up move,13 gears." 14 "0E:up move,14 gears." 15 "0F:up move,15 gears." ;
+VAL_ 1480 DrvrSeatOccupSts 0 "00b:Not Occupant" 1 "01b:Occupant" 2 "10b:Broken circuit" 3 "11b:Short circuit" ;
+VAL_ 901 W_REQ 0 "0b:TPMS warning lamp is OFF" 1 "1b:TPMS warning lamp is ON" ;
+VAL_ 901 LTP_FR 0 "0b:Normal" 1 "1b:Low tire pressure" ;
+VAL_ 901 LTP_FL 0 "0b:Normal" 1 "1b:Low tire pressure" ;
+VAL_ 901 LTP_RR 0 "0b:Normal" 1 "1b:Low tire pressure" ;
+VAL_ 901 LTP_RL 0 "0b:Normal" 1 "1b:Low tire pressure" ;
+VAL_ 1353 OC_HvacModeSts_Sts 0 "0:Invaild" 1 "1:Face" 2 "2:FaceFoot" 3 "3:Foot" 4 "4:FootDefrost" 5 "5:Defrost" 6 "6:reserved" 7 "7:reserved" ;
+VAL_ 1353 OC_HvacSysSts_Sts 0 "0:highlight display ACSysWrkSts OFF" 1 "1:highlight display ACSysWrkSts ON" ;
+VAL_ 1339 LeftBswLedSts_S1 0 "0:Invalid" 1 "1:normal" 2 "2:short-circuit" 3 "3:open-circuit" ;
+VAL_ 1340 RightBswLedSts_S1 0 "0:Invalid" 1 "1:normal" 2 "2:short-circuit" 3 "3: reserved（open-circuit）" ;
+VAL_ 793 AirBagSysAlrmLampSts 0 "0:lamp off" 1 "1:lamp flash" 2 "2:lamp on" 3 "3:reserved" ;
+VAL_ 793 DrverSafetyBeltAlarmState 0 "0:Lamp Off(Safety Belt Tied)" 1 "1:Fault(Reserved)" 2 "2:Lamp On(Safety Belt Not Tied)" 3 "3:Reserved" ;
+VAL_ 793 CrashDetected 0 "0:No Crash" 1 "1:Crash" ;
+VAL_ 793 FrontCrash 0 "0:未发生正面碰撞" 1 "1:发生正面碰撞" ;
+VAL_ 793 LeftSideCrash 0 "0:未发生左侧面碰撞" 1 "1:发生左侧面碰撞" ;
+VAL_ 793 RightSideCrash 0 "0:未发生右侧面碰撞" 1 "1:发生右侧面碰撞" ;
+VAL_ 793 RearCrash 0 "0:未发生后面碰撞" 1 "1:发生后面碰撞" ;
+VAL_ 793 RolloverDetection 0 "0:未发生翻滚" 1 "1:发生翻滚" ;
+VAL_ 578 LateralSensorState_S1 0 "0:Initializing" 1 "1:Valid" 2 "2:Invalid" 3 "3:Reserved" ;
+VAL_ 578 YawRateSensorState_S1 0 "0:Initializing" 1 "1:Valid" 2 "2:Invalid" 3 "3:Reserved" ;
+VAL_ 578 YawRateCalibrationState_S1 0 "0:Sensor Not Calibrated" 1 "1:Sensor Calibrated" ;
+VAL_ 582 LongitudinalSensorState_S1 0 "0:Initializing" 1 "1:Valid" 2 "2:Invalid" 3 "3:Reserved" ;
+VAL_ 582 VerticalSensorState_S1 0 "0:Initializing" 1 "1:Valid" 2 "2:Invalid" 3 "3:Reserved" ;
+VAL_ 582 RollrateSensorState_S1 0 "0:Initializing" 1 "1:Valid" 2 "2:Invalid" 3 "3:Reserved" ;
+VAL_ 1383 Year_S1 0 "0-FF:<value>Year" 1 "0-FF:<value>Year" 2 "0-FF:<value>Year" 3 "0-FF:<value>Year" 4 "0-FF:<value>Year" 5 "0-FF:<value>Year" 6 "0-FF:<value>Year" 7 "0-FF:<value>Year" 8 "0-FF:<value>Year" 9 "0-FF:<value>Year" 10 "0-FF:<value>Year" 11 "0-FF:<value>Year" 12 "0-FF:<value>Year" 13 "0-FF:<value>Year" 14 "0-FF:<value>Year" 15 "0-FF:<value>Year" 16 "0-FF:<value>Year" 17 "0-FF:<value>Year" 18 "0-FF:<value>Year" 19 "0-FF:<value>Year" 20 "0-FF:<value>Year" 21 "0-FF:<value>Year" 22 "0-FF:<value>Year" 23 "0-FF:<value>Year" 24 "0-FF:<value>Year" 25 "0-FF:<value>Year" 26 "0-FF:<value>Year" 27 "0-FF:<value>Year" 28 "0-FF:<value>Year" 29 "0-FF:<value>Year" 30 "0-FF:<value>Year" 31 "0-FF:<value>Year" 32 "0-FF:<value>Year" 33 "0-FF:<value>Year" 34 "0-FF:<value>Year" 35 "0-FF:<value>Year" 36 "0-FF:<value>Year" 37 "0-FF:<value>Year" 38 "0-FF:<value>Year" 39 "0-FF:<value>Year" 40 "0-FF:<value>Year" 41 "0-FF:<value>Year" 42 "0-FF:<value>Year" 43 "0-FF:<value>Year" 44 "0-FF:<value>Year" 45 "0-FF:<value>Year" 46 "0-FF:<value>Year" 47 "0-FF:<value>Year" 48 "0-FF:<value>Year" 49 "0-FF:<value>Year" 50 "0-FF:<value>Year" 51 "0-FF:<value>Year" 52 "0-FF:<value>Year" 53 "0-FF:<value>Year" 54 "0-FF:<value>Year" 55 "0-FF:<value>Year" 56 "0-FF:<value>Year" 57 "0-FF:<value>Year" 58 "0-FF:<value>Year" 59 "0-FF:<value>Year" 60 "0-FF:<value>Year" 61 "0-FF:<value>Year" 62 "0-FF:<value>Year" 63 "0-FF:<value>Year" 64 "0-FF:<value>Year" 65 "0-FF:<value>Year" 66 "0-FF:<value>Year" 67 "0-FF:<value>Year" 68 "0-FF:<value>Year" 69 "0-FF:<value>Year" 70 "0-FF:<value>Year" 71 "0-FF:<value>Year" 72 "0-FF:<value>Year" 73 "0-FF:<value>Year" 74 "0-FF:<value>Year" 75 "0-FF:<value>Year" 76 "0-FF:<value>Year" 77 "0-FF:<value>Year" 78 "0-FF:<value>Year" 79 "0-FF:<value>Year" 80 "0-FF:<value>Year" 81 "0-FF:<value>Year" 82 "0-FF:<value>Year" 83 "0-FF:<value>Year" 84 "0-FF:<value>Year" 85 "0-FF:<value>Year" 86 "0-FF:<value>Year" 87 "0-FF:<value>Year" 88 "0-FF:<value>Year" 89 "0-FF:<value>Year" 90 "0-FF:<value>Year" 91 "0-FF:<value>Year" 92 "0-FF:<value>Year" 93 "0-FF:<value>Year" 94 "0-FF:<value>Year" 95 "0-FF:<value>Year" 96 "0-FF:<value>Year" 97 "0-FF:<value>Year" 98 "0-FF:<value>Year" 99 "0-FF:<value>Year" 100 "0-FF:<value>Year" 101 "0-FF:<value>Year" 102 "0-FF:<value>Year" 103 "0-FF:<value>Year" 104 "0-FF:<value>Year" 105 "0-FF:<value>Year" 106 "0-FF:<value>Year" 107 "0-FF:<value>Year" 108 "0-FF:<value>Year" 109 "0-FF:<value>Year" 110 "0-FF:<value>Year" 111 "0-FF:<value>Year" 112 "0-FF:<value>Year" 113 "0-FF:<value>Year" 114 "0-FF:<value>Year" 115 "0-FF:<value>Year" 116 "0-FF:<value>Year" 117 "0-FF:<value>Year" 118 "0-FF:<value>Year" 119 "0-FF:<value>Year" 120 "0-FF:<value>Year" 121 "0-FF:<value>Year" 122 "0-FF:<value>Year" 123 "0-FF:<value>Year" 124 "0-FF:<value>Year" 125 "0-FF:<value>Year" 126 "0-FF:<value>Year" 127 "0-FF:<value>Year" 128 "0-FF:<value>Year" 129 "0-FF:<value>Year" 130 "0-FF:<value>Year" 131 "0-FF:<value>Year" 132 "0-FF:<value>Year" 133 "0-FF:<value>Year" 134 "0-FF:<value>Year" 135 "0-FF:<value>Year" 136 "0-FF:<value>Year" 137 "0-FF:<value>Year" 138 "0-FF:<value>Year" 139 "0-FF:<value>Year" 140 "0-FF:<value>Year" 141 "0-FF:<value>Year" 142 "0-FF:<value>Year" 143 "0-FF:<value>Year" 144 "0-FF:<value>Year" 145 "0-FF:<value>Year" 146 "0-FF:<value>Year" 147 "0-FF:<value>Year" 148 "0-FF:<value>Year" 149 "0-FF:<value>Year" 150 "0-FF:<value>Year" 151 "0-FF:<value>Year" 152 "0-FF:<value>Year" 153 "0-FF:<value>Year" 154 "0-FF:<value>Year" 155 "0-FF:<value>Year" 156 "0-FF:<value>Year" 157 "0-FF:<value>Year" 158 "0-FF:<value>Year" 159 "0-FF:<value>Year" 160 "0-FF:<value>Year" 161 "0-FF:<value>Year" 162 "0-FF:<value>Year" 163 "0-FF:<value>Year" 164 "0-FF:<value>Year" 165 "0-FF:<value>Year" 166 "0-FF:<value>Year" 167 "0-FF:<value>Year" 168 "0-FF:<value>Year" 169 "0-FF:<value>Year" 170 "0-FF:<value>Year" 171 "0-FF:<value>Year" 172 "0-FF:<value>Year" 173 "0-FF:<value>Year" 174 "0-FF:<value>Year" 175 "0-FF:<value>Year" 176 "0-FF:<value>Year" 177 "0-FF:<value>Year" 178 "0-FF:<value>Year" 179 "0-FF:<value>Year" 180 "0-FF:<value>Year" 181 "0-FF:<value>Year" 182 "0-FF:<value>Year" 183 "0-FF:<value>Year" 184 "0-FF:<value>Year" 185 "0-FF:<value>Year" 186 "0-FF:<value>Year" 187 "0-FF:<value>Year" 188 "0-FF:<value>Year" 189 "0-FF:<value>Year" 190 "0-FF:<value>Year" 191 "0-FF:<value>Year" 192 "0-FF:<value>Year" 193 "0-FF:<value>Year" 194 "0-FF:<value>Year" 195 "0-FF:<value>Year" 196 "0-FF:<value>Year" 197 "0-FF:<value>Year" 198 "0-FF:<value>Year" 199 "0-FF:<value>Year" 200 "0-FF:<value>Year" 201 "0-FF:<value>Year" 202 "0-FF:<value>Year" 203 "0-FF:<value>Year" 204 "0-FF:<value>Year" 205 "0-FF:<value>Year" 206 "0-FF:<value>Year" 207 "0-FF:<value>Year" 208 "0-FF:<value>Year" 209 "0-FF:<value>Year" 210 "0-FF:<value>Year" 211 "0-FF:<value>Year" 212 "0-FF:<value>Year" 213 "0-FF:<value>Year" 214 "0-FF:<value>Year" 215 "0-FF:<value>Year" 216 "0-FF:<value>Year" 217 "0-FF:<value>Year" 218 "0-FF:<value>Year" 219 "0-FF:<value>Year" 220 "0-FF:<value>Year" 221 "0-FF:<value>Year" 222 "0-FF:<value>Year" 223 "0-FF:<value>Year" 224 "0-FF:<value>Year" 225 "0-FF:<value>Year" 226 "0-FF:<value>Year" 227 "0-FF:<value>Year" 228 "0-FF:<value>Year" 229 "0-FF:<value>Year" 230 "0-FF:<value>Year" 231 "0-FF:<value>Year" 232 "0-FF:<value>Year" 233 "0-FF:<value>Year" 234 "0-FF:<value>Year" 235 "0-FF:<value>Year" 236 "0-FF:<value>Year" 237 "0-FF:<value>Year" 238 "0-FF:<value>Year" 239 "0-FF:<value>Year" 240 "0-FF:<value>Year" 241 "0-FF:<value>Year" 242 "0-FF:<value>Year" 243 "0-FF:<value>Year" 244 "0-FF:<value>Year" 245 "0-FF:<value>Year" 246 "0-FF:<value>Year" 247 "0-FF:<value>Year" 248 "0-FF:<value>Year" 249 "0-FF:<value>Year" 250 "0-FF:<value>Year" 251 "0-FF:<value>Year" 252 "0-FF:<value>Year" 253 "0-FF:<value>Year" 254 "0-FF:<value>Year" ;
+VAL_ 1383 Month_S1 0 "0:Invalid" 1 "1-C:<value>Month" 2 "1-C:<value>Month" 3 "1-C:<value>Month" 4 "1-C:<value>Month" 5 "1-C:<value>Month" 6 "1-C:<value>Month" 7 "1-C:<value>Month" 8 "1-C:<value>Month" 9 "1-C:<value>Month" 10 "1-C:<value>Month" 11 "1-C:<value>Month" 13 "D-F:Reserved" 14 "D-F:Reserved" ;
+VAL_ 1383 Day_S1 0 "00:Invalid" 1 "01-1F:<value>Day" 2 "01-1F:<value>Day" 3 "01-1F:<value>Day" 4 "01-1F:<value>Day" 5 "01-1F:<value>Day" 6 "01-1F:<value>Day" 7 "01-1F:<value>Day" 8 "01-1F:<value>Day" 9 "01-1F:<value>Day" 10 "01-1F:<value>Day" 11 "01-1F:<value>Day" 12 "01-1F:<value>Day" 13 "01-1F:<value>Day" 14 "01-1F:<value>Day" 15 "01-1F:<value>Day" 16 "01-1F:<value>Day" 17 "01-1F:<value>Day" 18 "01-1F:<value>Day" 19 "01-1F:<value>Day" 20 "01-1F:<value>Day" 21 "01-1F:<value>Day" 22 "01-1F:<value>Day" 23 "01-1F:<value>Day" 24 "01-1F:<value>Day" 25 "01-1F:<value>Day" 26 "01-1F:<value>Day" 27 "01-1F:<value>Day" 28 "01-1F:<value>Day" 29 "01-1F:<value>Day" 30 "01-1F:<value>Day" ;
+VAL_ 1383 Hour_S1 0 "0-17:<value>Hour" 1 "0-17:<value>Hour" 2 "0-17:<value>Hour" 3 "0-17:<value>Hour" 4 "0-17:<value>Hour" 5 "0-17:<value>Hour" 6 "0-17:<value>Hour" 7 "0-17:<value>Hour" 8 "0-17:<value>Hour" 9 "0-17:<value>Hour" 10 "0-17:<value>Hour" 11 "0-17:<value>Hour" 12 "0-17:<value>Hour" 13 "0-17:<value>Hour" 14 "0-17:<value>Hour" 15 "0-17:<value>Hour" 16 "0-17:<value>Hour" 17 "0-17:<value>Hour" 18 "0-17:<value>Hour" 19 "0-17:<value>Hour" 20 "0-17:<value>Hour" 21 "0-17:<value>Hour" 22 "0-17:<value>Hour" 24 "18-1F:Invalid" 25 "18-1F:Invalid" 26 "18-1F:Invalid" 27 "18-1F:Invalid" 28 "18-1F:Invalid" 29 "18-1F:Invalid" 30 "18-1F:Invalid" ;
+VAL_ 1383 Minute_S1 0 "0-3B:<value>Minute" 1 "0-3B:<value>Minute" 2 "0-3B:<value>Minute" 3 "0-3B:<value>Minute" 4 "0-3B:<value>Minute" 5 "0-3B:<value>Minute" 6 "0-3B:<value>Minute" 7 "0-3B:<value>Minute" 8 "0-3B:<value>Minute" 9 "0-3B:<value>Minute" 10 "0-3B:<value>Minute" 11 "0-3B:<value>Minute" 12 "0-3B:<value>Minute" 13 "0-3B:<value>Minute" 14 "0-3B:<value>Minute" 15 "0-3B:<value>Minute" 16 "0-3B:<value>Minute" 17 "0-3B:<value>Minute" 18 "0-3B:<value>Minute" 19 "0-3B:<value>Minute" 20 "0-3B:<value>Minute" 21 "0-3B:<value>Minute" 22 "0-3B:<value>Minute" 23 "0-3B:<value>Minute" 24 "0-3B:<value>Minute" 25 "0-3B:<value>Minute" 26 "0-3B:<value>Minute" 27 "0-3B:<value>Minute" 28 "0-3B:<value>Minute" 29 "0-3B:<value>Minute" 30 "0-3B:<value>Minute" 31 "0-3B:<value>Minute" 32 "0-3B:<value>Minute" 33 "0-3B:<value>Minute" 34 "0-3B:<value>Minute" 35 "0-3B:<value>Minute" 36 "0-3B:<value>Minute" 37 "0-3B:<value>Minute" 38 "0-3B:<value>Minute" 39 "0-3B:<value>Minute" 40 "0-3B:<value>Minute" 41 "0-3B:<value>Minute" 42 "0-3B:<value>Minute" 43 "0-3B:<value>Minute" 44 "0-3B:<value>Minute" 45 "0-3B:<value>Minute" 46 "0-3B:<value>Minute" 47 "0-3B:<value>Minute" 48 "0-3B:<value>Minute" 49 "0-3B:<value>Minute" 50 "0-3B:<value>Minute" 51 "0-3B:<value>Minute" 52 "0-3B:<value>Minute" 53 "0-3B:<value>Minute" 54 "0-3B:<value>Minute" 55 "0-3B:<value>Minute" 56 "0-3B:<value>Minute" 57 "0-3B:<value>Minute" 58 "0-3B:<value>Minute" 60 "3C-3F:Invalid" 61 "3C-3F:Invalid" 62 "3C-3F:Invalid" ;
+VAL_ 1383 Second_S1 0 "00-3B:<value>Second" 1 "00-3B:<value>Second" 2 "00-3B:<value>Second" 3 "00-3B:<value>Second" 4 "00-3B:<value>Second" 5 "00-3B:<value>Second" 6 "00-3B:<value>Second" 7 "00-3B:<value>Second" 8 "00-3B:<value>Second" 9 "00-3B:<value>Second" 10 "00-3B:<value>Second" 11 "00-3B:<value>Second" 12 "00-3B:<value>Second" 13 "00-3B:<value>Second" 14 "00-3B:<value>Second" 15 "00-3B:<value>Second" 16 "00-3B:<value>Second" 17 "00-3B:<value>Second" 18 "00-3B:<value>Second" 19 "00-3B:<value>Second" 20 "00-3B:<value>Second" 21 "00-3B:<value>Second" 22 "00-3B:<value>Second" 23 "00-3B:<value>Second" 24 "00-3B:<value>Second" 25 "00-3B:<value>Second" 26 "00-3B:<value>Second" 27 "00-3B:<value>Second" 28 "00-3B:<value>Second" 29 "00-3B:<value>Second" 30 "00-3B:<value>Second" 31 "00-3B:<value>Second" 32 "00-3B:<value>Second" 33 "00-3B:<value>Second" 34 "00-3B:<value>Second" 35 "00-3B:<value>Second" 36 "00-3B:<value>Second" 37 "00-3B:<value>Second" 38 "00-3B:<value>Second" 39 "00-3B:<value>Second" 40 "00-3B:<value>Second" 41 "00-3B:<value>Second" 42 "00-3B:<value>Second" 43 "00-3B:<value>Second" 44 "00-3B:<value>Second" 45 "00-3B:<value>Second" 46 "00-3B:<value>Second" 47 "00-3B:<value>Second" 48 "00-3B:<value>Second" 49 "00-3B:<value>Second" 50 "00-3B:<value>Second" 51 "00-3B:<value>Second" 52 "00-3B:<value>Second" 53 "00-3B:<value>Second" 54 "00-3B:<value>Second" 55 "00-3B:<value>Second" 56 "00-3B:<value>Second" 57 "00-3B:<value>Second" 58 "00-3B:<value>Second" 60 "3C-3F:Invalid" 61 "3C-3F:Invalid" 62 "3C-3F:Invalid" ;
+VAL_ 1383 Server_time_flag_S1 0 "0b:server time update fail" 1 "1b:server time update success" ;
+VAL_ 1383 GPS_Signal_S1 0 "0b:DA Clock" 1 "1b:GPS Clock" ;
+VAL_ 384 ETCFAIL 0 "000b:normal" 1 "001b:Not used" 2 "010b:Not used" 3 "011b:torque request cant be achieved" ;
+VAL_ 1361 ENG_STA 0 "00b:engine stopped" 1 "01b:engine stalled" 2 "10b:engine running（EV vehicle ready）" 3 "11b:engine cranking" ;
+VAL_ 689 AD_take_over_request 0 "0:NO Request" 1 "1:AD Error, take over request" 2 "2:Fail to main road, take over please" 3 "3-3F:Reserve" 4 "3-3F:Reserve" 5 "3-3F:Reserve" 6 "3-3F:Reserve" 7 "3-3F:Reserve" 8 "3-3F:Reserve" 9 "3-3F:Reserve" 10 "3-3F:Reserve" 11 "3-3F:Reserve" 12 "3-3F:Reserve" 13 "3-3F:Reserve" 14 "3-3F:Reserve" 15 "3-3F:Reserve" 16 "3-3F:Reserve" 17 "3-3F:Reserve" 18 "3-3F:Reserve" 19 "3-3F:Reserve" 20 "3-3F:Reserve" 21 "3-3F:Reserve" 22 "3-3F:Reserve" 23 "3-3F:Reserve" 24 "3-3F:Reserve" 25 "3-3F:Reserve" 26 "3-3F:Reserve" 27 "3-3F:Reserve" 28 "3-3F:Reserve" 29 "3-3F:Reserve" 30 "3-3F:Reserve" 31 "3-3F:Reserve" 32 "3-3F:Reserve" 33 "3-3F:Reserve" 34 "3-3F:Reserve" 35 "3-3F:Reserve" 36 "3-3F:Reserve" 37 "3-3F:Reserve" 38 "3-3F:Reserve" 39 "3-3F:Reserve" 40 "3-3F:Reserve" 41 "3-3F:Reserve" 42 "3-3F:Reserve" 43 "3-3F:Reserve" 44 "3-3F:Reserve" 45 "3-3F:Reserve" 46 "3-3F:Reserve" 47 "3-3F:Reserve" 48 "3-3F:Reserve" 49 "3-3F:Reserve" 50 "3-3F:Reserve" 51 "3-3F:Reserve" 52 "3-3F:Reserve" 53 "3-3F:Reserve" 54 "3-3F:Reserve" 55 "3-3F:Reserve" 56 "3-3F:Reserve" 57 "3-3F:Reserve" 58 "3-3F:Reserve" 59 "3-3F:Reserve" 60 "3-3F:Reserve" 61 "3-3F:Reserve" 62 "3-3F:Reserve" ;
+VAL_ 689 HodMeterLampRequest 0 "0:no request" 1 "1:request" ;
+VAL_ 689 ISLS_Limit_Speed_Value 0 "0:NoDisplay" 1 "1:SpeedLim130" 2 "2:SpeedLim125" 3 "3:SpeedLim120" 4 "4:SpeedLim115" 5 "5:SpeedLim110" 6 "6:SpeedLim105" 7 "7:SpeedLim100" 8 "8:SpeedLim95" 9 "9:SpeedLim90" 10 "A:SpeedLim85" 11 "B:SpeedLim80" 12 "C:SpeedLim75" 13 "D:SpeedLim70" 14 "E:SpeedLim65" 15 "F:SpeedLim60" 16 "10:SpeedLim55" 17 "11:SpeedLim50" 18 "12:SpeedLim45" 19 "13:SpeedLim40" 20 "14:SpeedLim35" 21 "15:SpeedLim30" 22 "16:SpeedLim25" 23 "17:SpeedLim20" 24 "18:SpeedLim15" 25 "19:SpeedLim10" 26 "1A:SpeedLim5" 27 "1B:SpeedLim120_Interval" 28 "1C:SpeedLim115_Interval" 29 "1D:SpeedLim110_Interval" 30 "1E:SpeedLim105_Interval" 31 "1F:SpeedLim100_Interval" 32 "20:SpeedLim95_Interval" 33 "21:SpeedLim90_Interval" 34 "22:SpeedLim85_Interval" 35 "23:SpeedLim80_Interval" 36 "24:SpeedLim75_Interval" 37 "25:SpeedLim70_Interval" 38 "26:SpeedLim65_Interval" 39 "27:SpeedLim60_Interval" 40 "28:SpeedLim55_Interval" 41 "29:SpeedLim45_Interval" 42 "2A:SpeedLim40_Interval" 43 "2B:SpeedLim35_Interval" 44 "2C:SpeedLim30_Interval" 45 "2D:SpeedLim25_Interval" 46 "2E:SpeedLim20_Interval" 47 "2F:SpeedLim15_Interval" 48 "30:SpeedLim10_Interval" 49 "31:SpeedLim5_Interval" 50 "32:MinSpeedLim120" 51 "33:MinSpeedLim110" 52 "34:MinSpeedLim100" 53 "35:MinSpeedLim90" 54 "36:MinSpeedLim80" 55 "37:MinSpeedLim70" 56 "38:MinSpeedLim60" 57 "39:MinSpeedLim50" 58 "3A:SpeedLim_Cancelled" 59 "3B:SpeedLim130_Interval" 60 "3C:SpeedLim125_Interval" 61 "3D:SpeedLim50_Interval" 62 "3E:MinSpeedLim40" 63 "3F:MinSpeedLim30" ;
+VAL_ 689 ISLS_Limit_Speed_Validation 0 "0:Reverse" 1 "1:InValid" 2 "2:Valid" 3 "3:Reserve" ;
+VAL_ 689 ISLS_Limit_Speed_Unit 0 "0:Km/h" 1 "1:mph" 2 "2:m/s" 3 "3:Reserve" ;
+VAL_ 689 ISLS_Acoustic_Warning 0 "0:NoWarning" 1 "1:Warning" 2 "2-3:Reserve" ;
+VAL_ 689 Hand_Off_Status 0 "0:Hands on" 1 "1:Hands off-light" 2 "2:Hands off-medium" 3 "3:Hands off-heavy" 4 "4:error" 5 "5-7:Reserve" 6 "5-7:Reserve" ;
+VAL_ 695 PCW_PreWarning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 AEB_Active 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 CDW_Active 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 ESS_Active 0 "0:Deactive" 1 "1:LeftActive" 2 "2:RightActive" 3 "3:Reserved" ;
+VAL_ 695 fcta_left_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 fcta_front_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 fcta_right_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 rcta_left_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 rcta_rear_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 rcta_right_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 fctb_left_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 fctb_front_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 fctb_right_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 rctb_left_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 rctb_rear_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 rctb_right_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 ELK_active 0 "00:no active ；" 1 "01:left road edge；" 2 "02:right road edge;" 3 "03:left-overtaking;" 4 "04:right-overtaking;" 5 "05:left -oncoming;" 6 "06-07:Reserve" ;
+VAL_ 695 rcw_warning 0 "0:Deactive" 1 "1:Active" ;
+VAL_ 695 left_bsw_warning 0 "0:No Warning" 1 "1:Left Warning Level 1" 2 "2:Left Warning Level 2" 3 "3:Reserve" ;
+VAL_ 695 right_bsw_warning 0 "0:No Warning" 1 "1:Right Warning Level 1" 2 "2:Right Warning Level 2" 3 "3:Reserve" ;
+VAL_ 695 left_dow_warning 0 "0:No Warning" 1 "1:Left Warning Level 1" 2 "2:Left Warning Level 2" 3 "3:Reserve" ;
+VAL_ 695 right_dow_warning 0 "0:No Warning" 1 "1:Right Warning Level 1" 2 "2:Right Warning Level 2" 3 "3:Reserve" ;
+VAL_ 695 LDW_Warning 0 "0:No Warning" 1 "1:left Warning" 2 "2:Right Warning" 3 "3:Reserve" ;
+VAL_ 695 LDP_Active 0 "0:Deactive" 1 "1:left Active" 2 "2:Right Active" 3 "3:Reserve" ;
+VAL_ 1260 ACC_HEADW_SET 0 "0:No display" 1 "1:Level 1" 2 "2:Level 2" 3 "3:Level 3" 4 "4:Level 4" 5 "5:Level 5" 6 "6-7:reserved" ;
+VAL_ 1260 VDC_NOT_ACTIVATED 0 "0:No Warning(VDC ON)" 1 "1:Warning(VDC OFF)" ;
+VAL_ 1260 ACC_DrSeSp 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1260 ACC_DisToTgt 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1260 ACC_TgtDet 0 "0:False" 1 "1:True" ;
+VAL_ 1260 ACC_GoNoti 0 "0:False;" 1 "1:True;" ;
+VAL_ 1260 CP_Status 0 "0:OFF" 1 "1:Passive" 2 "2:ACC Standby" 3 "3:CP Standby" 4 "4:Reserve" 5 "5:ACC Active" 6 "6:CP Active" 7 "7:Standstill_Active" 8 "8:Standstill_Wait" 9 "9:Override,A Pedal" 10 "A:CP Override，Steering,Reserve" 11 "B:temporary error" 12 "C:Permanent error" 13 "D:BOM" 14 "E:Reserve" 15 "F:Reserve" ;
+VAL_ 1260 MSG_ILC_Opera 0 "0:No ILC operation" 1 "1:ILC operation to left" 2 "2:ILC operation to right" 3 "3:Reserve" ;
+VAL_ 1260 CP_PLC_Status 0 "0:OFF" 1 "1:Waiting to change lane" 2 "2:lane change cancel by driver" 3 "3:Lane change cancel for waiting too long" 4 "4:changing lane" 5 "5:Reserve" 6 "6:lane change back,failure" 7 "7:lane change sucessfully" 8 "8:Hands off" 9 "9:DMS alert" 10 "A - F:Reserve" 11 "A - F:Reserve" 12 "A - F:Reserve" 13 "A - F:Reserve" 14 "A - F:Reserve" ;
+VAL_ 1260 CP_PLC_Direction 0 "0:NO Acitve" 1 "1:Left" 2 "2:Right" 3 "3:Reserve" ;
+VAL_ 1260 Message_AD_unActive_Reason 0 "0:No Warning" 1 "1:Door on" 2 "2:Driver_Seat_Belt_Unwear" 3 "3:EPB_ Applied" 4 "4:Brake_Pedal_ Depressed" 5 "5:Not_D_Range" 6 "6:Out_Setting_Speed" 7 "7:Out_Steering_Angle" 8 "8:External_Rearview_Mirror_UnFolding_Request" 9 "9:Please open AEB Button" 10 "A:Disincentive Measures,Reserved" 11 "B-F:Reserve" 12 "B-F:Reserve" 13 "B-F:Reserve" 14 "B-F:Reserve" ;
+VAL_ 1260 ACC_Status 0 "0:OFF" 1 "1:ACC Passive" 2 "2:ACC Standby" 3 "3:ACC Active" 4 "4:ACC Standstill_Active" 5 "5:ACC Standstill_Wait" 6 "6:ACC Override,A Pedal" 7 "7:ACC Permanent error" 8 "8:ACC temporary error" 9 "9:BOM" 10 "A:Reserve" 11 "B:Reserve" 12 "C:Reserve" 13 "D:Reserve" 14 "E:Reserve" 15 "F:Reserve" ;
+VAL_ 1260 AD_Notice_Information 0 "0:No Request" 1 "1:ACC Active" 2 "2:ACC Quits" 3 "3:Set Speed reach upper limit" 4 "4:Construction zone speed limit" 5 "5:wait too long, step on the gas" 6 "6:CP Active" 7 "7:CP Quits" 8 "8:Upgrade to CP" 9 "9:Downgrade to ACC" 10 "A:Update SLIF Speed" 11 "B:Exceeding ODD Speed" 12 "C-1F:Reserve" 13 "C-1F:Reserve" 14 "C-1F:Reserve" 15 "C-1F:Reserve" 16 "C-1F:Reserve" 17 "C-1F:Reserve" 18 "C-1F:Reserve" 19 "C-1F:Reserve" 20 "C-1F:Reserve" 21 "C-1F:Reserve" 22 "C-1F:Reserve" 23 "C-1F:Reserve" 24 "C-1F:Reserve" 25 "C-1F:Reserve" 26 "C-1F:Reserve" 27 "C-1F:Reserve" 28 "C-1F:Reserve" 29 "C-1F:Reserve" 30 "C-1F:Reserve" 32 "20:Lane change begin to left" 33 "21:Lane change begin to right" 34 "22:Reserved" 35 "23:Reserved" 36 "24:Lane changing to left" 37 "25:Lane changing to right" 38 "26:Lane change cancel for waiting too long" 39 "27:lane change cancel by driver" 40 "28:Lane change back, failure" 41 "29:Lane change cancel failure" 42 "2A:Lane change successfully" 43 "2B:Cannot lane change due to speed reason" 44 "2C:Lane change wait due to solid line" 45 "2D:Lane change wait due to obstacle" 46 "2E:SALC  failure to active" 47 "2F:Lane Change Fail For Hand Off" 48 "30:Lane Change Fail For DMS Alert" 49 "31-3F:Reserve" 50 "31-3F:Reserve" 51 "31-3F:Reserve" 52 "31-3F:Reserve" 53 "31-3F:Reserve" 54 "31-3F:Reserve" 55 "31-3F:Reserve" 56 "31-3F:Reserve" 57 "31-3F:Reserve" 58 "31-3F:Reserve" 59 "31-3F:Reserve" 60 "31-3F:Reserve" 61 "31-3F:Reserve" 62 "31-3F:Reserve" 64 "40:HNP is actived" 65 "41:HNP is updated" 66 "42:Please confirm HNPlane change" 67 "43:Brake and stop" 68 "44:HNP quits" 69 "45:HNP to CP" 70 "46:200m last quit HNP soon" 71 "47:Left lane change to ramp" 72 "48:Right lane change to ramp" 73 "49:Left lane change to main road" 74 "4A:Right lane change to main road" 75 "4B:Left lane change to overtake" 76 "4C:Right lane change to overtake" 77 "4D:Set Speed reach upper limit（NP in city is 85km/h）" 78 "4E:Vehicle starting at green light" 79 "4F:Vehicle starting(at an intersection without traffic lights)" 80 "50:Go straight at the junction ahead" 81 "51:Turn right at the junction ahead" 82 "52:Turn left at the junction ahead" 83 "53:U-turn at the junction ahead" 84 "54:Pass through roundabout ahead" 85 "55:Pass through the toll booth ahead" 86 "56:Pass through the tunnel ahead" 87 "57 - FF:reserve" 88 "57 - FF:reserve" 89 "57 - FF:reserve" 90 "57 - FF:reserve" 91 "57 - FF:reserve" 92 "57 - FF:reserve" 93 "57 - FF:reserve" 94 "57 - FF:reserve" 95 "57 - FF:reserve" 96 "57 - FF:reserve" 97 "57 - FF:reserve" 98 "57 - FF:reserve" 99 "57 - FF:reserve" 100 "57 - FF:reserve" 101 "57 - FF:reserve" 102 "57 - FF:reserve" 103 "57 - FF:reserve" 104 "57 - FF:reserve" 105 "57 - FF:reserve" 106 "57 - FF:reserve" 107 "57 - FF:reserve" 108 "57 - FF:reserve" 109 "57 - FF:reserve" 110 "57 - FF:reserve" 111 "57 - FF:reserve" 112 "57 - FF:reserve" 113 "57 - FF:reserve" 114 "57 - FF:reserve" 115 "57 - FF:reserve" 116 "57 - FF:reserve" 117 "57 - FF:reserve" 118 "57 - FF:reserve" 119 "57 - FF:reserve" 120 "57 - FF:reserve" 121 "57 - FF:reserve" 122 "57 - FF:reserve" 123 "57 - FF:reserve" 124 "57 - FF:reserve" 125 "57 - FF:reserve" 126 "57 - FF:reserve" 127 "57 - FF:reserve" 128 "57 - FF:reserve" 129 "57 - FF:reserve" 130 "57 - FF:reserve" 131 "57 - FF:reserve" 132 "57 - FF:reserve" 133 "57 - FF:reserve" 134 "57 - FF:reserve" 135 "57 - FF:reserve" 136 "57 - FF:reserve" 137 "57 - FF:reserve" 138 "57 - FF:reserve" 139 "57 - FF:reserve" 140 "57 - FF:reserve" 141 "57 - FF:reserve" 142 "57 - FF:reserve" 143 "57 - FF:reserve" 144 "57 - FF:reserve" 145 "57 - FF:reserve" 146 "57 - FF:reserve" 147 "57 - FF:reserve" 148 "57 - FF:reserve" 149 "57 - FF:reserve" 150 "57 - FF:reserve" 151 "57 - FF:reserve" 152 "57 - FF:reserve" 153 "57 - FF:reserve" 154 "57 - FF:reserve" 155 "57 - FF:reserve" 156 "57 - FF:reserve" 157 "57 - FF:reserve" 158 "57 - FF:reserve" 159 "57 - FF:reserve" 160 "57 - FF:reserve" 161 "57 - FF:reserve" 162 "57 - FF:reserve" 163 "57 - FF:reserve" 164 "57 - FF:reserve" 165 "57 - FF:reserve" 166 "57 - FF:reserve" 167 "57 - FF:reserve" 168 "57 - FF:reserve" 169 "57 - FF:reserve" 170 "57 - FF:reserve" 171 "57 - FF:reserve" 172 "57 - FF:reserve" 173 "57 - FF:reserve" 174 "57 - FF:reserve" 175 "57 - FF:reserve" 176 "57 - FF:reserve" 177 "57 - FF:reserve" 178 "57 - FF:reserve" 179 "57 - FF:reserve" 180 "57 - FF:reserve" 181 "57 - FF:reserve" 182 "57 - FF:reserve" 183 "57 - FF:reserve" 184 "57 - FF:reserve" 185 "57 - FF:reserve" 186 "57 - FF:reserve" 187 "57 - FF:reserve" 188 "57 - FF:reserve" 189 "57 - FF:reserve" 190 "57 - FF:reserve" 191 "57 - FF:reserve" 192 "57 - FF:reserve" 193 "57 - FF:reserve" 194 "57 - FF:reserve" 195 "57 - FF:reserve" 196 "57 - FF:reserve" 197 "57 - FF:reserve" 198 "57 - FF:reserve" 199 "57 - FF:reserve" 200 "57 - FF:reserve" 201 "57 - FF:reserve" 202 "57 - FF:reserve" 203 "57 - FF:reserve" 204 "57 - FF:reserve" 205 "57 - FF:reserve" 206 "57 - FF:reserve" 207 "57 - FF:reserve" 208 "57 - FF:reserve" 209 "57 - FF:reserve" 210 "57 - FF:reserve" 211 "57 - FF:reserve" 212 "57 - FF:reserve" 213 "57 - FF:reserve" 214 "57 - FF:reserve" 215 "57 - FF:reserve" 216 "57 - FF:reserve" 217 "57 - FF:reserve" 218 "57 - FF:reserve" 219 "57 - FF:reserve" 220 "57 - FF:reserve" 221 "57 - FF:reserve" 222 "57 - FF:reserve" 223 "57 - FF:reserve" 224 "57 - FF:reserve" 225 "57 - FF:reserve" 226 "57 - FF:reserve" 227 "57 - FF:reserve" 228 "57 - FF:reserve" 229 "57 - FF:reserve" 230 "57 - FF:reserve" 231 "57 - FF:reserve" 232 "57 - FF:reserve" 233 "57 - FF:reserve" 234 "57 - FF:reserve" 235 "57 - FF:reserve" 236 "57 - FF:reserve" 237 "57 - FF:reserve" 238 "57 - FF:reserve" 239 "57 - FF:reserve" 240 "57 - FF:reserve" 241 "57 - FF:reserve" 242 "57 - FF:reserve" 243 "57 - FF:reserve" 244 "57 - FF:reserve" 245 "57 - FF:reserve" 246 "57 - FF:reserve" 247 "57 - FF:reserve" 248 "57 - FF:reserve" 249 "57 - FF:reserve" 250 "57 - FF:reserve" 251 "57 - FF:reserve" 252 "57 - FF:reserve" 253 "57 - FF:reserve" 254 "57 - FF:reserve" ;
+VAL_ 1260 ISLC_Comfirm_Request 0 "0:NO request" 1 "1:Request" ;
+VAL_ 1260 AD_ICON 0 "0:No display" 1 "1:ACC standby" 2 "2:ACC active" 3 "3:ACC override" 4 "4:ICA standby" 5 "5:ICA active" 6 "6:ICA override lon" 7 "7:ICA override lat,reserve" 8 "8:HNP standby" 9 "9:HNP active" 10 "A:HNP override lon" 11 "B:HNP override lat,reserve" 12 "C - 1F:reserve" 13 "C - 1F:reserve" 14 "C - 1F:reserve" 15 "C - 1F:reserve" 16 "C - 1F:reserve" 17 "C - 1F:reserve" 18 "C - 1F:reserve" 19 "C - 1F:reserve" 20 "C - 1F:reserve" 21 "C - 1F:reserve" 22 "C - 1F:reserve" 23 "C - 1F:reserve" 24 "C - 1F:reserve" 25 "C - 1F:reserve" 26 "C - 1F:reserve" 27 "C - 1F:reserve" 28 "C - 1F:reserve" 29 "C - 1F:reserve" 30 "C - 1F:reserve" ;
+VAL_ 1260 Message_AD_Error 0 "0:no  warning ；" 1 "1:warning ；" ;
+VAL_ 1260 Message_Inclement_weather 0 "0:no warning ;" 1 "1:heavy rain ;" 2 "2:heavy snow ;" 3 "3:heavy fog;" ;
+VAL_ 1260 Message_FR_Camera_block 0 "0:no  warning ；" 1 "1:warning ；" ;
+VAL_ 1260 Message_FR_Radar_block 0 "0:no  warning ；" 1 "1:warning ；" ;
+VAL_ 1260 Message_Side_Rear_Radar_block 0 "0:no  warning ；" 1 "1:warning ；" ;
+VAL_ 1260 SETTING_LDW_LDP_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON of LDW" 3 "3:Status ON of LDW and LDP" ;
+VAL_ 1260 LDW__INFO 0 "0:OFF" 1 "1:Passive" 2 "2:Standby" 3 "3:Active" 4 "4:temporary error" 5 "5:Permanent error" 6 "6-7:Reserve" ;
+VAL_ 1260 SET_LDW_SENS_Status 0 "0:Reserve" 1 "1:Status Early" 2 "2:Status Middle" 3 "3:Status Late" 4 "4-7:Reserve" 5 "4-7:Reserve" 6 "4-7:Reserve" ;
+VAL_ 1260 AEBS_INFO 0 "0:OFF" 1 "1:Passive" 2 "2:Standby" 3 "3:Active" 4 "4:temporary error" 5 "5:Permanent error" 6 "6-7:Reserve" ;
+VAL_ 1260 SET_FCW_SENS_Status 0 "0:Reserve" 1 "1:Status Early" 2 "2:Status Middle" 3 "3:Status Late" 4 "4-7:Reserve" 5 "4-7:Reserve" 6 "4-7:Reserve" ;
+VAL_ 1260 SETTING_AEBS_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 SETTING_LDP_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 LDP_INFO 0 "0:OFF" 1 "1:Passive" 2 "2:Standby" 3 "3:Active" 4 "4:temporary error" 5 "5:Permanent error" 6 "6-7:Reserve" ;
+VAL_ 1260 SETTING_ELK_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 ELK_INFO 0 "0:OFF" 1 "1:Passive" 2 "2:Standby" 3 "3:Active" 4 "4:temporary error" 5 "5:Permanent error" 6 "6-7:Reserve" ;
+VAL_ 1260 SETTING_ESS_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 ESS_INFO 0 "0:Off" 1 "1:Passive" 2 "2:Standby" 3 "3:Active" 4 "4:Temporary error" 5 "5:Permanent error" 6 "6-7:Reserve" ;
+VAL_ 1260 SET_PILOT__STA 0 "0:ACC ON" 1 "1:ICA ON" 2 "2:HNP ON" 3 "3:MNP ON (TBD)" 4 "4:Reserve" 5 "5:Reserve" 6 "6:Reserve" 7 "7:Reserve" ;
+VAL_ 1260 SET_ILC_STA 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 SET_PLC_STA 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 ISLS_INFO 0 "0:OFF" 1 "1:Passive" 2 "2:Standby" 3 "3:Active DispIay" 4 "4:Active lnformation" 5 "5:Active Control" 6 "6:lnformation Frozen" 7 "7:Failure" ;
+VAL_ 1260 SET_TSR_status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 TSR_INFO 0 "0:Passive" 1 "1:Standby" 2 "2:Active" 3 "3:Temporary error" 4 "4:Permanent error" 5 "5-7:Reserve" ;
+VAL_ 1260 SET_TLAS_status 0 "0:Reserved" 1 "1:TLAD OFF and TLAI OFF  and TLAC OFF" 2 "2:TLAD ON and TLAI OFF  and TLAC OFF" 3 "3:TLAD ON and TLAI ON  and TLAC OFF" 4 "4:TLAD ON and TLAI ON  and TLAC ON" ;
+VAL_ 1260 TLA__INFO 0 "0:Passive" 1 "1:Standby" 2 "2:Active Display" 3 "3:Active Information" 4 "4:Active Control（暂不支持，预留）" 5 "5:Temporary error" 6 "6:Permanent error" ;
+VAL_ 1260 SET_RCTA_RCTB_status 0 "0:Reserve" 1 "1:RCTA OFF and RCTB OFF" 2 "2:RCTA ON and RCTB OFF" 3 "3:RCTA ON and RCTB ON" ;
+VAL_ 1260 RCTA_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:RCTA Active" 6 "6-7:Reserve" ;
+VAL_ 1260 RCTB_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:RCTB Active" 6 "6-7:Reserve" ;
+VAL_ 1260 SET_FCTA_FCTB_status 0 "0:Reserve" 1 "1:FCTA OFF and FCTB OFF" 2 "2:FCTA ON and FCTB OFF" 3 "3:FCTA ON and FCTB ON" ;
+VAL_ 1260 FCTA_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:FCTA Active" 6 "6-7:Reserve" ;
+VAL_ 1260 FCTB_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:FCTB Active" 6 "6-7:Reserve" ;
+VAL_ 1260 SET_BSW_status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 BSW_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:BSW Active Level1" 6 "6:BSW Active Level2" 7 "7:Reserve" ;
+VAL_ 1260 SET_DOW_status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 DOW_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:DOW Active Level1" 6 "6:DOW Active Level2" 7 "7:Reserve" ;
+VAL_ 1260 SET_RCW_status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 RCW_INFO 0 "0:OFF" 1 "1:Temporary error" 2 "2:permanent error" 3 "3:Passive" 4 "4:Standby" 5 "5:RCW Active" 6 "6-7:Reserve" ;
+VAL_ 1260 SET_CDW_SENS_Status 0 "0:Reserve" 1 "1:Status Early" 2 "2:Status Middle" 3 "3:Status Late" 4 "4-7:Reserve" 5 "4-7:Reserve" 6 "4-7:Reserve" ;
+VAL_ 1260 SETTING_CDW_Status 0 "0:Reserve" 1 "1:Status OFF" 2 "2:Status ON" 3 "3:Reserve" ;
+VAL_ 1260 MSG_FR_Camera_H_Temp 0 "0:No Warning" 1 "1:Warning" ;
+VAL_ 1260 MSG_VDC_NO_Actived 0 "0:No Warning" 1 "1:Warning" ;
+VAL_ 1260 SET_ISLS_STA 0 "0:Reserve" 1 "1:ISLD OFF and ISLI  OFF  and ISLC OFF" 2 "2:ISLD ON and ISLI  OFF  and ISLC OFF" 3 "3:ISLD ON  and ISLI  ON and ISLC OFF" 4 "4:ISLD ON  and ISLI  ON and ISLC ON" 5 "5-7:Reserve" 6 "5-7:Reserve" ;
+VAL_ 1260 SALC_INFO 0 "0:OFF" 1 "1:passive" 2 "2:standby" 3 "3:active" 4 "4:error" 5 "5-7:reserve" 6 "5-7:reserve" ;
+VAL_ 1260 Left_Uturn_Indication 0 "0:Unknown" 1 "1:Red" 2 "2:Yellow" 3 "3:Green" 4 "4:Yellow Blinking" 5 "5:Green Blinking" 6 "6:Red Blinking" 7 "7:Reserve" ;
+VAL_ 1260 Turn_Left_Indication 0 "0:Unknown" 1 "1:Red" 2 "2:Yellow" 3 "3:Green" 4 "4:Yellow Blinking" 5 "5:Green Blinking" 6 "6:Red Blinking" 7 "7:Reserve" ;
+VAL_ 1260 Go_Stright_Indication 0 "0:Unknown" 1 "1:Red" 2 "2:Yellow" 3 "3:Green" 4 "4:Yellow Blinking" 5 "5:Green Blinking" 6 "6:Red Blinking" 7 "7:Reserve" ;
+VAL_ 1260 Trun_Right_Indication 0 "0:Unknown" 1 "1:Red" 2 "2:Yellow" 3 "3:Green" 4 "4:Yellow Blinking" 5 "5:Green Blinking" 6 "6:Red Blinking" 7 "7:Reserve" ;
+VAL_ 1260 DVR_InfoStatus 0 "00b:Reserved" 1 "01b:Status OFF" 2 "10b:Status ON" 3 "11b:Not used" ;
+VAL_ 1260 MESSAGE_DVR_WARN 0 "0b:No Warning" 1 "1b:Warning" ;
+VAL_ 1260 CDW_INFO 0 "0:OFF" 1 "1:Passive" 2 "2:Standby" 3 "3:Active" 4 "4:temporary error" 5 "5:Permanent error" 6 "6-7:Reserve" ;
+VAL_ 1260 AD_Safety_Event 0 "00:No Event（未触发）" 1 "01:Other Reason（其他原因）" 2 "02:Crossed Over the Lines with AD Active（AD激活时压车道线）" 3 "03:Brake Pedal Depressed（驾驶员踩刹车）" 4 "04:Pilot Cancel（Pilot键退出）" 5 "05:Excessive Steering Wheel Torque（方向盘手力矩过大）" 6 "06:Left or Right Lamp On（打转向灯）" 7 "07:Not D Range（非D档）" 8 "08:Door Open（车门打开）" 9 "09:Boot Open（后背门打开）" 10 "0A:Hood Open（前机舱盖打开）" 11 "0B:Driver Seat Belt not Fastened（主驾安全带未系）" 12 "0C:AD Switch Status OFF（AD车机软开关OFF）" 13 "0D:Accelerate to Over 130 kph（主动加速超过130kph）" 14 "0E:EPB Applied（拉起EPB）" 15 "0F:No Driver in the Seat（驾驶员离开主驾座位）" 16 "10:Hands Off-Heavy（三级脱手报警）" 17 "11:The Vehicle Has Stopped（车辆已刹停）" 18 "12:AD Failure（AD系统故障）" 19 "13:Excessive Lane Curvature（车道曲率过大）" 20 "14:Lane Disappeared（车道线消失）" 21 "15:Deceleration Limit Exceeded（减速度达到上限）" 22 "16:AEB Active（AEB激活）" 23 "17 - 1F:reserved" 24 "17 - 1F:reserved" 25 "17 - 1F:reserved" 26 "17 - 1F:reserved" 27 "17 - 1F:reserved" 28 "17 - 1F:reserved" 29 "17 - 1F:reserved" 30 "17 - 1F:reserved" ;
+VAL_ 1260 TLA_Information 0 "0:No Information" 1 "1:Running Red Light" 2 "2:Will Turn Red" 3 "3:Will Turn Green" 4 "4:Please Go" 5 "5:Reserved" ;
+VAL_ 640 STAT_CHG_REQ2_S1 0 "000000b:Not Request" 1 "000001b:ALC comfirm OFF" 2 "000010b:ALC confirm ON" 3 "000011b:HNP recommand OFF" 4 "000100b:HNP recommand ON" 5 "000101b:FCTA OFF and FCTB OFF" 6 "000110b:FCTA ON and FCTB OFF" 7 "000111b:FCTA OFF and FCTB ON" 8 "001000b:FCTA ON and FCTB ON" 9 "001001b:MEB OFF" 10 "001010b:MEB ON" 11 "001011b:ESS OFF" 12 "001100b:ESS ON" 13 "001101b:PLC ON" 14 "001110b:PLC OFF" 15 "001111b:TSR OFF" 16 "010000b:TSR ON" 17 "010001b:TLAD OFF and TLAI OFF  and TLAC OFF" 18 "010010b:TLAD ON and TLAI OFF  and TLAC OFF" 19 "010011b:TLAD ON and TLAI ON  and TLAC OFF" 20 "010100b:TLAD ON and TLAI ON  and TLAC ON" 21 "010101b:IHC OFF" 22 "010110b:IHC ON" 23 "010111b:ISLI OFF" 24 "011000b:ISLI ON" 25 "011001b:Early(CDW Timing)" 26 "011010b:Middle(CDW Timing)" 27 "011011b:Late(CDW Timing)" 28 "011100b:Lane Change Style Level 1（柔和）" 29 "011101b:Lane Change Style Level 2（标准）" 30 "011110b:Lane Change Style Level 3（激进）" 31 "011111b:Lane Preference， Left 1" 32 "100000b:Lane Preference， Left 2" 33 "100001b:Lane Preference， Left 3" 34 "100010b:HNP Downgrade to CP Request" 35 "100011b:CP Upgrade to HNP Request" 36 "100100b:DMS drowniness distraction switch on" 37 "100101b:DMS drowniness distraction switch off" 38 "100110b:DMS dangerous behavior switch on" 39 "100111b:DMS dangerous behavior switch off" 40 "101000b:DMS Sensitivity level high" 41 "101001b:DMS Sensitivity level low" 42 "101010b:DVR OFF" 43 "101011b:DVR ON" ;
+VAL_ 640 BAC_SW_S1 0 "0b:seat belt buckle switch on" 1 "1b:seat belt buckle switch off (sheet belt lamp on)" ;
+VAL_ 640 AD_signalback_S1 0 "0:no receive" 1 "1:receive" ;
+VAL_ 853 Disp_Unit_S1 0 "0b:km/h" 1 "1b:MPH" ;
+VAL_ 853 STAT_CHG_REQ1_S1 0 "000000b:Not Request" 1 "000001b:CDW OFF" 2 "000010b:CDW ON" 3 "000011b:LDW and LDP OFF" 4 "000100b:LDW ON" 5 "000101b:BSW OFF" 6 "000110b:BSW ON" 7 "000111b:Only ACC" 8 "001000b:ICA mode" 9 "001001b:LDP OFF Reserve (not use)" 10 "001010b:LDP ON" 11 "001011b:ELK OFF" 12 "001100b:ELK ON" 13 "001101b:ISLD OFF and ISLI  OFF  and ISLC OFF" 14 "001110b:ISLD ON and ISLI  OFF  and ISLC OFF" 15 "001111b:ISLD ON  and ISLI  ON and ISLC OFF" 16 "010000b:ISLD ON  and ISLI  ON and ISLC ON" 17 "010001b:Early(LDW Timing)" 18 "010010b:Middle(LDW Timing" 19 "010011b:Late(LDW Timing)" 20 "010100b:Early(FCW Timing)" 21 "010101b:Middle(FCW Timing)" 22 "010110b:Late(FCW Timing)" 23 "010111b:ILC OFF" 24 "011000b:ILC ON" 25 "011001b:HNP mode" 26 "011010b:MOD_OFF" 27 "011011b:MOD_ON" 28 "011100b:RCTA OFF and RCTB OFF" 29 "011101b:RCTA ON and RCTB OFF" 30 "011110b:DOW OFF" 31 "011111b:DOW ON" 32 "100000b:RCTA OFF and RCTB ON" 33 "100001b:RCTA ON and RCTB ON" 34 "100010b:Factory setting reset signal" 35 "100011b:AEBS OFF" 36 "100100 b:AEBS ON" 37 "100101b:EAPM OFF" 38 "100110b:EAPM ON" 39 "100111b:not used" 40 "101000 b:SONAR_AUTO_DISPLAY_OFF" 41 "101001b:SONAR_AUTO_DISPLAY_ON" 42 "101010b:SONAR_DETECTION_RANGE_NEAR" 43 "101011b:SONAR_DETECTION_RANGE_MIDDLE" 44 "101100b:SONAR_SYSTEM_OFF" 45 "101101b:SONAR_SYSTEM_ON(FR&RR)" 46 "101110b:SONAR_SYSTEM_ON(FR only)" 47 "101111b:SONAR_SYSTEM_PAUSE_ON" 48 "110000b:SONAR_DETECTION_RANGE_FAR" 49 "110001b:SONAR_BUZZER_VOLUME_HIGH" 50 "110010b:SONAR_BUZZER_VOLUME_MIDDLE" 51 "110011b:SONAR_BUZZER_VOLUME_LOW" 52 "110100b:SONAR_FRONT_OFF" 53 "110101b:SONAR_FRONT_ON" 54 "110110b:SONAR_REAR_OFF" 55 "110111b:SONAR_REAR_ON" 60 "111100b:RCW OFF" 61 "111101b:RCW ON" 62 "111110b:FCW OFF Reseve (not use)" 63 "111111b:FCW ON Reseve (not use)" ;
+VAL_ 1228 PEBS_INFO 0 "000b:OFF" 1 "001b:Standby" 2 "010b:Active" 3 "011b:Reserved" 4 "100b:PERM FAULT" 5 "101b:Blindness" 6 "110b-111b:Reserved" ;
+VAL_ 1228 ACC_INFO 0 "000b:OFF" 1 "001b:Standby" 2 "010b:Active" 3 "011b:Reserved" 4 "100b:Reserved" 5 "101b:Blindness" 6 "110b:Passive" 7 "111b:Override" ;
+VAL_ 1647 FrHeatWire_Status 0 "0:close" 1 "1:open" ;
+VAL_ 1647 FrHeatWireCircuit_Status 0 "00b:normal" 1 "01b:short-circuit" 2 "10b:Open circuit" 3 "11b:Invalid" ;
+VAL_ 1647 VoltageSupply_BCM 0 "00-1E:0-30V" 1 "00-1E:0-30V" 2 "00-1E:0-30V" 3 "00-1E:0-30V" 4 "00-1E:0-30V" 5 "00-1E:0-30V" 6 "00-1E:0-30V" 7 "00-1E:0-30V" 8 "00-1E:0-30V" 9 "00-1E:0-30V" 10 "00-1E:0-30V" 11 "00-1E:0-30V" 12 "00-1E:0-30V" 13 "00-1E:0-30V" 14 "00-1E:0-30V" 15 "00-1E:0-30V" 16 "00-1E:0-30V" 17 "00-1E:0-30V" 18 "00-1E:0-30V" 19 "00-1E:0-30V" 20 "00-1E:0-30V" 21 "00-1E:0-30V" 22 "00-1E:0-30V" 23 "00-1E:0-30V" 24 "00-1E:0-30V" 25 "00-1E:0-30V" 26 "00-1E:0-30V" 27 "00-1E:0-30V" 28 "00-1E:0-30V" 29 "00-1E:0-30V" 31 "1F:Invalid" ;
+VAL_ 500 PT_MotoSpd 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 500 PT_MaxAvlWhlTq 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 500 PT_MaxAvlWhlTqV 0 "0b:Invalid" 1 "1b:Valid" ;
+VAL_ 500 PT_MinAvlWhlTqV 0 "0b:Invalid" 1 "1b:Valid" ;
+VAL_ 500 PT_MinAvlWhlTq 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 500 PT_MotoSpdV 0 "0b:Invalid" 1 "1b:Valid" ;
+VAL_ 500 PT_Avl 0 "0b:Unavailable" 1 "1b:Available" ;
+VAL_ 500 PT_CurrentMode 0 "00b:Not in ADCU control" 1 "01b:Driving" 2 "10b:Parking" 3 "11b:Reserved" ;
+VAL_ 500 PT_Req_Response 0 "0b:No response" 1 "1b:Response" ;
+VAL_ 500 MessageCounter_VCM1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" ;
+VAL_ 500 Checksum_VCM 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 502 PT_AccelPadelPos 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 502 PT_AccelPadelPosV 0 "0b:Invalid" 1 "1b:Valid" ;
+VAL_ 502 IND_RNG 0 "00000b:OFF" 1 "00001b:P range" 2 "00010b:R range" 3 "00011b:N range" 4 "00100b:D range" 5 "00101b~11111b:Reserved" 6 "00101b~11111b:Reserved" 7 "00101b~11111b:Reserved" 8 "00101b~11111b:Reserved" 9 "00101b~11111b:Reserved" 10 "00101b~11111b:Reserved" 11 "00101b~11111b:Reserved" 12 "00101b~11111b:Reserved" 13 "00101b~11111b:Reserved" 14 "00101b~11111b:Reserved" 15 "00101b~11111b:Reserved" 16 "00101b~11111b:Reserved" 17 "00101b~11111b:Reserved" 18 "00101b~11111b:Reserved" 19 "00101b~11111b:Reserved" 20 "00101b~11111b:Reserved" 21 "00101b~11111b:Reserved" 22 "00101b~11111b:Reserved" 23 "00101b~11111b:Reserved" 24 "00101b~11111b:Reserved" 25 "00101b~11111b:Reserved" 26 "00101b~11111b:Reserved" 27 "00101b~11111b:Reserved" 28 "00101b~11111b:Reserved" 29 "00101b~11111b:Reserved" 30 "00101b~11111b:Reserved" ;
+VAL_ 502 PT_WhlTqAct 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 502 PT_WhlTqActV 0 "0b:Invalid" 1 "1b:Valid" ;
+VAL_ 502 GSM_Avl 0 "0b:Unavailable" 1 "1b:Available" ;
+VAL_ 502 PT_OverrideMode 0 "0b:Not Override" 1 "1b:Override" ;
+VAL_ 502 PT_OverrideModeV 0 "0b:Invalid" 1 "1b:Valid" ;
+VAL_ 502 MessageCounter_VCM2 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" ;
+VAL_ 502 Checksum_VCM2 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 387 BAS_S1 0 "0:no override" 1 "1:driver override;" ;
+VAL_ 387 V_APO_S1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 469 MbRgnWhl 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 469 MSGCNTR_VCM 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" ;
+VAL_ 469 CHKSUM_VCMR 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 458 ADCU_Tq 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 458 ADCU_TqReq 0 "0b:No request" 1 "1b:Request" ;
+VAL_ 458 ADCU_CtrlMode 0 "00b:No request" 1 "01b:Driving" 2 "10b:Parking" 3 "11b:Reserved" ;
+VAL_ 458 MessageCounter_ADCU 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" ;
+VAL_ 458 Checksum_VCM1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1226 DisToFrCar 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1226 TTC_AER 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1226 TimeAhead 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1226 TARALIVE 0 "0:invalid；" 1 "1:valid；" ;
+VAL_ 1226 ALIVE_CNT_AER 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" ;
+VAL_ 1057 IND_RNG_S1 11 "00000b:OFF" 13 "Others:not used" 14 "Others:not used" 15 "Others:not used" 16 "Others:not used" 17 "Others:not used" 18 "Others:not used" 19 "Others:not used" 20 "Others:not used" 21 "Others:not used" 22 "Others:not used" 23 "Others:not used" 24 "Others:not used" 25 "Others:not used" 26 "Others:not used" 27 "Others:not used" 28 "Others:not used" 29 "Others:not used" 30 "Others:not used" 31 "Others:not used" 267 "00010b:R range" 283 "00011b:N range" 4107 "00100b:D range" 4123 "00101b:Ds range" 1048587 "10000b:E" 1048603 "10001b:E1" 1048843 "10010b:E2" 1048859 "10011b:E3" 1052939 "10110b:E4" 1052955 "10111b:E5" 1114123 "11000b:E6" ;
+VAL_ 1265 object6__type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" ;
+VAL_ 1265 object6_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1265 object7__type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" ;
+VAL_ 1265 object7_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1265 object8_type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" ;
+VAL_ 1265 object8_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1265 object9__type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" ;
+VAL_ 1265 object9_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1265 object10_type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" ;
+VAL_ 1265 object10_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1653 STARTSTASE 1 "01:ready" 2 "02:IGN off" 3 "03:other" 254 "fe:failure" 255 "ff:invalid" ;
+VAL_ 1509 ESP_OFF_SW_DA 0 "00b:no request" 1 "01b:VDC off req" 2 "10b:VDC on req" 3 "11b:invalid" ;
+VAL_ 1384 GNSS_valid 0 "00:默认(无效）" 1 "01:有效定位" 2 "10:无效定位" 3 "11:GNSS模块故障" ;
+VAL_ 1384 GNSS_north_south 0 "0:北纬；" 1 "1:南纬" ;
+VAL_ 1384 GNSS_east_west 0 "0:东经；" 1 "1:西经" ;
+VAL_ 1384 GNSS_map_sys 0 "00:数据为透传，TCU仅将原始数据放大；" 1 "01:数据已转换，TCU将数据全部转换为WGS84；" 2 "02:保留" 3 "03:高德坐标系，GPRMC格式放大" 4 "04:百度坐标系，GPRMC格式放大" ;
+VAL_ 1275 targetPositionPointsPC_S1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1275 Line1_color_S1 0 "000b:not display(不显示)" 1 "001b:white solid line （白色实线）" 2 "010b:white virtual line （白色虚线）" 3 "011b:yellow solid line(黄色实线)" 4 "100b:yellow virtual line(黄色虚线)" ;
+VAL_ 1275 Line1_halo_color_S1 0 "000b:not display(不显示)" 1 "001b:blue solid line （蓝色实线）" 2 "010b:blue virtual line (蓝色虚线)" 3 "011b:red solid line （红色实线）" ;
+VAL_ 1275 Lateral_Position_Line1_S1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1275 Line2_color_S1 0 "000b:not display(不显示)" 1 "001b:white solid line （白色实线）" 2 "010b:white virtual line （白色虚线）" 3 "011b:yellow solid line(黄色实线)" 4 "100b:yellow virtual line(黄色虚线)" ;
+VAL_ 1275 Line2_halo_color_S1 0 "000b:not display(不显示)" 1 "001b:blue solid line （蓝色实线）" 2 "010b:blue virtual line (蓝色虚线)" 3 "011b:red solid line （红色实线）" ;
+VAL_ 1275 Line3_color_S1 0 "000b:not display(不显示)" 1 "001b:white solid line （白色实线）" 2 "010b:white virtual line （白色虚线）" 3 "011b:yellow solid line(黄色实线)" 4 "100b:yellow virtual line(黄色虚线)" ;
+VAL_ 1275 Line3_halo_color_S1 0 "000b:not display(不显示)" 1 "001b:blue solid line （蓝色实线）" 2 "010b:blue virtual line (蓝色虚线)" 3 "011b:red solid line （红色实线）" ;
+VAL_ 1275 Lateral_Position_Line3_S1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1275 Line4_color_S1 0 "000b:not display(不显示)" 1 "001b:white solid line （白色实线）" 2 "010b:white virtual line （白色虚线）" 3 "011b:yellow solid line(黄色实线)" 4 "100b:yellow virtual line(黄色虚线)" ;
+VAL_ 1275 Line4_halo_color_S1 0 "000b:not display(不显示)" 1 "001b:blue solid line （蓝色实线）" 2 "010b:blue virtual line (蓝色虚线)" 3 "011b:red solid line （红色实线）" ;
+VAL_ 1275 Lateral_Position_Line4_S1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1275 Line1_Center_color_S1 0 "000b:not display(不显示)" 1 "001b:Blue（蓝色）" 2 "010b:Red（红色）" ;
+VAL_ 1275 Line1_Center_Lat_Pos_S1 0 ":" 1 ":" 2 ":" 3 ":" 4 ":" 5 ":" 6 ":" 7 ":" 8 ":" 9 ":" 10 ":" 11 ":" 12 ":" 13 ":" 14 ":" 15 ":" 16 ":" 17 ":" 18 ":" 19 ":" 20 ":" 21 ":" 22 ":" 23 ":" 24 ":" 25 ":" 26 ":" 27 ":" 28 ":" 29 ":" 30 ":" 31 ":" 32 ":" 33 ":" 34 ":" 35 ":" 36 ":" 37 ":" 38 ":" 39 ":" 40 ":" 41 ":" 42 ":" 43 ":" 44 ":" 45 ":" 46 ":" 47 ":" 48 ":" 49 ":" 50 ":" 51 ":" 52 ":" 53 ":" 54 ":" 55 ":" 56 ":" 57 ":" 58 ":" 59 ":" 60 ":" 61 ":" 62 ":" 63 ":" 64 ":" 65 ":" 66 ":" 67 ":" 68 ":" 69 ":" 70 ":" 71 ":" 72 ":" 73 ":" 74 ":" 75 ":" 76 ":" 77 ":" 78 ":" 79 ":" 80 ":" 81 ":" 82 ":" 83 ":" 84 ":" 85 ":" 86 ":" 87 ":" 88 ":" 89 ":" 90 ":" 91 ":" 92 ":" 93 ":" 94 ":" 95 ":" 96 ":" 97 ":" 98 ":" 99 ":" 100 ":" 101 ":" 102 ":" 103 ":" 104 ":" 105 ":" 106 ":" 107 ":" 108 ":" 109 ":" 110 ":" 111 ":" 112 ":" 113 ":" 114 ":" 115 ":" 116 ":" 117 ":" 118 ":" 119 ":" 120 ":" 121 ":" 122 ":" 123 ":" 124 ":" 125 ":" 126 ":" 127 ":" 128 ":" 129 ":" 130 ":" 131 ":" 132 ":" 133 ":" 134 ":" 135 ":" 136 ":" 137 ":" 138 ":" 139 ":" 140 ":" 141 ":" 142 ":" 143 ":" 144 ":" 145 ":" 146 ":" 147 ":" 148 ":" 149 ":" 150 ":" 151 ":" 152 ":" 153 ":" 154 ":" 155 ":" 156 ":" 157 ":" 158 ":" 159 ":" 160 ":" 161 ":" 162 ":" 163 ":" 164 ":" 165 ":" 166 ":" 167 ":" 168 ":" 169 ":" 170 ":" 171 ":" 172 ":" 173 ":" 174 ":" 175 ":" 176 ":" 177 ":" 178 ":" 179 ":" 180 ":" 181 ":" 182 ":" 183 ":" 184 ":" 185 ":" 186 ":" 187 ":" 188 ":" 189 ":" 190 ":" 191 ":" 192 ":" 193 ":" 194 ":" 195 ":" 196 ":" 197 ":" 198 ":" 199 ":" 200 ":" 201 ":" 202 ":" 203 ":" 204 ":" 205 ":" 206 ":" 207 ":" 208 ":" 209 ":" 210 ":" 211 ":" 212 ":" 213 ":" 214 ":" 215 ":" 216 ":" 217 ":" 218 ":" 219 ":" 220 ":" 221 ":" 222 ":" 223 ":" 224 ":" 225 ":" 226 ":" 227 ":" 228 ":" 229 ":" 230 ":" 231 ":" 232 ":" 233 ":" 234 ":" 235 ":" 236 ":" 237 ":" 238 ":" 239 ":" 240 ":" 241 ":" 242 ":" 243 ":" 244 ":" 245 ":" 246 ":" 247 ":" 248 ":" 249 ":" 250 ":" 251 ":" 252 ":" 253 ":" 254 ":" 255 ":" ;
+VAL_ 1275 SALC_Line_far 0 "0x00:No Line" 1 "0x01:Line 1 Blue" 2 "0x02:Line 2 Blue" 3 "0x03:Line 3 Blue" 4 "0x04:Line 4 Blue" 5 "0x05-0x07:Reserved" 8 "0x08:Line 1 Red" 9 "0x09:Line 2 Red" 10 "0x0A:Line 3 Red" 11 "0x0B:Line 4 Red" 12 "0x0C-0x0F:Reserved" ;
+VAL_ 1275 SALC_Line_near 0 "0x00:No Line" 1 "0x01:Line 1 Blue" 2 "0x02:Line 2 Blue" 3 "0x03:Line 3 Blue" 4 "0x04:Line 4 Blue" 5 "0x05-0x07:Reserved" 8 "0x08:Line 1 Red" 9 "0x09:Line 2 Red" 10 "0x0A:Line 3 Red" 11 "0x0B:Line 4 Red" 12 "0x0C-0x0F:Reserved" ;
+VAL_ 1275 TSR_Display_S1 0 "0:NoDisplay" 1 "1:Overtaking Forbidden" 2 "2:Overtaking Forbidden Cancel" 3 "3:Stop Sign" 4 "4:Give Way Sign" 5 "5:Road Work Sign" 6 "6:Pedestrian Crossings" 7 "7:Bycle Lane" 8 "8:Prohibit Parking" 9 "9:NoEntrySign" 10 "A:NoMotorVehiclesAreAllowedToEnterTheSign" 11 "B:NoLeftTurnSign" 12 "C:NoRightTrunSign" 13 "D:NoReturnSign" 14 "E:ParkingSign" 15 "F:YieldSign" 16 "10:VehicleImportFlagOnTheRight" 17 "11:StartingPointOfTheHighway" 18 "12:EndOfHighway" 19 "13:MakeASharpRightTurn" 20 "14:SharpLeftTurn" 21 "15:VehicleImportFlagOnTheLeft" 22 "16:Rain and wet" 23 "17:Snow and ice" 24 "18:BEGIN_OF_PASSING_RESTRICTION" 25 "19:END_OF_NO_PASSING_RESTRICTION" 26 "1A:NO_PASS" 27 "1B:TSR_SIGN_NO_PASSENGER_CAR_ENTRANCE" 28 "1C:NO_VEHICLE_ENTRANCE" 29 "1D:NoForward" 30 "1E:NoForwardLeft" 31 "1F:NoForwardRight" 32 "20:NoHorning" 33 "21:NoLeftRightTurn" 34 "22:ParkingCheck" 35 "23:AccidentProne" 36 "24:Children" 37 "25:ContinuousTurn" 38 "26:Cross" 39 "27:Danger" 40 "28:Danger" 41 "29:DetourAround" 42 "2A:DetourLeft" 43 "2B:DetourRight" 44 "2C:Up" 45 "2D:Down" 46 "2E:GuardedRailway" 47 "2F:Railway" 48 "30:LeftNarrow" 49 "31:RightNarrow" 50 "32:LRNarrow" 51 "33:NarrowBridge" 52 "34:LRTurn" 53 "35:RLTurn" 54 "36:LeftTurn" 55 "37:RightTurn" 56 "38:LeftFalling" 57 "39:RightFalling" 58 "3A:MergrLeft" 59 "3B:MergrRight" 60 "3C:SplitLeft" 61 "3D:SplitRight" 62 "3E:Pedestrian" 63 "3F:SideWind" 64 "40:Slip" 65 "41:Slow" 66 "42:TShapLeft" 67 "43:TShapRight" 68 "44:Tshape" 69 "45:Tshaps" 70 "46:Tidal" 71 "47:TrafficLight" 72 "48:Tripod" 73 "49:TunnelHeadlight" 74 "4A:TwoWay" 75 "4B:Village" 76 "4C:Yleft" 77 "4D:YRight" 78 "E:ParkingSign" 79 "E:ParkingSign" 80 "E:ParkingSign" 81 "E:ParkingSign" 82 "E:ParkingSign" 83 "E:ParkingSign" 84 "E:ParkingSign" 85 "E:ParkingSign" 86 "E:ParkingSign" 87 "E:ParkingSign" 88 "E:ParkingSign" 89 "E:ParkingSign" 90 "E:ParkingSign" 91 "E:ParkingSign" 92 "E:ParkingSign" 93 "E:ParkingSign" 94 "E:ParkingSign" 95 "E:ParkingSign" 96 "E:ParkingSign" 97 "E:ParkingSign" 98 "E:ParkingSign" 99 "E:ParkingSign" 100 "E:ParkingSign" 101 "E:ParkingSign" 102 "E:ParkingSign" 103 "E:ParkingSign" 104 "E:ParkingSign" 105 "E:ParkingSign" 106 "E:ParkingSign" 107 "E:ParkingSign" 108 "E:ParkingSign" 109 "E:ParkingSign" 110 "E:ParkingSign" 111 "E:ParkingSign" 112 "E:ParkingSign" 113 "E:ParkingSign" 114 "E:ParkingSign" 115 "E:ParkingSign" 116 "E:ParkingSign" 117 "E:ParkingSign" 118 "E:ParkingSign" 119 "E:ParkingSign" 120 "E:ParkingSign" 121 "E:ParkingSign" 122 "E:ParkingSign" 123 "E:ParkingSign" 124 "E:ParkingSign" 125 "E:ParkingSign" 126 "E:ParkingSign" 127 "E:ParkingSign" 128 "E:ParkingSign" 129 "E:ParkingSign" 130 "E:ParkingSign" 131 "E:ParkingSign" 132 "E:ParkingSign" 133 "E:ParkingSign" 134 "E:ParkingSign" 135 "E:ParkingSign" 136 "E:ParkingSign" 137 "E:ParkingSign" 138 "E:ParkingSign" 139 "E:ParkingSign" 140 "E:ParkingSign" 141 "E:ParkingSign" 142 "E:ParkingSign" 143 "E:ParkingSign" 144 "E:ParkingSign" 145 "E:ParkingSign" 146 "E:ParkingSign" 147 "E:ParkingSign" 148 "E:ParkingSign" 149 "E:ParkingSign" 150 "E:ParkingSign" 151 "E:ParkingSign" 152 "E:ParkingSign" 153 "E:ParkingSign" 154 "E:ParkingSign" 155 "E:ParkingSign" 156 "E:ParkingSign" 157 "E:ParkingSign" 158 "E:ParkingSign" 159 "E:ParkingSign" 160 "E:ParkingSign" 161 "E:ParkingSign" 162 "E:ParkingSign" 163 "E:ParkingSign" 164 "E:ParkingSign" 165 "E:ParkingSign" 166 "E:ParkingSign" 167 "E:ParkingSign" 168 "E:ParkingSign" 169 "E:ParkingSign" 170 "E:ParkingSign" 171 "E:ParkingSign" 172 "E:ParkingSign" 173 "E:ParkingSign" 174 "E:ParkingSign" 175 "E:ParkingSign" 176 "E:ParkingSign" 177 "E:ParkingSign" 178 "E:ParkingSign" 179 "E:ParkingSign" 180 "E:ParkingSign" 181 "E:ParkingSign" 182 "E:ParkingSign" 183 "E:ParkingSign" 184 "E:ParkingSign" 185 "E:ParkingSign" 186 "E:ParkingSign" 187 "E:ParkingSign" 188 "E:ParkingSign" 189 "E:ParkingSign" 190 "E:ParkingSign" 191 "E:ParkingSign" 192 "E:ParkingSign" 193 "E:ParkingSign" 194 "E:ParkingSign" 195 "E:ParkingSign" 196 "E:ParkingSign" 197 "E:ParkingSign" 198 "E:ParkingSign" 199 "E:ParkingSign" 200 "E:ParkingSign" 201 "E:ParkingSign" 202 "E:ParkingSign" 203 "E:ParkingSign" 204 "E:ParkingSign" 205 "E:ParkingSign" 206 "E:ParkingSign" 207 "E:ParkingSign" 208 "E:ParkingSign" 209 "E:ParkingSign" 210 "E:ParkingSign" 211 "E:ParkingSign" 212 "E:ParkingSign" 213 "E:ParkingSign" 214 "E:ParkingSign" 215 "E:ParkingSign" 216 "E:ParkingSign" 217 "E:ParkingSign" 218 "E:ParkingSign" 219 "E:ParkingSign" 220 "E:ParkingSign" 221 "E:ParkingSign" 222 "E:ParkingSign" 223 "E:ParkingSign" 224 "E:ParkingSign" 225 "E:ParkingSign" 226 "E:ParkingSign" 227 "E:ParkingSign" 228 "E:ParkingSign" 229 "E:ParkingSign" 230 "E:ParkingSign" 231 "E:ParkingSign" 232 "E:ParkingSign" 233 "E:ParkingSign" 234 "E:ParkingSign" 235 "E:ParkingSign" 236 "E:ParkingSign" 237 "E:ParkingSign" 238 "E:ParkingSign" 239 "E:ParkingSign" 240 "E:ParkingSign" 241 "E:ParkingSign" 242 "E:ParkingSign" 243 "E:ParkingSign" 244 "E:ParkingSign" 245 "E:ParkingSign" 246 "E:ParkingSign" 247 "E:ParkingSign" 248 "E:ParkingSign" 249 "E:ParkingSign" 250 "E:ParkingSign" 251 "E:ParkingSign" 252 "E:ParkingSign" 253 "E:ParkingSign" 254 "E:ParkingSign" 255 "E:ParkingSign" ;
+VAL_ 1276 object1__type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" 5 "5:unknow" ;
+VAL_ 1276 object1_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1276 object2_type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" 5 "5:unknow" ;
+VAL_ 1276 object2_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1276 object3_type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" 5 "5:unknow" ;
+VAL_ 1276 object3_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1276 object4__type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" 5 "5:unknow" ;
+VAL_ 1276 object4_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1276 object5_type 0 "0:no obejct" 1 "1:car" 2 "2:truck" 3 "3:pedestrian" 4 "4:bicycle_motorcycle" 5 "5:unknow" ;
+VAL_ 1276 object5_status 0 "0:unlock" 1 "1:Object Follow;" 2 "2:Object Cut In;" 3 "3:Object Dodge;" 4 "4:Object Collision  Low Risk For Lane Change;" 5 "5:Object Collision  High Risk For Lane Change;" 6 "6:Object Collision Low Risk" 7 "7:Object Collision High Risk" ;
+VAL_ 1697 AEB_OBJ_CLASS 0 "0:Ukwn1 Car" 2 "2:Motorcycle" 3 "3:Truck" 4 "4:Ped" 5 "5:Reserved" 6 "6:Reserved" 7 "7:Anim" 8 "8:ObjGeneral" 9 "9:Bicycle" 10 "10:VehOfUkwnClass" 11 "11:Bus" ;
+VAL_ 1697 AEB_OBJ_STA 0 "0:未知" 1 "1:停止" 2 "2:离开" 3 "3:接近" ;
+

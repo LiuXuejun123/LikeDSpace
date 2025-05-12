@@ -1,0 +1,211 @@
+{
+  "variables": [
+    {
+      "name": "PassiveGroup",
+      "signals": [
+        {
+          "index": 0,
+          "name": "LKAPASSIVE1"
+        },
+        {
+          "index": 1,
+          "name": "LKAPASSIVE2"
+        },
+        {
+          "index": 2,
+          "name": "LKAPASSIVE3"
+        },
+        {
+          "index": 3,
+          "name": "LKAPASSIVE4"
+        },
+        {
+          "index": 4,
+          "name": "LKAPASSIVE5"
+        },
+        {
+          "index": 5,
+          "name": "LKAPASSIVE6"
+        },
+        {
+          "index": 6,
+          "name": "LKAPASSIVE7"
+        },
+        {
+          "index": 7,
+          "name": "LKAPASSIVE8"
+        },
+        {
+          "index": 8,
+          "name": "LKAPASSIVE9"
+        },
+        {
+          "index": 9,
+          "name": "LKAPASSIVE10"
+        },
+        {
+          "index": 10,
+          "name": "LKAPASSIVE11"
+        },
+        {
+          "index": 11,
+          "name": "LKAPASSIVE12"
+        },
+        {
+          "index": 12,
+          "name": "LKAPASSIVE13"
+        },
+        {
+          "index": 13,
+          "name": "LKAPASSIVE14"
+        },
+        {
+          "index": 14,
+          "name": "LKAPASSIVE15"
+        },
+        {
+          "index": 15,
+          "name": "LKAPASSIVE16"
+        }
+      ]
+    },
+    {
+      "name": "RoadEnaGroup",
+      "signals": [
+        {
+          "index": 0,
+          "name": " LDWPASSIVE1"
+        },
+        {
+          "index": 1,
+          "name": " LDWPASSIVE2"
+        },
+        {
+          "index": 2,
+          "name": " LDWPASSIVE3"
+        },
+        {
+          "index": 3,
+          "name": " LDWPASSIVE4"
+        },
+        {
+          "index": 4,
+          "name": " LDWPASSIVE5"
+        },
+        {
+          "index": 5,
+          "name": " LDWPASSIVE6"
+        },
+        {
+          "index": 6,
+          "name": " LDWPASSIVE7"
+        },
+        {
+          "index": 7,
+          "name": " LDWPASSIVE8"
+        },
+        {
+          "index": 8,
+          "name": " LDWPASSIVE9"
+        },
+        {
+          "index": 9,
+          "name": " LDWPASSIVE10"
+        },
+        {
+          "index": 10,
+          "name": " LDWPASSIVE11"
+        },
+        {
+          "index": 11,
+          "name": " LDWPASSIVE12"
+        },
+        {
+          "index": 12,
+          "name": " LDWPASSIVE13"
+        },
+        {
+          "index": 13,
+          "name": " LDWPASSIVE14"
+        },
+        {
+          "index": 14,
+          "name": " LDWPASSIVE15"
+        },
+        {
+          "index": 15,
+          "name": " LDWPASSIVE16"
+        }
+      ]
+    },
+    {
+      "name": "TrigGroup",
+      "signals": [
+        {
+          "index": 0,
+          "name": "ELKPASSIVE1"
+        },
+        {
+          "index": 1,
+          "name": "ELKPASSIVE2"
+        },
+        {
+          "index": 2,
+          "name": "ELKPASSIVE3"
+        },
+        {
+          "index": 3,
+          "name": "ELKPASSIVE4"
+        },
+        {
+          "index": 4,
+          "name": "ELKPASSIVE5"
+        },
+        {
+          "index": 5,
+          "name": "ELKPASSIVE6"
+        },
+        {
+          "index": 6,
+          "name": "ELKPASSIVE7"
+        },
+        {
+          "index": 7,
+          "name": "ELKPASSIVE8"
+        },
+        {
+          "index": 8,
+          "name": "ELKPASSIVE9"
+        },
+        {
+          "index": 9,
+          "name": "ELKPASSIVE10"
+        },
+        {
+          "index": 10,
+          "name": "ELKPASSIVE11"
+        },
+        {
+          "index": 11,
+          "name": "ELKPASSIVE12"
+        },
+        {
+          "index": 12,
+          "name": "ELKPASSIVE13"
+        },
+        {
+          "index": 13,
+          "name": "ELKPASSIVE14"
+        },
+        {
+          "index": 14,
+          "name": "ELKPASSIVE15"
+        },
+        {
+          "index": 15,
+          "name": "ELKPASSIVE16"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1459 @@
+[
+  {
+    "message_name": "ACU_A1",
+    "signals": [
+      {
+        "signal_name": "DrverSafetyBeltAlarmState",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Lamp OffSafety Belt Tied",
+          "1": "FaultReserved",
+          "2": "Lamp OnSafety Belt Not Tied",
+          "3": "Reserved"
+        }
+      },
+      {
+        "signal_name": "CrashDetected",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "No Crash",
+          "1": "Crash"
+        }
+      },
+      {
+        "signal_name": "AirBagSysAlrmLampSts",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "lamp off",
+          "1": "lamp flash",
+          "2": "lamp on",
+          "3": "reserved"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "ACU_A2_S1",
+    "signals": [
+      {
+        "signal_name": "LateralSensorState_S1",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Initializing",
+          "1": "Valid",
+          "2": "Invalid",
+          "3": "Reserved"
+        }
+      },
+      {
+        "signal_name": "YawRateSensorState_S1",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Initializing",
+          "1": "Valid",
+          "2": "Invalid",
+          "3": "Reserved"
+        }
+      },
+      {
+        "signal_name": "YawRateCalibrationState_S1",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Sensor Not Calibrated",
+          "1": "Sensor Calibrated"
+        }
+      },
+      {
+        "signal_name": "LateralAcceleration_S1",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "YawRate_S1",
+        "period_ms": "10",
+        "data_type": "single"
+      }
+    ]
+  },
+  {
+    "message_name": "ACU_A3_S1",
+    "signals": [
+      {
+        "signal_name": "LongitudinalSensorState_S1",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Initializing",
+          "1": "Valid",
+          "2": "Invalid",
+          "3": "Reserved"
+        }
+      },
+      {
+        "signal_name": "YRS_LongitudinalAcc_S1",
+        "period_ms": "10",
+        "data_type": "single"
+      }
+    ]
+  },
+  {
+    "message_name": "AutoSteer_Status",
+    "signals": [
+      {
+        "signal_name": "EPS_DrvAngCmdAbortFeedback",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "No error",
+          "1": "Driver Interference",
+          "2": "Vehicle speed Invalid",
+          "3": "Abnormal CAN Input",
+          "4": "Request Angle Slope over range",
+          "5": "Request Angle Value over range",
+          "6": "Internal Fault",
+          "7": "EPS Failure",
+          "8": "Request Torque Slope over range",
+          "9": "Request Torque Value over range",
+          "10": "Reserved",
+          "11": "Reserved",
+          "12": "Reserved",
+          "13": "Reserved",
+          "14": "Reserved"
+        }
+      },
+      {
+        "signal_name": "EPS_AD_status",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Inactive",
+          "1": "LKA active",
+          "2": "APA active",
+          "3": "ESS active"
+        }
+      },
+      {
+        "signal_name": "EPS_AngOverR",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not over range",
+          "1": "Over range"
+        }
+      },
+      {
+        "signal_name": "EPS_DrvTrqCmdOverRange",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not over range",
+          "1": "Over range"
+        }
+      },
+      {
+        "signal_name": "EPS_AngSpdOverR",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not over range",
+          "1": "Over range"
+        }
+      },
+      {
+        "signal_name": "EPS_FAIL",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Temporary inhibit",
+          "1": "Available for control",
+          "2": "Active",
+          "3": "Permanently failed"
+        }
+      },
+      {
+        "signal_name": "FAIL_IN_STS",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Normal",
+          "1": "Abnormal"
+        }
+      },
+      {
+        "signal_name": "EPS_SWTRQ_QF",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "SteerWhlTrq signal available",
+          "1": "SteerWhlTrq signal not available"
+        }
+      },
+      {
+        "signal_name": "EPS_SWTRQ",
+        "period_ms": "10",
+        "data_type": "single"
+      }
+    ]
+  },
+  {
+    "message_name": "BCM_GeneralStatus_S1",
+    "signals": [
+      {
+        "signal_name": "TURN_IND_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "left and right flashing indicators OFF",
+          "1": "left flashing indicator ON and right flashing indicator OFF",
+          "2": "left flashing indicator OFF and right flashing indicator ON",
+          "3": "left flashing indicator ON and right flashing indicator ON",
+          "4": "invalid value",
+          "5": "invalid value",
+          "6": "invalid value",
+          "7": "invalid value"
+        }
+      },
+      {
+        "signal_name": "DOOR_SW_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "BootRRRLFRFL",
+          "1": "BootRRRLFRFL",
+          "2": "BootRRRLFRFL",
+          "3": "BootRRRLFRFL",
+          "4": "BootRRRLFRFL",
+          "5": "BootRRRLFRFL",
+          "6": "BootRRRLFRFL",
+          "7": "BootRRRLFRFL",
+          "8": "BootRRRLFRFL",
+          "9": "BootRRRLFRFL",
+          "10": "BootRRRLFRFL",
+          "11": "BootRRRLFRFL",
+          "12": "BootRRRLFRFL",
+          "13": "BootRRRLFRFL",
+          "14": "BootRRRLFRFL",
+          "15": "BootRRRLFRFL",
+          "16": "BootRRRLFRFL",
+          "17": "BootRRRLFRFL",
+          "18": "BootRRRLFRFL",
+          "19": "BootRRRLFRFL",
+          "20": "BootRRRLFRFL",
+          "21": "BootRRRLFRFL",
+          "22": "BootRRRLFRFL",
+          "23": "BootRRRLFRFL",
+          "24": "BootRRRLFRFL",
+          "25": "BootRRRLFRFL",
+          "26": "BootRRRLFRFL",
+          "27": "BootRRRLFRFL",
+          "28": "BootRRRLFRFL",
+          "29": "BootRRRLFRFL",
+          "30": "BootRRRLFRFL",
+          "31": "BootRRRLFRFL"
+        }
+      },
+      {
+        "signal_name": "DOOR_LOCK",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "DoorsBoot",
+          "1": "DoorsBoot",
+          "2": "DoorsBoot",
+          "3": "DoorsBoot"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "Brake_GeneralData_CHA",
+    "signals": [
+      {
+        "signal_name": "WBF_TORQUE_CHA",
+        "period_ms": "40",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "ABSFAIL_CHA",
+        "period_ms": "40",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ABS OK",
+          "1": "ABS malfunction"
+        }
+      },
+      {
+        "signal_name": "ABSACT_CHA",
+        "period_ms": "40",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ABS not in regulation",
+          "1": "ABS in regulation"
+        }
+      },
+      {
+        "signal_name": "STPLMSW_CHA",
+        "period_ms": "40",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "brake not active",
+          "1": "brake active",
+          "2": "Not used",
+          "3": "invalid"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "Brake_StabilityControl_RN1",
+    "signals": [
+      {
+        "signal_name": "VDCFAIL",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "no VDCESP malfunction",
+          "1": "VDCESP malfunction"
+        }
+      },
+      {
+        "signal_name": "OFF_SW",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "VDCESP available",
+          "1": "VDCESP disabled by the driver"
+        }
+      },
+      {
+        "signal_name": "TCSACT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "no TCSASR regulation",
+          "1": "TSCASR in regulation"
+        }
+      },
+      {
+        "signal_name": "VDCACT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "no VDCAYC regulation",
+          "1": "VDCAYC in regulation"
+        }
+      },
+      {
+        "signal_name": "MSRACT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "no MSR regulation",
+          "1": "MSR regulation"
+        }
+      },
+      {
+        "signal_name": "TCSFAIL",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "no TCSASR malfunction",
+          "1": "TCSASR malfunction"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "BrakeSystemtoADAS_MSG1_CHA",
+    "signals": [
+      {
+        "signal_name": "AEB_ENBL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "AEB not Enable",
+          "1": "AEB Enable"
+        }
+      },
+      {
+        "signal_name": "AEB_STATUS_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "AEB not operation",
+          "1": "AEB operation"
+        }
+      },
+      {
+        "signal_name": "AEB_ALIVE_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "abnormal",
+          "1": "normal"
+        }
+      },
+      {
+        "signal_name": "PREFILL_ENBL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Prefill not Enable",
+          "1": "Prefill Enable"
+        }
+      },
+      {
+        "signal_name": "PREFILL_STATUS_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Prefill not operation",
+          "1": "Prefill operation"
+        }
+      },
+      {
+        "signal_name": "PREFILL_ALIVE_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "abnormal",
+          "1": "normal"
+        }
+      },
+      {
+        "signal_name": "ABA_ENBL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ABA not Enable",
+          "1": "ABA Enable"
+        }
+      },
+      {
+        "signal_name": "ABA_STATUS_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ABA not operation",
+          "1": "ABA operation"
+        }
+      },
+      {
+        "signal_name": "ABA_ALIVE_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "abnormal",
+          "1": "normal"
+        }
+      },
+      {
+        "signal_name": "AWB_ENBL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "AWB not Enable",
+          "1": "AWB Enable"
+        }
+      },
+      {
+        "signal_name": "AWB_STATUS_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "AWB not operation",
+          "1": "AWB operation"
+        }
+      },
+      {
+        "signal_name": "AWB_ALIVE_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "abnormal",
+          "1": "normal"
+        }
+      },
+      {
+        "signal_name": "ACC_CDD_ENBL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ACCCDD not Enable",
+          "1": "ACCCDD Enable"
+        }
+      },
+      {
+        "signal_name": "ACC_CDD_STATUS_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ACCCDD not operation",
+          "1": "ACCCDD operationpressure on"
+        }
+      },
+      {
+        "signal_name": "ACC_CDD_ALIVE_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "abnormal",
+          "1": "normal"
+        }
+      },
+      {
+        "signal_name": "ACC_CDD_TEMP_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "not off",
+          "1": "off"
+        }
+      },
+      {
+        "signal_name": "WCBF_EXIST_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "No brake force",
+          "1": "Brake force exists"
+        }
+      },
+      {
+        "signal_name": "VEH_STD_STILL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Vehicle is not standstill",
+          "1": "Vehicle is standstill",
+          "2": "Reserved",
+          "3": "Invalid"
+        }
+      },
+      {
+        "signal_name": "SIGNAL_SOURCING_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "no signal",
+          "1": "AEB operation",
+          "2": "EAPM operation",
+          "3": "invalid"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "CLUSTER_BasicInfo_1_FD_S1",
+    "signals": [
+      {
+        "signal_name": "STAT_CHG_REQ2_S1",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not Request",
+          "1": "ALC comfirm OFF",
+          "2": "ALC confirm ON",
+          "3": "HNP recommand OFF",
+          "4": "HNP recommand ON",
+          "5": "FCTA OFF and FCTB OFF",
+          "6": "FCTA ON and FCTB OFF",
+          "7": "FCTA OFF and FCTB ON",
+          "8": "FCTA ON and FCTB ON",
+          "9": "MEB OFF",
+          "10": "MEB ON",
+          "11": "ESS OFF",
+          "12": "ESS ON",
+          "13": "PLC ON",
+          "14": "PLC OFF",
+          "15": "TSR OFF",
+          "16": "TSR ON",
+          "17": "TLAD OFF and TLAI OFF  and TLAC OFF",
+          "18": "TLAD ON and TLAI OFF  and TLAC OFF",
+          "19": "TLAD ON and TLAI ON  and TLAC OFF",
+          "20": "TLAD ON and TLAI ON  and TLAC ON",
+          "21": "IHC OFF",
+          "22": "IHC ON",
+          "23": "ISLI OFF",
+          "24": "ISLI ON",
+          "25": "EarlyCDW Timing",
+          "26": "MiddleCDW Timing",
+          "27": "LateCDW Timing",
+          "28": "Lane Change Style Level ",
+          "29": "Lane Change Style Level ",
+          "30": "Lane Change Style Level ",
+          "31": "Lane Preference Left ",
+          "32": "Lane Preference Left ",
+          "33": "Lane Preference Left ",
+          "34": "HNP Downgrade to CP Request",
+          "35": "CP Upgrade to HNP Request",
+          "36": "DMS drowniness distraction switch on",
+          "37": "DMS drowniness distraction switch off",
+          "38": "DMS dangerous behavior switch on",
+          "39": "DMS dangerous behavior switch off",
+          "40": "DMS Sensitivity level high",
+          "41": "DMS Sensitivity level low",
+          "42": "DVR OFF",
+          "43": "DVR ON"
+        }
+      },
+      {
+        "signal_name": "BAC_SW_S1",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "seat belt buckle switch on",
+          "1": "seat belt buckle switch off sheet belt lamp on"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "CLUSTER_BasicInfo_2_8_S1",
+    "signals": [
+      {
+        "signal_name": "VS_DISP_S1",
+        "period_ms": "40",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "Disp_Unit_S1",
+        "period_ms": "40",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "kmh",
+          "1": "MPH"
+        }
+      },
+      {
+        "signal_name": "STAT_CHG_REQ1_S1",
+        "period_ms": "40",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not Request",
+          "1": "CDW OFF",
+          "2": "CDW ON",
+          "3": "LDW and LDP OFF",
+          "4": "LDW ON",
+          "5": "BSW OFF",
+          "6": "BSW ON",
+          "7": "Only ACC",
+          "8": "ICA mode",
+          "9": "LDP OFF Reserve not use",
+          "10": "LDP ON",
+          "11": "ELK OFF",
+          "12": "ELK ON",
+          "13": "ISLD OFF and ISLI  OFF  and ISLC OFF",
+          "14": "ISLD ON and ISLI  OFF  and ISLC OFF",
+          "15": "ISLD ON  and ISLI  ON and ISLC OFF",
+          "16": "ISLD ON  and ISLI  ON and ISLC ON",
+          "17": "EarlyLDW Timing",
+          "18": "MiddleLDW Timing",
+          "19": "LateLDW Timing",
+          "20": "EarlyFCW Timing",
+          "21": "MiddleFCW Timing",
+          "22": "LateFCW Timing",
+          "23": "ILC OFF",
+          "24": "ILC ON",
+          "25": "HNP mode",
+          "26": "MODOFF",
+          "27": "MODON",
+          "28": "RCTA OFF and RCTB OFF",
+          "29": "RCTA ON and RCTB OFF",
+          "30": "DOW OFF",
+          "31": "DOW ON",
+          "32": "RCTA OFF and RCTB ON",
+          "33": "RCTA ON and RCTB ON",
+          "34": "Factory setting reset signal",
+          "35": "AEBS OFF",
+          "36": "AEBS ON",
+          "37": "EAPM OFF",
+          "38": "EAPM ON",
+          "39": "not used",
+          "40": "SONARAUTODISPLAYOFF",
+          "41": "SONARAUTODISPLAYON",
+          "42": "SONARDETECTIONRANGENEAR",
+          "43": "SONARDETECTIONRANGEMIDDLE",
+          "44": "SONARSYSTEMOFF",
+          "45": "SONARSYSTEMONFRRR",
+          "46": "SONARSYSTEMONFR only",
+          "47": "SONARSYSTEMPAUSEON",
+          "48": "SONARDETECTIONRANGEFAR",
+          "49": "SONARBUZZERVOLUMEHIGH",
+          "50": "SONARBUZZERVOLUMEMIDDLE",
+          "51": "SONARBUZZERVOLUMELOW",
+          "52": "SONARFRONTOFF",
+          "53": "SONARFRONTON",
+          "54": "SONARREAROFF",
+          "55": "SONARREARON",
+          "56": "RCW OFF",
+          "57": "RCW ON",
+          "58": "FCW OFF Reseve not use",
+          "59": "FCW ON Reseve not use"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "ECM_GeneralStatus",
+    "signals": [
+      {
+        "signal_name": "ENG_STA",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "engine stopped",
+          "1": "engine stalled",
+          "2": "engine runningEV vehicle ready",
+          "3": "engine cranking"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "EPB_SystemControl",
+    "signals": [
+      {
+        "signal_name": "EPB_STAT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Unknown state",
+          "1": "Applied",
+          "2": "Released",
+          "3": "Applying",
+          "4": "Releasing",
+          "5": "System calibrating",
+          "6": "Specific status",
+          "7": "EPB lamps check"
+        }
+      },
+      {
+        "signal_name": "EPB_FAIL",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Abnormal"
+        }
+      },
+      {
+        "signal_name": "EPB_SW_STAT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Netrual",
+          "1": "Apply",
+          "2": "invalid",
+          "3": "reserved"
+        }
+      },
+      {
+        "signal_name": "EPB_ENBL",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "EPB Enable",
+          "1": "EPB not Enable"
+        }
+      },
+      {
+        "signal_name": "DPB_STAT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "OFF",
+          "1": "DPB operation by IBC",
+          "2": "DPB operation by electrocaliper",
+          "3": "Not Used"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "EPS_Control_status2",
+    "signals": [
+      {
+        "signal_name": "EPS_CONA",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "EPS_CONAV",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "EPS_CONA_QF",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "EPS Control Angle signal available",
+          "1": "EPS Control Angle signal not available"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "Front_Wheel_Speed_Frame_CHA",
+    "signals": [
+      {
+        "signal_name": "VSO_CHA_FWS",
+        "period_ms": "40",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "WRFR_CHA",
+        "period_ms": "20",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "WRFL_CHA",
+        "period_ms": "20",
+        "data_type": "single"
+      }
+    ]
+  },
+  {
+    "message_name": "HCM_RTM_GeneralStatus",
+    "signals": [
+      {
+        "signal_name": "STARTSTASE",
+        "period_ms": "500",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "ready",
+          "1": "IGN off",
+          "2": "other",
+          "3": "failure",
+          "4": "invalid"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "IBC_BrakeData",
+    "signals": [
+      {
+        "signal_name": "MbRgnTrgtWhl",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "MbRgnTrgtWhlQu",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "RBSACT",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "RBS not in regulation",
+          "1": "RBS in regulation"
+        }
+      },
+      {
+        "signal_name": "RBSFAIL",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "RBS not malfunction normal",
+          "1": "RBS malfunction"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "IBC_SystemControl",
+    "signals": [
+      {
+        "signal_name": "AVH_OFFSW",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "AVH not available",
+          "1": "AVH available"
+        }
+      },
+      {
+        "signal_name": "AVH_ACT",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "AVH not operation",
+          "1": "AVH operation"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "ICOMB_Sw_Msg",
+    "signals": [
+      {
+        "signal_name": "TurnLampSWSts",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "not pressed",
+          "1": "TurnChangeLeft",
+          "2": "TurnChangeRight",
+          "3": "TurnAroundLeft",
+          "4": "TurnAroundRight",
+          "5": "Not used",
+          "6": "Not used",
+          "7": "Invalid"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "RightBodyLoad_1_FD",
+    "signals": [
+      {
+        "signal_name": "RightBswLedSts_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "normal",
+          "2": "shortcircuit",
+          "3": "reservedopencircuit"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "LeftBodyLoad_1_FD_S1",
+    "signals": [
+      {
+        "signal_name": "LeftBswLedSts_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "normal",
+          "2": "shortcircuit",
+          "3": "opencircuit"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "PEPS_Message_Sts_S1",
+    "signals": [
+      {
+        "signal_name": "PEPS_POWER_MODE_S1",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "OFF",
+          "1": "ACC",
+          "2": "IGN",
+          "3": "Reserved",
+          "4": "READY",
+          "5": "Reserved",
+          "6": "Reserved"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "Rear_Wheel_Speed_Frame_CHA",
+    "signals": [
+      {
+        "signal_name": "WRRR_CHA",
+        "period_ms": "20",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "WRRL_CHA",
+        "period_ms": "20",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "VCVT_CHA",
+        "period_ms": "20",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "WDFL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Standstill",
+          "1": "Drive Wheel Front Direction",
+          "2": "Drive Wheel Rear Direction",
+          "3": "Unavailable"
+        }
+      },
+      {
+        "signal_name": "WDFR_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Standstill",
+          "1": "Drive Wheel Front Direction",
+          "2": "Drive Wheel Rear Direction",
+          "3": "Unavailable"
+        }
+      },
+      {
+        "signal_name": "WDRL_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Standstill",
+          "1": "Non Drive Wheel Front Direction",
+          "2": "Non Drive Wheel Rear Direction",
+          "3": "Unavailable"
+        }
+      },
+      {
+        "signal_name": "WDRR_CHA",
+        "period_ms": "20",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Standstill",
+          "1": "Non Drive Wheel Front Direction",
+          "2": "Non Drive Wheel Rear Direction",
+          "3": "Unavailable"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "S_BOX_ControlData_enjoy",
+    "signals": [
+      {
+        "signal_name": "BCM_RainfallSize_Status",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {}
+      }
+    ]
+  },
+  {
+    "message_name": "S_BOX_ControlData_Set_FD",
+    "signals": [
+      {
+        "signal_name": "SW_PILOTorCANCEL",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Released",
+          "1": "Pressed",
+          "2": "Error Stuck",
+          "3": "Error Switch IO"
+        }
+      },
+      {
+        "signal_name": "SW_DISTANCEorASCD",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Released",
+          "1": "Pressed",
+          "2": "Error Stuck",
+          "3": "Error Switch IO"
+        }
+      },
+      {
+        "signal_name": "SW_DistanceReduce",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Released",
+          "1": "Pressed",
+          "2": "Error Stuck",
+          "3": "Error Switch IO"
+        }
+      },
+      {
+        "signal_name": "SW_SET",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "not move",
+          "1": "down move gears",
+          "2": "down move gears",
+          "3": "down move gears",
+          "4": "down move gears",
+          "5": "down move gears",
+          "6": "down move gears",
+          "7": "down move gears",
+          "8": "down move gears",
+          "9": "down move gears",
+          "10": "down move gears",
+          "11": "down move gears",
+          "12": "down move gears",
+          "13": "down move gears",
+          "14": "down move gears",
+          "15": "down move gears"
+        }
+      },
+      {
+        "signal_name": "SW_RES",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "not move",
+          "1": "up move gears",
+          "2": "up move gears",
+          "3": "up move gears",
+          "4": "up move gears",
+          "5": "up move gears",
+          "6": "up move gears",
+          "7": "up move gears",
+          "8": "up move gears",
+          "9": "up move gears",
+          "10": "up move gears",
+          "11": "up move gears",
+          "12": "up move gears",
+          "13": "up move gears",
+          "14": "up move gears",
+          "15": "up move gears"
+        }
+      },
+      {
+        "signal_name": "DrvrSeatOccupSts",
+        "period_ms": "50",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not Occupant",
+          "1": "Occupant",
+          "2": "Broken circuit",
+          "3": "Short circuit"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "TPMS_GeneralStatus_TPMS_8",
+    "signals": [
+      {
+        "signal_name": "LTP_FR",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Normal",
+          "1": "Low tire pressure"
+        }
+      },
+      {
+        "signal_name": "LTP_FL",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Normal",
+          "1": "Low tire pressure"
+        }
+      },
+      {
+        "signal_name": "LTP_RR",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Normal",
+          "1": "Low tire pressure"
+        }
+      },
+      {
+        "signal_name": "LTP_RL",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Normal",
+          "1": "Low tire pressure"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "USM_GeneralStatus_FD_S1",
+    "signals": [
+      {
+        "signal_name": "HL_LOW_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "low beam off",
+          "1": "low beam on"
+        }
+      },
+      {
+        "signal_name": "HL_HIGH_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "high beam off",
+          "1": "high beam on"
+        }
+      },
+      {
+        "signal_name": "Hood_SW_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "hood SW off",
+          "1": "hood SW on"
+        }
+      },
+      {
+        "signal_name": "FrWipSts_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "front wiper stopped",
+          "1": "low speed active",
+          "2": "high speed active",
+          "3": "invalid"
+        }
+      },
+      {
+        "signal_name": "VehicleState_S1",
+        "period_ms": "100",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "SleepingACC OFF",
+          "1": "Not used",
+          "2": "CutoffPendingACC OFF",
+          "3": "AutoACC   BatTempoLevel",
+          "4": "Not used",
+          "5": "IgnitionLevelIGN ON",
+          "6": "StartingInProgress",
+          "7": "PowertrainRunningready",
+          "8": "AutoStart",
+          "9": "EngineSystemStop",
+          "10": "Not used",
+          "11": "Not used",
+          "12": "Not used",
+          "13": "Not used",
+          "14": "Not used",
+          "15": "Unavailable"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "VCM_ADCU_01",
+    "signals": [
+      {
+        "signal_name": "PT_MotoSpd",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "PT_MaxAvlWhlTq",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "PT_MaxAvlWhlTqV",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "Valid"
+        }
+      },
+      {
+        "signal_name": "PT_MinAvlWhlTqV",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "Valid"
+        }
+      },
+      {
+        "signal_name": "PT_MinAvlWhlTq",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "PT_MotoSpdV",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "Valid"
+        }
+      },
+      {
+        "signal_name": "PT_Avl",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Unavailable",
+          "1": "Available"
+        }
+      },
+      {
+        "signal_name": "PT_CurrentMode",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not in ADCU control",
+          "1": "Driving",
+          "2": "Parking",
+          "3": "Reserved"
+        }
+      },
+      {
+        "signal_name": "PT_Req_Response",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "No response",
+          "1": "Response"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "VCM_ADCU_02",
+    "signals": [
+      {
+        "signal_name": "PT_AccelPadelPos",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "PT_AccelPadelPosV",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "Valid"
+        }
+      },
+      {
+        "signal_name": "IND_RNG",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "OFF",
+          "1": "P range",
+          "2": "R range",
+          "3": "N range",
+          "4": "D range",
+          "5": "Reserved",
+          "6": "Reserved",
+          "7": "Reserved",
+          "8": "Reserved",
+          "9": "Reserved",
+          "10": "Reserved",
+          "11": "Reserved",
+          "12": "Reserved",
+          "13": "Reserved",
+          "14": "Reserved",
+          "15": "Reserved",
+          "16": "Reserved",
+          "17": "Reserved",
+          "18": "Reserved",
+          "19": "Reserved",
+          "20": "Reserved",
+          "21": "Reserved",
+          "22": "Reserved",
+          "23": "Reserved",
+          "24": "Reserved",
+          "25": "Reserved",
+          "26": "Reserved",
+          "27": "Reserved",
+          "28": "Reserved",
+          "29": "Reserved",
+          "30": "Reserved"
+        }
+      },
+      {
+        "signal_name": "PT_WhlTqAct",
+        "period_ms": "10",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "PT_WhlTqActV",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "Valid"
+        }
+      },
+      {
+        "signal_name": "PT_OverrideMode",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Not Override",
+          "1": "Override"
+        }
+      },
+      {
+        "signal_name": "PT_OverrideModeV",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "Invalid",
+          "1": "Valid"
+        }
+      }
+    ]
+  },
+  {
+    "message_name": "VCM_TorqueControl_RN1",
+    "signals": [
+      {
+        "signal_name": "ETCFAIL",
+        "period_ms": "10",
+        "data_type": "uint8",
+        "value_table": {
+          "0": "normal",
+          "1": "Not used",
+          "2": "Not used",
+          "3": "torque request cant be achieved"
+        }
+      },
+      {
+        "signal_name": "RawPedal_APOFS",
+        "period_ms": "10",
+        "data_type": "single"
+      }
+    ]
+  },
+  {
+    "message_name": "VCM2RBS",
+    "signals": [
+      {
+        "signal_name": "MbRgnWhl",
+        "period_ms": "10",
+        "data_type": "single"
+      }
+    ]
+  },
+  {
+    "message_name": "VehicleDynamic02",
+    "signals": [
+      {
+        "signal_name": "BSTERIRStro",
+        "period_ms": "20",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "BSTERPRE",
+        "period_ms": "20",
+        "data_type": "single"
+      },
+      {
+        "signal_name": "PSS_02",
+        "period_ms": "20",
+        "data_type": "single"
+      }
+    ]
+  }
+]

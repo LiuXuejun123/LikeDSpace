@@ -1,0 +1,142 @@
+{
+  "variables": [
+    {
+      "name": "status",
+      "signals": [
+        {
+          "index": 0,
+          "name": "power_on"
+        },
+        {
+          "index": 1,
+          "name": "error_detected"
+        },
+        {
+          "index": 2,
+          "name": "idle"
+        },
+        {
+          "index": 3,
+          "name": "running"
+        },
+        {
+          "index": 4,
+          "name": "low_battery"
+        },
+        {
+          "index": 5,
+          "name": "high_temperature"
+        },
+        {
+          "index": 6,
+          "name": "reserved_6"
+        },
+        {
+          "index": 7,
+          "name": "reserved_7"
+        },
+        {
+          "index": 8,
+          "name": "reserved_8"
+        },
+        {
+          "index": 9,
+          "name": "reserved_9"
+        },
+        {
+          "index": 10,
+          "name": "reserved_10"
+        },
+        {
+          "index": 11,
+          "name": "reserved_11"
+        },
+        {
+          "index": 12,
+          "name": "reserved_12"
+        },
+        {
+          "index": 13,
+          "name": "reserved_13"
+        },
+        {
+          "index": 14,
+          "name": "reserved_14"
+        },
+        {
+          "index": 15,
+          "name": "reserved_15"
+        }
+      ]
+    },
+    {
+      "name": "flags",
+      "signals": [
+        {
+          "index": 0,
+          "name": "enabled"
+        },
+        {
+          "index": 1,
+          "name": "mode_auto"
+        },
+        {
+          "index": 2,
+          "name": "mode_manual"
+        },
+        {
+          "index": 3,
+          "name": "reserved_3"
+        },
+        {
+          "index": 4,
+          "name": "reserved_4"
+        },
+        {
+          "index": 5,
+          "name": "reserved_5"
+        },
+        {
+          "index": 6,
+          "name": "reserved_6"
+        },
+        {
+          "index": 7,
+          "name": "reserved_7"
+        },
+        {
+          "index": 8,
+          "name": "reserved_8"
+        },
+        {
+          "index": 9,
+          "name": "reserved_9"
+        },
+        {
+          "index": 10,
+          "name": "reserved_10"
+        },
+        {
+          "index": 11,
+          "name": "reserved_11"
+        },
+        {
+          "index": 12,
+          "name": "reserved_12"
+        },
+        {
+          "index": 13,
+          "name": "reserved_13"
+        },
+        {
+          "index": 14,
+          "name": "reserved_14"
+        },
+        {
+          "index": 15,
+          "name": "system_active"
+        }
+      ]
+    }
+  ]
+}
